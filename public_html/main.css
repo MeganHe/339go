@@ -1,80 +1,22 @@
-/*---- General ----*/
-    /*---- Heading ----*/
-    h1 {
-        color: black;
-        font-weight: 600;
-        font-size: 25px;
-        letter-spacing: 0.5px;
-    }
-    
-    h2 {
-        font-weight: 600;
-        font-size: 20px;
-        color: #939393;
-        letter-spacing: 0.5px;
-    }
-    
-    h3 {
-        font-weight: 600;
-        font-size: 25px;
-        letter-spacing: 0.5px;
-    }
-
-    h4 {
-        font-weight: 400;
-        font-size: 18px;
-        color:#939393;
-        letter-spacing: 0.5px;
-    }
-
-    h5 {
-        font-size: 15px;
-        font-weight: 700;
-        margin-top: 2px;
-    }
-
-    h6 {
-        font-size: 15px;
-        font-weight: 700;
-        margin-top: 10px;
-    }
-    /*---- Heading ----*/
-
-    /*---- Text ----*/
-    body{
-      font-family: 'Open Sans', sans-serif;
-      margin:0;
-      padding:0;
-    }
-
-    p,a,span{
-      font-family: 'Open Sans', sans-serif;
-      transition: 0.5s all ease;
-      -webkit-transition: 0.5s all ease;
-      -moz-transition: 0.5s all ease;
-      -o-transition: 0.5s all ease;
-      -ms-transition: 0.5s all ease;
-    }
-    /*---- Text ----*/
-    
-    empty_space.{
-        display: block;
-        background-color: brown;
-        height: 400px;
-        width: 100%;
-    }
-/*---- General ----*/
-
 /*---- Header ----*/
     .main_header {
-        margin-top: 20px;
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .website_name {
+        padding-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 15%;
         float: left;
         text-align: left;
     }
 
     /*---- Main Navigation ----*/
+        nav{
+            float: right;
+            padding-right: 10%;
+        }
 
         ul.top_nav {
             list-style-type: none;
@@ -127,19 +69,7 @@
         text-align: center;
         justify-content: center;
     }
-
-    .button_style_r {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        background-color: #E0DDC6;
-        margin: 0%;
-        height: 400px;
-        border-color: white;
-        border: 5px;
-    }
-    
+        
         /*---- Drop Down Menu ---*/
         .dropdown {
             position: relative;
@@ -189,6 +119,19 @@
             background-color: #E0DDC6;
         }
         /*---- Drop Down Menu ---*/
+
+    .button_style_r {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #E0DDC6;
+        margin: 0%;
+        height: 400px;
+        border-color: white;
+        border: 5px;
+    }
+        
     /*---- Navigation Button ----*/
 
     /*---- In Text Link ----*/
@@ -405,89 +348,62 @@
         align-items: center;
         text-align: center;
         justify-content: center;
-        height: 100px;
-        background-color: #E0DDC6;
-        border-color: white;
-        border: 5px;
+        padding: 5%
     }
 
-    .heading1 {
+    .headings {
         display: flex;
         align-items: center;
         text-align: center;
         justify-content: center;
-        height: 100px;
-    }
-
-    .heading2 {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        height: 100px;
-    }
-
-    .heading3 {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        height: 100px;
+        float: left;
+        padding-top: 2%;
     }
 
     .code-space{
-        margin-left:7%;
         font-size: 12px;
     }
 
 
     .heading-size1{
-        margin-left: 6%;
         font-size: 60px;
         font-weight: 600;
     }
 
     .heading-size2{
-        margin-left: 6%;
         font-size: 35px;
         font-weight: 600;
     }
 
     .heading-size3{
-        margin-left: 6%;
         font-size: 25px;
         font-weight: 600;
     }
-
-    .paragraphs-banner-left{
-        text-align: left;
+    
+    /* Paragraph Style*/
+    .paragraphs_l{
+        text-align: right;
         color: #3f3f3f;
         min-height: 300px;
-        padding-left: 10%;
-        margin-left: 60px;
-        padding-top: 5%;
-    }
-    
-    .paragraphs-banner-left p{
-        margin-top: 3px;
-        font-size: 12px;
-        color:#2a2a2a;
+        padding-top: 10%;
+        padding-right: 3%;
+        float: right;
     }
 
-    .paragraphs-banner-right{
-        float: right;
-        width: 70%; 
+    .paragraphs_r{
         min-height: 300px;
         padding-right: 10%;
-        padding-top: 5%;
-        position: relative;
+        padding-top: 10%;
         letter-spacing: 0.2px;
         line-height: 180%;
         -webkit-background-size: cover;
         background-size: cover;
         -moz-background-size: cover;
+        padding-left: 2%;
     }
+    /* Paragraph Style*/
 
+    /* List Style*/
     .list-banner-right {
         display: flex;
         align-items: center;
@@ -496,16 +412,15 @@
         height: 400px;
     }
 
-    .list-banner-left {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        height: 400px;
-        background-color: #E0DDC6;
-        border-color: white;
-        border: 5px;
+    .number_list_l{
+        text-align: right;
+        color: #3f3f3f;
+        min-height: 300px;
+        padding-top: 10%;
+        padding-right: 3%;
+        float: right;
     }
+    /* List Style*/
 
     .product_img {
         max-width: 100%;

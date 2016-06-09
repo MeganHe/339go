@@ -14,7 +14,7 @@
         
         <link href="main.css" rel="stylesheet">
         <link href="grid.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/hovertext.css">
+        <link rel="stylesheet" href="hovertext.css">
         <!-- <link rel='stylesheet'  href='page.css' type='text/css' media='all' />-->
         
         <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,800italic,800,700italic,700,600,600italic' rel='stylesheet' type='text/css'>
@@ -32,10 +32,6 @@
         
         <!-- Header -->
         <div class="main_header" id="home">
-            
-            <!-- Website Name -->
-            <h1 class="col-6 col-m-12 website_name">PROJECT 2 STYLE GUIDE</h1>
-            <!-- Website Name -->
             
             <!-- Main Navigation -->
             <nav class="nav">
@@ -64,13 +60,17 @@
                 </script>
             </nav>
             <!-- Main Navigation -->
+                   
+            <!-- Website Name -->
+            <div class="web_name">  
+                <h1 class="col-12 col-m-12 website_name">PROJECT 2<br> STYLE GUIDE</h1>
+            </div> 
+            <!-- Website Name -->
         </div>
         <!-- Header -->
 
         <!-- Interactive Elements Section -->
         <section id="interactive_elements" class="interactive_elements container">
-            
-            <h2 class="col-12 col-m-12 section_title">INTERACTIVE ELEMENTS</h2>
             
             <!-- Default Button styling section -->
             <section id="button_style" class="button_style">
@@ -92,16 +92,20 @@
                 <!--button_style_right_description-->
                 
                 <div class="col-6 col-m-12 button_style_r">
-                    <div class="hoveron-nav-btn">
+                    <div class="hoveron_btn">
                         <h3>NAVIGATION BUTTON</h3>
                         
-                        <h4>Css selector</h4>
+                        <!-- Hidden Content-->
+                        <div class="hoveron_btn_content">
+                            <h4>Css selector</h4>
                         
-                        <p>.button</p>
+                            <p>.button</p>
                         
-                        <h4>Sample code</h4>
+                            <h4>Sample code</h4>
                         
-                        <code>&lt;a href="#product"&gt;PRODUCTS&lt;/a&gt;</code>
+                            <code>&lt;a href="#product"&gt;PRODUCTS&lt;/a&gt;</code>
+                        </div>
+                        <!-- Hidden Content-->
                     </div>
                 </div>
                 <!--button_style_right_description-->
@@ -111,9 +115,9 @@
             
             <section id="in_text_link" class="in_text_link_sec">
                 <div class="col-6 col-m-12 in_text_link_l">
-                    <div class="hoveron-intext-link">
+                    <div class="hoveron_btn">
                         <h3>IN-TEXT LINK</h3>
-                        <div class="show-intext-link">
+                        <div class="hoveron_btn_content">
                             <h4>Css selector</h4>
                             <p>.textinput-banner-left</p>
                             <h4>Sample code</h4>
@@ -137,9 +141,9 @@
                 </div>
                 
                 <div class="col-6 col-m-12 submit_button_r">
-                    <div class="hoveron-button">
+                    <div class="hoveron_btn">
                         <h3>SUBMIT BUTTON</h3>
-                        <div class="show-button">
+                        <div class="hoveron_btn_content">
                             <h4>Css selector</h4>
                             <p>.button</p>
                             <h4>Sample code</h4>
@@ -151,9 +155,9 @@
             
             <section id="text_input"> 
                 <div class="col-6 col-m-12 textinput-banner-left">
-                    <div class="hoveron-input-field">
+                    <div class="hoveron_btn">
                         <h3>Text Input Field</h3>
-                        <div class="show-input-field">
+                        <div class="hoveron_btn_content">
                             <h4>Css selector</h4>
                             <p>.textinput-banner-left</p>
                             <h4>Sample code</h4>
@@ -184,66 +188,68 @@
         <!-- INTERACTIVE ELEMENTS SECTION -->
         
         <!-- TEXT ELEMENTS SECTION -->
-        <section id="text_elements" class="container">
-            <h2 class="col12 col-m-12 section_title">TEXT ELEMENTS</h2>
-            
+        <section id="text_elements" class="container">           
             <div class="headings-banner">
                 <h3 class="col-12 col-m-12 sub_title">TYPOGRAPHY HIERARCHY</h3>
                 
                 <div class="code1">
-                    <code class="col-12 col-m-12 heading1">
-                        <span class="code-space">60px</span>
-                        <span class="code-space">lettering spacing 0.5px</span>
-                        <span class="heading-size1">Feature</span>
-                        <span class="code-space">.heading-size1</span>
-                        <span class="code-space">&lt;span class="heading-size1"&gt;Feature&lt;/span&gt; </span>
+                    <code class="col-12 headings">
+                        <span class="col-1 code-space">60px</span>
+                        <span class="col-3 code-space">lettering spacing 0.5px</span>
+                        <span class="col-3 heading-size1">Feature</span>
+                        <span class="col-2 code-space">.heading-size1</span>
+                        <span class="col-3 code-space">&lt;span class="heading-size1"&gt;Feature&lt;/span&gt; </span>
                     </code>
 
-                    <code class="col-12 col-m-12 heading2">
-                        <span class="code-space">35px</span>
-                        <span class="code-space">lettering spacing 0.5px</span>
-                        <span class="heading-size2">Title</span>
-                        <span class="code-space">.heading-size2</span>
-                        <span class="code-space">&lt;span class="heading-size2"&gt;Title&lt;/span&gt; </span>
+                    <code class="col-12 headings">
+                        <span class="col-1 code-space">35px</span>
+                        <span class="col-3 code-space">lettering spacing 0.5px</span>
+                        <span class="col-3 heading-size2">Title</span>
+                        <span class="col-2 code-space">.heading-size2</span>
+                        <span class="col-3 code-space">&lt;span class="heading-size2"&gt;Title&lt;/span&gt; </span>
                     </code>
 
-                    <code class="col-12 col-m-12 heading3">
-                        <span class="code-space">25px</span>
-                        <span class="code-space">lettering spacing 0.5px</span>
-                        <span class="heading-size3">Subtitle</span>
-                        <span class="code-space">.heading-size3</span>
-                        <span class="code-space">&lt;span class="heading-size3"&gt;Subtitle&lt;/span&gt; </span>
+                    <code class="col-12 headings">
+                        <span class="col-1 code-space">25px</span>
+                        <span class="col-3 code-space">lettering spacing 0.5px</span>
+                        <span class="col-3 heading-size3">Subtitle</span>
+                        <span class="col-2 code-space">.heading-size3</span>
+                        <span class="col-3 code-space">&lt;span class="heading-size3"&gt;Subtitle&lt;/span&gt; </span>
                     </code>      
                 </div>
             </div>
 
-            <div class="col-3 col-m-12 paragraphs-banner-left">
-                <div class="hoveron-paragraph">
-                    <h3>PARAGRAPHS</h3>
-                    
-                    <div class="show-hidden-paragraph">
-                        <h4>Css selector</h4>
-                        <p>.paragraphs-banner-right</p>
-                            
-                        <h4>Sample code</h4>
-                        <p>&lt;div class="paragraphs-banner-right"&gt;</p>
+            <div class="paragraphs">
+                <div class="col-3 col-m-12 paragraphs_l">
+                    <div class="hoveron_paragraph">
+                        <h3>PARAGRAPHS</h3>
+
+                        <div class="hoveron_paragraph_content">
+                            <h4>Css selector</h4>
+                            <p>.paragraphs-banner-right</p>
+
+                            <h4>Sample code</h4>
+                            <p>&lt;div class="paragraphs-banner-right"&gt;</p>
+                        </div>
                     </div>
+                </div>
+
+                <div class="col-9 col-m-12 paragraphs_r">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                 </div>
             </div>
 
-            <div class="col-8 col-m-12 paragraphs-banner-right">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-
-            <div class="col-6 col-m-12 list-banner-left">
-                <div class="number-content"> 
-                    <h3>NUMBERED LISTS</h3>
-                    <ol>
-                        <h4><li>CSS Selector</li></h4>
-                        <li>.numberlist-banner-right ul</li>
-                        <h4><li>Sample code</li></h4>
-                        <li>&lt;ol type="1"&gt;</li>
-                    </ol>
+            <div class="number_list">
+                <div class="col-3 col-m-12 number_list_l">
+                    <div class="hoveron_paragraph">
+                        <h3>NUMBERED LISTS</h3>
+                        <div class="hoveron_paragraph_content">
+                            <h4>CSS Selector</h4>
+                            <p>.numberlist-banner-right ul</p>
+                            <h4>Sample code</h4>
+                            <code>&lt;ol type="1"&gt;</code>
+                        </div>
+                    </div>
                 </div>
             </div>
 

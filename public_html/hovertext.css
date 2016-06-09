@@ -1,179 +1,110 @@
-/*-----------hover paragraph--------------*/
-.hoveron-paragraph{
+/*---- Heading ----*/
+    h1 {
+        color: black;
+        font-weight: 600;
+        font-size: 100px;
+        letter-spacing: 0.5px;
+    }
     
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.hoveron-paragraph .show-hidden-paragraph {
-    visibility: hidden;
-    width: 180px;
-    height:155px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color: white;
-    color: #000000;
-    padding:15px 20px;
-    text-align: left;
-    margin-top: 0.6px;
+    h2 {
+        font-weight: 600;
+        font-size: 20px;
+        color: #939393;
+        letter-spacing: 0.5px;
+    }
     
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-}
+    h3 {
+        font-weight: 600;
+        font-size: 25px;
+        letter-spacing: 0.5px;
+    }
 
-.hoveron-paragraph:hover .show-hidden-paragraph {
-    visibility: visible;
-}
-/*-----------hover paragraph end----------*/
+    h4 {
+        font-weight: 400;
+        font-size: 18px;
+        color:#939393;
+        letter-spacing: 0.5px;
+    }
+
+    h5 {
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 2px;
+    }
+
+    h6 {
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+/*---- Heading ----*/
+
+    /*---- Text ----*/
+    body{
+      font-family: 'Open Sans', sans-serif;
+      margin:0;
+      padding:0;
+    }
+
+    p,a,span{
+      font-family: 'Open Sans', sans-serif;
+      transition: 0.5s all ease;
+      -webkit-transition: 0.5s all ease;
+      -moz-transition: 0.5s all ease;
+      -o-transition: 0.5s all ease;
+      -ms-transition: 0.5s all ease;
+    }
+    /*---- Text ----*/
 
 
 /*-----------hover button ---------*/
 
-.hoveron-nav-btn{
-
-display: inline-block;
-border-bottom: 1px dotted black;
-float: left;
-margin-top:5%;
-margin-left: 26%;
-
+.hoveron_btn{
+    border-bottom: 1px dotted black;
 }
 
-
-.hoveron-nav-btn .show-nav-btn{
-    visibility: hidden;
-    width: 350px;
-    height:200px;
+.hoveron_btn_content{
+    display: none;
+    max-width:330px;
+    height: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: white;
     color: #000000;
-    padding:15px 20px;
+    padding:20px 20px;
     text-align: left;
     margin-top: -1px;
- 
     position: absolute;
     z-index: 1;
-
 }
-.hoveron-nav-btn:hover .show-nav-btn {
-    visibility: visible;
+
+.hoveron_btn:hover .hoveron_btn_content {
+    display: block;
 }
 
 /*-----------hover button ends---------*/
 
 
+/*-----------hover button ---------*/
 
-/*-----------hover in text link -------------*/
-.hoveron-intext-link{
-
-display: inline-block;
-border-bottom: 1px dotted black;
-float: left;
-margin-top:2%;
-margin-left: 35%;
-
+.hoveron_paragraph{
+    border-bottom: 1px dotted black;
 }
 
-
-.hoveron-intext-link .show-intext-link{
-    visibility: hidden;
-    width: 270px;
-    height:160px;
+.hoveron_paragraph_content{
+    display: none;
+    width: 260px;
+    height: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: white;
     color: #000000;
-    padding:15px 20px;
-    text-align: left;
-    margin-top: -1px;
- 
+    padding:20px 20px;
+    text-align: right;
     position: absolute;
     z-index: 1;
-
-}
-.hoveron-intext-link:hover .show-intext-link {
-    visibility: visible;
 }
 
-/*-----------hover in text link ends---------*/
-
-
-
-
-/*-----------hover on button --------------*/
-
-.hoveron-button{
-
-display: inline-block;
-border-bottom: 1px dotted black;
-float: left;
-margin-top:2%;
-margin-left: 35%;
-
+.hoveron_paragraph:hover .hoveron_paragraph_content {
+    display: block;
 }
 
-
-.hoveron-button .show-button{
-    visibility: hidden;
-    width: 270px;
-    height:160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color: white;
-    color: #000000;
-    padding:15px 20px;
-    text-align: left;
-    margin-top: -1px;
- 
-    position: absolute;
-    z-index: 1;
-
-}
-
-.hoveron-button:hover .show-button {
-    visibility: visible;
-}
-
-/*-----------hover on button ends------------*/
-
-
-
-/*-----------hover on text input field ------------*/
-
-
-.hoveron-input-field{
-
-display: inline-block;
-border-bottom: 1px dotted black;
-float: left;
-margin-top:1.2%;
-margin-left: 28%;
-
-}
-
-
-.hoveron-input-field .show-input-field{
-    visibility: hidden;
-    width: 270px;
-    height:130px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color: white;
-    color: #000000;
-    padding:15px 20px;
-    text-align: left;
-    margin-top: -1px;
- 
-    position: absolute;
-    z-index: 1;
-
-}
-
-.hoveron-input-field:hover .show-input-field {
-    visibility: visible;
-}
-
-/*-----------hover on text input field ends------------*/
-
-
-
-
-
-
+/*-----------hover button ends---------*/
