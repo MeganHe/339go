@@ -29,7 +29,7 @@
         }
 
         .top_nav{
-           list-style: none;
+            list-style: none;
             margin-top: 5%;
             float: left;
         }
@@ -49,11 +49,11 @@
 
         .top_nav a:hover, .top_nav a:focus{
             -webkit-transition: box-shadow .5s ease;
-            box-shadow: 0px -6px 0px #E0DDC6 inset;
+            box-shadow: 0px -2px 0px #E0DDC6 inset;
         }
 
         .top_nav ul li a:hover .top_nav li{
-            box-shadow: 0px -6px 0px #E0DDC6 inset;
+            box-shadow: 0px -2px 0px #E0DDC6 inset;
         }
 
         .top_nav ul{
@@ -71,12 +71,12 @@
             padding-top: 1px;
             float: none;
             width: 100%;
-            font-size: 10px;
+            font-size: 12px;
         }
 
         /*---- Current Page ----*/
             .active {
-                box-shadow: 0px -6px 0px #E0DDC6 inset;
+                box-shadow: 0px -2px 0px #E0DDC6 inset;
             }
         /*---- Current Page ----*/
 
@@ -206,7 +206,8 @@
         display: inline-block;
         width: 166px;
         height: 45px;
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: 500;
         line-height: 45px;
         text-align: center;
         text-transform: uppercase;
@@ -223,7 +224,7 @@
     .btn svg rect {
         fill: none;
         stroke: #000;
-        stroke-width: 1;
+        stroke-width: 2;
         stroke-dasharray: 422, 0;
         @include transition(all 1300ms $ease-out-expo);
     }
