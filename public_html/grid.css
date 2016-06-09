@@ -59,6 +59,10 @@ div {
         display: block;
         text-align: left;
     }
+    
+    #toTop {
+        visibility: hidden;
+    }
 
     .col-m-12 {
         width: 100%;
@@ -145,7 +149,7 @@ div {
 /*---- Desktop----*/
 @media only screen and (min-width: 1024px) {
     .container {
-        max-width: 1200px;
+        max-width: 1400px;
         margin: 0 auto;
     }
     

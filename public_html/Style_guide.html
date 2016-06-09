@@ -7,14 +7,14 @@
         <meta charset="utf-8">
         
         <!--website title-->
-        <title>STYLE GUIDE</title> 
+        <title>CHUCI STYLE GUIDE</title> 
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
         
         <link href="main.css" rel="stylesheet">
         <link href="grid.css" rel="stylesheet">
-        <link rel="stylesheet" href="hovertext.css">
+        <link rel="stylesheet" href="text.css">
         <!-- <link rel='stylesheet'  href='page.css' type='text/css' media='all' />-->
         
         <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,800italic,800,700italic,700,600,600italic' rel='stylesheet' type='text/css'>
@@ -31,7 +31,7 @@
     <body>
         
         <!-- Header -->
-        <div class="main_header" id="home">
+        <div class="main_header container" id="home">
             
             <!-- Main Navigation -->
             <nav class="nav">
@@ -39,10 +39,23 @@
                 <ul class="top_nav">
                     <li><a class="active" href="#home">Home</a></li>
                     
-                    <li><a href="#interactive_elements">Interactive Elements</a>
+                    <li>
+                        <a href="#interactive_elements">Interactive Elements</a>
+                        <ul>
+                            <li><a href="#button_style">Navigation Button</a></li>
+                            <li><a href="#in_text_link">In-Text Link</a></li>
+                            <li><a href="#submit_button">Submit Button</a></li>
+                            <li><a href="text_input">Text Input</a></li>
+                        </ul>
                     </li>
                     
-                    <li><a href="#text_elements">Text Elements</a></li>
+                    <li><a href="#text_elements">Text Elements</a>
+                        <ul class="sub_nav">
+                            <li><a href="#typo">Typography Hierarchy</a></li>
+                            <li><a href="#paragraphs">Paragraph</a></li>
+                            <li><a href="#lists">Lists</a></li>
+                        </ul>
+                    </li>
 
                     <li><a href="#combined_elements">Combined Elements</a></li>
                     
@@ -55,7 +68,7 @@
                 
                 <script>
                     function myFunction() {
-                        document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+                        document.getElementsByClassName("top_nav")[0].classList.toggle("responsive");
                     }
                 </script>
             </nav>
@@ -63,7 +76,8 @@
                    
             <!-- Website Name -->
             <div class="web_name">  
-                <h1 class="col-12 col-m-12 website_name">PROJECT 2<br> STYLE GUIDE</h1>
+                <h1 class="col-12 col-m-12 website_name">CHUCI</h1>
+                <h2 class="col-12 col-m-12 title">STYLE GUIDE</h2>
             </div> 
             <!-- Website Name -->
         </div>
@@ -78,14 +92,15 @@
                 <!--button_style_left-->
                 
                 <div class="col-6 col-m-12 button_style_l">
-                    <div class="dropdown">
-                        <button class="dropdown_button">PRODUCTS</button>
-                        <div class="dropdown_content">
-                            <a href="#">SOFA</a>
-                            <a href="#">CHAIR</a>
-                            <a href="#">DESK</a>
-                        </div>
-                    </div>
+                    <ul class="top_nav">
+                        <li><a href="#">products</a>
+                            <ul>
+                                <li><a href="#">Sofa</a></li>
+                                <li><a href="#">Chair</a></li>
+                                <li><a href="#">Desk</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
                 <!--button_style_left-->
                 
@@ -189,7 +204,7 @@
         
         <!-- TEXT ELEMENTS SECTION -->
         <section id="text_elements" class="container">           
-            <div class="headings-banner">
+            <section id="typo" class="headings-banner">
                 <h3 class="col-12 col-m-12 sub_title">TYPOGRAPHY HIERARCHY</h3>
                 
                 <div class="code1">
@@ -217,10 +232,10 @@
                         <span class="col-3 code-space">&lt;span class="heading-size3"&gt;Subtitle&lt;/span&gt; </span>
                     </code>      
                 </div>
-            </div>
+            </section>
 
-            <div class="paragraphs">
-                <div class="col-3 col-m-12 paragraphs_l">
+            <section id="paragraphs" class="paragraphs">
+                <div class="col-2 col-m-12 paragraphs_l">
                     <div class="hoveron_paragraph">
                         <h3>PARAGRAPHS</h3>
 
@@ -235,12 +250,12 @@
                 </div>
 
                 <div class="col-9 col-m-12 paragraphs_r">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa mollit anim id est laborum.</p>
                 </div>
-            </div>
+            </section>
 
-            <div class="number_list">
-                <div class="col-3 col-m-12 number_list_l">
+            <section id ="lists" class="list">
+                <div class="col-2 col-m-12 list_l">
                     <div class="hoveron_paragraph">
                         <h3>NUMBERED LISTS</h3>
                         <div class="hoveron_paragraph_content">
@@ -251,35 +266,75 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                
+                <div class="col-9 col-m-12 list_r">
+                    <ol>
+                        <li> NUMBER LIST ITEM 1
+                        </li>
+                        
+                        <li> NUMBER LIST ITEM 2
+                        </li>
+                        
+                        <li> NUMBER LIST ITEM 3
+                        </li>
+                        
+                        <li> NUMBER LIST ITEM 4
+                        </li>
+                    </ol>
+                </div>
 
-            <div class="col-6 col-m-12 list-banner-right">
-                <div class="bulleted-content">
-                    <h3>BULLETED LISTS</h3>
+                <div class="col-2 col-m-12 list_l">
+                    <div class="hoveron_paragraph">
+                        <h3>BULLETED LISTS</h3>
+                        <div class="hoveron_paragraph_content">
+                            <h4>CSS Selector</h4>
+                            <p>.bulleted-banner-left ul</p>
+                            <h4>Sample code</h4>
+                            <p>&lt;ul style="list-style-type:square"&gt;</p>
+                        </div>
+                    </div>        
+                </div>
+                
+                <div class="col-9 col-m-12 list_r">
                     <ul style="list-style-type:square">
-                        <h4><li>CSS Selector</li></h4>
-                        <li>.bulleted-banner-left ul</li>
-                        <h4><li>Sample code</li></h4>
-                        <li>&lt;ul style="list-style-type:square"&gt;</li>
+                        <li> BULLETED LIST ITEM 1
+                        </li>
+                        
+                        <li> BULLETED LIST ITEM 2
+                        </li>
+                        
+                        <li> BULLETED LIST ITEM 3
+                        </li>
+                        
+                        <li> BULLETED LIST ITEM 4
+                        </li>
                     </ul>
-                </div>        
-            </div>       
+                </div>
+            </section>
         </section>   
         <!-- TEXT ELEMENTS SECTION -->
 
         <!-- COMBINED ELEMENTS SECTION // -->
         <section id="combined_elements" class="container">
-            <h2 class="col-12 col-m-12 section_title">COMBINED ELEMENTS</h2>
-
             <div class="product-list">
-                <div class="col-12">
-                    <hr class="col-3 col-m-12 pl-hr">
-                </div>
-                    
                 <h3 class="col-12 col-m-12">PRODUCTS LISTING</h3>
-                    
-                <figure class="col-12 col-m-12 product_img"><img src="http://www.architetturaxtutti.com/wp-content/uploads/2015/03/Mjolk_about_us_showroom-2.jpg" alt="product_1">
-                </figure>    
+                
+                <div class="col-12">
+                    <hr class="col-12 col-m-12 rec">
+                </div>
+                
+                <div class="product_img">
+                    <figure class="col-3">
+                        <img src="http://www.architetturaxtutti.com/wp-content/uploads/2015/03/Mjolk_about_us_showroom-2.jpg" alt="product_1" width=100%>
+                        
+                    </figure>
+                    <figure class="col-3">
+                        <img src="http://www.architetturaxtutti.com/wp-content/uploads/2015/03/Mjolk_about_us_showroom-2.jpg" alt="product_1" width=100%>
+                    </figure>
+                    <figure class="col-3">
+                        <img src="http://www.architetturaxtutti.com/wp-content/uploads/2015/03/Mjolk_about_us_showroom-2.jpg" alt="product_1" width=100%>
+                    </figure>  
+                </div>   
             </div>
         </section>
         <!-- COMBINED ELEMENTS SECTION -->
