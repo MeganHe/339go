@@ -401,7 +401,7 @@
 
     .paragraphs_r{
         min-height: 20vw;
-        padding-right: 10%;
+        padding-right: 5%;
         padding-top: 10%;
         letter-spacing: 0.2px;
         line-height: 180%;
@@ -456,15 +456,16 @@
     }
 
     .product_img{
-        margin: 15px 15px 0;
         position: relative;
-        display: inline-block;
+        margin-bottom: 15%;
     }
     
     figure{
         width: 100%;
         overflow: hidden;
-        margin: 2%;
+        padding: 2%;
+        height: 50rem;
+        margin-bottom: 15%;
     }
 
     #toTop {
