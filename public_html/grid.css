@@ -42,7 +42,7 @@ div {
     ul.top_nav li:not(:first-child) {display: none;}
     ul.top_nav li.icon {
         float: right;
-        display: inline-block;
+        display: inline-block;     
     }
 
     ul.top_nav.responsive {position: relative;}

@@ -416,7 +416,7 @@
     .list_l{
         text-align: right;
         color: #3f3f3f;
-        margin-left: 5%;
+        padding-left: 5%;
         min-height: 20vw;
         padding-top: 10%;
         padding-right: 3%;
@@ -432,18 +432,12 @@
         -webkit-background-size: cover;
         background-size: cover;
         -moz-background-size: cover;
-        padding-left: 5.5%;  
+        padding-left: 10%;  
     }
     /* Number List Style*/
 
 
-    .list-banner-right {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        height: 400px;
-    }
+
 
     .rec {
         display: block;
