@@ -56,6 +56,14 @@
       -o-transition: 0.5s all ease;
       -ms-transition: 0.5s all ease;
     }
+
+    .product_name{
+        font-weight: 700;
+    }
+    
+    .product_price{
+        font-weight: 700;
+    }
     /*---- Text ----*/
 
 

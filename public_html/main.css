@@ -456,17 +456,44 @@
     }
 
     .product_img{
+        
         position: relative;
         margin-bottom: 15%;
+        -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+        -moz-box-shadow: 1px 1px 1px 1px #ccc;
+        box-shadow: 1px 1px 1px 1px #ccc;
     }
     
+    .image_caption{
+        display: none;
+        position: absolute;
+        border: .15rem solid black;
+        padding: 1rem;
+        width: 45%;
+        margin: 1.5rem;
+        bottom: -56rem;
+        
+    }
+
+    .product_name{
+        float: left;
+    }
+
+    .product_price{
+        float: right;
+    }
 
     figure{
+        z-index: 100;
         width: 100%;
         overflow: hidden;
         padding: 2%;
         height: 50rem;
         margin-bottom: 15%;
+    }
+
+    figure:hover .image_caption {
+        display: block;
     }
 
 
