@@ -1,9 +1,4 @@
-html {
-  overflow: auto;
-}
-
 body {
-  position: absolute;
   top: 20px;
   left: 20px;
   bottom: 20px;
@@ -40,25 +35,52 @@ body.thin::-webkit-scrollbar {
 
 /* scroll content */
 .scroll_image_left{
-  min-height: 300%;
-  float: left;
-  margin-left:5%;
-  margin-top: 20%;
+    position: absolute;
+    margin-top: 15%;
 }
 
 .scroll_image_right{
-  float: right;
-  margin-right: 5%;
-  margin-top: 40%;
+    position: absolute;
+    margin-top: 40vw;
+    right: 0;
 }
 
-#image_number{
+.home_img_right{
+    right: 0;
+    float: right;
+    width: 100%;
+}
+.home_img_left{
+}
+
+.img_number{
+    float: left;
     z-index: 100;
     position: absolute;
-    font-size: 40px;
+    font-size: 3.5rem;
     font-weight: 500;
-    left: 100px;
-    
+    top: -3rem;
+    margin: 1rem;
+}
+
+.img_description_left{
+    width: 30%;
+    position: absolute;
+    font-weight: 500;
+    top: 2rem;
+    margin: 1rem;
+    right: -9rem;
+}
+
+
+
+.img_description_right{
+    width: 30%;
+    position: absolute;
+    font-weight: 500;
+    bottom: 2rem;
+    margin: 1rem;
+    left: -10rem;
 }
 /* scroll content ends */
 
