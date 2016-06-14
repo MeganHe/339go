@@ -1,0 +1,147 @@
+html {
+  overflow: auto;
+}
+
+body {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  padding: 30px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* scroll bar */
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+body.thin::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(100, 100, 100, 0.4);
+}
+/* scroll bar ends */
+
+
+/* scroll content */
+.scroll_image_left{
+  min-height: 300%;
+  float: left;
+  margin-left:5%;
+  margin-top: 20%;
+}
+
+.scroll_image_right{
+  float: right;
+  margin-right: 5%;
+  margin-top: 40%;
+}
+
+#image_number{
+    z-index: 100;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 500;
+    left: 100px;
+    
+}
+/* scroll content ends */
+
+
+  /*---- Main Navigation ----*/
+        nav{
+            margin-top: 5%;
+            margin-right: 4%;
+            float: right;      
+        }
+
+        .top_nav{
+            list-style: none;
+            float: left;
+        }
+
+        .top_nav li{
+            display: inline-block;
+            position:relative;
+            font-size: 15px;
+        }
+
+        .top_nav a{
+            color: black;
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .top_nav a:hover, .top_nav a:focus{
+            -webkit-transition: box-shadow .5s ease;
+            box-shadow: 0px -1.5px 0px #E0DDC6 inset;
+        }
+
+        .top_nav ul li a:hover .top_nav li{
+            box-shadow: 0px -1.5px 0px #E0DDC6 inset;
+        }
+
+        .top_nav ul{
+            display: none;
+            list-style: none;
+            position: absolute;
+            min-width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.2);
+            font-size: 0.8rem; 
+            padding: 0px;
+        }
+
+        .top_nav ul li{
+            padding-top: 1px;
+            float: none;
+            width: 100%;
+            font-size: 12px;
+        }
+
+        /*---- Current Page ----*/
+            .active {
+                box-shadow: 0px -1.5px 0px #E0DDC6 inset;
+            }
+        /*---- Current Page ----*/
+
+        .top_nav li:hover ul{
+            display: block;
+        }
+
+        .top_nav ul li:hover a{
+            width: 100%;
+            background-color: #E0DDC6;
+        }
+
+        ul.top_nav li.icon {
+            display: none;
+        }
+    /*---- Main Navigation ----*/
+
+
+
+
+
+
+
+
+
+
+
