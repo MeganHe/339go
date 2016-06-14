@@ -268,8 +268,9 @@
     /* TEXT INPUT FIELD*/
     *:focus {
         outline: 0;
+        border-bottom: 1.5px solid black; 
     }
-
+  
     .here-to-there {
         height: 100%;
         /*position: relative;*/
@@ -287,7 +288,7 @@
         width: 300px;
     }
 
-    .form-frame label{
+    .form-frame span{
         color: #888;
         text-transform: uppercase;
         font-family: 'Open Sans', sans-serif;
@@ -296,16 +297,7 @@
         padding-top: 5px;
         letter-spacing: 4px;
     }
-
-
-
-        /*when click to type the field text color will change*/
-        .form-frame .contact-us .focus span{
-        color: #000;
-        font-family: 'Open Sans', sans-serif;
-        transition: color 0.5s ease;
-        letter-spacing: 1px;
-    }
+    
 
 
     input {
@@ -327,6 +319,13 @@
         border-bottom: 1px solid #999;
         border-right: 1px solid #999;
         width: 300px;
+        color: black;
+        font-size: 12px;
+        line-height: 18px;
+        padding: 4px 0px;
+        height: 10vw;
+        width: 20vw;
+        margin-top: 10px;
     }
 
     input{
@@ -338,18 +337,10 @@
         width: 20vw;
     }
 
-    textarea{
-        color: black;
-        font-size: 12px;
-        line-height: 18px;
-        padding: 4px 0px;
-        height: 10vw;
-        width: 20vw;
-        margin-top: 10px;
-    }
 
-    textarea:focus, input:focus{
+    textarea:focus{
         outline: 0;
+        border: 1.5px solid black; 
     }
 
 /* TEXT INPUT FIELD ENDS*/
@@ -457,13 +448,8 @@
         margin-bottom: 5%;
     }
 
-    .product_img{
-        
-        position: relative;
+    .product_img{   
         margin-bottom: 15%;
-        -webkit-box-shadow: 1px 1px 1px 1px #ccc;
-        -moz-box-shadow: 1px 1px 1px 1px #ccc;
-        box-shadow: 1px 1px 1px 1px #ccc;
     }
     
     .image_caption{
@@ -471,10 +457,9 @@
         position: absolute;
         border: .15rem solid black;
         padding: 1rem;
-        width: 45%;
-        margin: 1.5rem;
-        bottom: -56rem;
-        
+        width: 90%; 
+        top:85%;
+        margin-left:3%;
     }
 
     .product_name{
@@ -486,6 +471,7 @@
     }
 
     figure{
+        position: relative;
         z-index: 100;
         width: 100%;
         overflow: hidden;
