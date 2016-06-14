@@ -230,7 +230,7 @@
     }
 
     .btn:hover svg rect {
-        stroke-width: 4;
+        stroke-width: 3;
         stroke-dasharray: 10, 310;
         stroke-dashoffset: 33;
     }
@@ -455,12 +455,20 @@
     .image_caption{
         display: none;
         position: absolute;
-        border: .15rem solid black;
+        border: .05rem solid black;
         padding: 1rem;
         width: 90%; 
         top:85%;
         margin-left:3%;
+        background-color: white;
     }
+    .image_caption .product_name{
+        font-weight: 400;
+    }
+    .image_caption .product_price{
+        font-weight: 700;
+    }
+    
 
     .product_name{
         float: left;
