@@ -39,22 +39,30 @@ div {
         width: 100%;
     }
     
-    ul.top_nav li:not(:first-child) {display: none;}
+    ul.top_nav li:not(:first-child) {
+        display: none;
+    }
+    
     ul.top_nav li.icon {
         float: right;
         display: inline-block;     
     }
 
-    ul.top_nav.responsive {position: relative;}
+    ul.top_nav.responsive {
+        position: relative;
+    }
+    
     ul.top_nav.responsive li.icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+    
     ul.top_nav.responsive li {
         float: none;
         display: inline;
     }
+    
     ul.top_nav.responsive li a {
         display: block;
         text-align: left;
