@@ -1,0 +1,123 @@
+/*---- Heading ----*/
+    h1 {
+        color: black;
+        font-weight: 600;
+        font-size: 40px;
+        letter-spacing: 0.5px;
+    }
+    
+    h2 {
+        color: #E0DDC6;
+        font-weight: 600;
+        font-size: 5vw;
+        letter-spacing: 0.5px;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 25px;
+        letter-spacing: 0.5px;
+    }
+    
+    h4 {
+        font-weight: 600;
+        font-size: 20px;
+        color: #939393;
+        letter-spacing: 0.5px;
+        
+    }
+
+    h5 {
+        font-weight: 400;
+        font-size: 18px;
+        color:#939393;
+        letter-spacing: 0.5px;
+    }
+
+    h6 {
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 2px;
+    }
+
+/*---- Heading ----*/
+
+    /*---- Text ----*/
+    body{
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    p,a,span{
+      font-family: 'Open Sans', sans-serif;
+      transition: 0.5s all ease;
+      -webkit-transition: 0.5s all ease;
+      -moz-transition: 0.5s all ease;
+      -o-transition: 0.5s all ease;
+      -ms-transition: 0.5s all ease;
+    }
+
+    .product_name{
+        font-weight: 700;
+    }
+    
+    .product_price{
+        font-weight: 700;
+    }
+
+    .top_nav {
+        font-size: 45px;
+    }
+    /*---- Text ----*/
+
+
+/*-----------hover button ---------*/
+
+.hoveron_btn{
+    border-bottom: 1px dotted black;
+}
+
+.hoveron_btn_content{
+    display: none;
+    max-width:330px;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    color: #000000;
+    padding:20px 20px;
+    text-align: left;
+    margin-top: -1px;
+    position: absolute;
+    z-index: 1;
+}
+
+.hoveron_btn:hover .hoveron_btn_content {
+    display: block;
+}
+
+/*-----------hover button ends---------*/
+
+
+/*-----------hover button ---------*/
+
+.hoveron_paragraph{
+    border-bottom: 1px dotted black;
+}
+
+.hoveron_paragraph_content{
+    display: none;
+    width: 240px;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    color: #000000;
+    padding:20px 20px;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+}
+
+.hoveron_paragraph:hover .hoveron_paragraph_content {
+    display: block;
+    float: right;
+}
+
+/*-----------hover button ends---------*/

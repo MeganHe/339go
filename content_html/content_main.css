@@ -1,11 +1,6 @@
 body {
-  top: 20px;
-  left: 20px;
-  bottom: 20px;
-  right: 20px;
-  padding: 30px;
+  padding: 1vw;
   overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 /* scroll bar */
@@ -33,29 +28,17 @@ body.thin::-webkit-scrollbar {
 /* scroll bar ends */
 
 
-/* scroll content */
-.scroll_image_left{
-    position: absolute;
-    margin-top: 15%;
+/*---- content ----*/
+.content {
+    margin-top: 5vw;
 }
 
-.scroll_image_right{
-    position: absolute;
-    margin-top: 40vw;
-    right: 0;
-}
-
-.home_img_right{
-    right: 0;
-    float: right;
-    width: 100%;
-}
-.home_img_left{
+.home_img img{
+    width: 25vw;
 }
 
 .img_number{
     float: left;
-    z-index: 100;
     position: absolute;
     font-size: 3.5rem;
     font-weight: 500;
@@ -63,33 +46,69 @@ body.thin::-webkit-scrollbar {
     margin: 1rem;
 }
 
-.img_description_left{
-    width: 30%;
+.img_description{
+    width: 20%;
     position: absolute;
     font-weight: 500;
-    top: 2rem;
+    top: 4rem;
     margin: 1rem;
-    right: -9rem;
+    right: -12rem;
 }
 
-
-
-.img_description_right{
-    width: 30%;
-    position: absolute;
-    font-weight: 500;
-    bottom: 2rem;
-    margin: 1rem;
-    left: -10rem;
+/*---- Top Left Image ---*/
+.image_top_left{
+    position: relative;
+    float: left;
+    width: 40%;
 }
+/*---- Top Left Image ---*/
+
+/*---- Top Right Image ---*/
+.image_top_right{
+    position: relative;
+    float: right;
+    width: 40%;
+    top: 15vw;
+}
+/*---- Top Right Image ---*/
+
+/*---- Bottom Left Image ---*/
+.image_bottom_left{
+    position: relative;
+    float: left;
+    width: 40%;
+    top: 10vw;
+}
+/*---- Bottom Left Image ---*/
+
+/*---- Bottom Right Image ---*/
+.image_bottom_right{
+    position: relative;
+    float: right;
+    width: 40%;
+    top: 30vw;
+}
+/*---- Bottom Left Image ---*/
 /* scroll content ends */
 
 
-  /*---- Main Navigation ----*/
+/*---- Header ----*/
+    .main_header {
+        padding: 5vw;
+    }
+
+    /*---- Website Name ----*/
+    .website_name {
+        padding:2vw;
+        float: left;
+        text-align: left;
+    }
+    /*---- Website Name ----*/
+
+    /*---- Main Navigation ----*/
         nav{
-            margin-top: 5%;
-            margin-right: 4%;
-            float: right;      
+            padding: 2vw;
+            float: right;
         }
 
         .top_nav{
@@ -106,17 +125,17 @@ body.thin::-webkit-scrollbar {
         .top_nav a{
             color: black;
             display: block;
-            padding: 10px 20px;
+            padding: 10px;
             text-decoration: none;
         }
 
         .top_nav a:hover, .top_nav a:focus{
             -webkit-transition: box-shadow .5s ease;
-            box-shadow: 0px -1.5px 0px #E0DDC6 inset;
+            box-shadow: 0px -2px 0px #E0DDC6 inset;
         }
 
         .top_nav ul li a:hover .top_nav li{
-            box-shadow: 0px -1.5px 0px #E0DDC6 inset;
+            box-shadow: 0px -2px 0px #E0DDC6 inset;
         }
 
         .top_nav ul{
@@ -139,7 +158,7 @@ body.thin::-webkit-scrollbar {
 
         /*---- Current Page ----*/
             .active {
-                box-shadow: 0px -1.5px 0px #E0DDC6 inset;
+                box-shadow: 0px -2px 0px #E0DDC6 inset;
             }
         /*---- Current Page ----*/
 
@@ -156,7 +175,11 @@ body.thin::-webkit-scrollbar {
             display: none;
         }
     /*---- Main Navigation ----*/
+/*---- Header ----*/
 
+.clearfix{
+clear:both;
+}
 
 
 

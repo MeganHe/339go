@@ -5,11 +5,14 @@
     
     <head>
         <meta charset="utf-8">
+        
+        <!-- Linked Files -->
         <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,800italic,800,700italic,700,600,600italic' rel='stylesheet' type='text/css'>
         
         <link href="text.css" rel="stylesheet" >
         <link href="grid.css" rel="stylesheet">
         <link href="content_main.css" rel="stylesheet">
+        <!-- Linked Files -->
         
         <!-- jQuery -->
         <script src="http://thecodeplayer.com/u/js/jquery-1.9.1.min.js" type="text/javascript">
@@ -17,20 +20,25 @@
         
         <script type='text/javascript' src='http://code.jquery.com/jquery-2.1.3.min.js'>
         </script>
+        <!-- jQuery -->
+        
+        
         <!--website title-->
-        <title>CHUCI </title>
+        <title>CHUCI</title>
+        <!--website title-->
         
     </head>
 
 
     <body>
         <!-- Main Navigation -->
-         <h1>CHUCI</h1>
-            <nav class="nav">
-               
+        <div class="main_header">
+            <!-- Website Name -->
+            <h1 class="col-3 col-m-12 website_name">CHUCI</h1>
+            <!-- Website Name -->
+            <nav class="nav"> 
                 <ul class="top_nav">
                     <li><a class="active" href="#home">Home</a></li>
-                    
                     <li>
                         <a href="#products">Products</a>
                         <ul>
@@ -40,7 +48,7 @@
                             <li><a href="text_input">Text Input</a></li>
                         </ul>
                     </li>
-                    
+
                     <li><a href="#about">About</a>
                         <ul class="sub_nav">
                             <li><a href="#typo">Typography Hierarchy</a></li>
@@ -50,38 +58,55 @@
                     </li>
 
                     <li><a href="#combined_elements">Combined Elements</a></li>
-                    
-                    
-                    
+
                     <li class="icon">
                         <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
                     </li>
                 </ul>
-                
+
                 <script>
                     function myFunction() {
                         document.getElementsByClassName("top_nav")[0].classList.toggle("responsive");
                     }
                 </script>
             </nav>
-
-        <!--Nav-->
+            <!--Nav-->
+        </div>
+        <!-- Main Navigation -->
         
         
     <div class="content container">
-        <div class="scroll_image_left">
-            <figure class="row col-6 col-m-12 home_img_left">
-                <img src="https://gd2.alicdn.com/bao/uploaded/i2/TB1hq1_KpXXXXbqXVXXXXXXXXXX_!!1-item_pic.gif_400x400.jpg_.webp" alt="product_1" height="100%">
-                <p class="img_number col-2 col-m-12">1</p>
-                <p class="img_description_left col-3 col-m-12">CHUCI new style made by organic wood</p>
+        <div class="image_top_left">
+            <figure class="col-5 col-m-12 home_img">
+                <img src="https://gd2.alicdn.com/bao/uploaded/i2/TB1hq1_KpXXXXbqXVXXXXXXXXXX_!!1-item_pic.gif_400x400.jpg_.webp" alt="product_1">
+                <p class="img_number">1</p>
+                <p class="img_description col-2 col-m-12">CHUCI new style made by organic wood</p>
             </figure>
         </div>
 
-        <div class="row scroll_image_right">
-            <figure class="col-6 col-m-12 home_img_right">
-                <img src="https://gd2.alicdn.com/bao/uploaded/i2/TB1hq1_KpXXXXbqXVXXXXXXXXXX_!!1-item_pic.gif_400x400.jpg_.webp" alt="product_1" height="100%">
+        <div class="image_top_right">
+            <figure class="col-5 col-m-12 home_img">
+                <img src="https://gd2.alicdn.com/bao/uploaded/i2/TB1hq1_KpXXXXbqXVXXXXXXXXXX_!!1-item_pic.gif_400x400.jpg_.webp" alt="product_1">
                 <p class="img_number">2</p>
-                <p class="img_description_right">CHUCI new style made by organic wood</p>
+                <p class="img_description">CHUCI new style made by organic wood</p>
+            </figure>
+        </div>
+        
+        <div class="image_bottom_left">
+            <figure class="col-5 col-m-12 home_img">
+                <p class="img_number">3</p>
+                <img src="https://gd2.alicdn.com/bao/uploaded/i2/TB1hq1_KpXXXXbqXVXXXXXXXXXX_!!1-item_pic.gif_400x400.jpg_.webp" alt="product_1">
+                
+                <p class="img_description col-3 col-m-12">CHUCI new style made by organic wood</p>
+            </figure>
+        </div>
+        
+        <div class="image_bottom_right">
+            <figure class="col-5 col-m-12 home_img">
+                <p class="img_number">4</p>
+                <img src="https://gd2.alicdn.com/bao/uploaded/i2/TB1hq1_KpXXXXbqXVXXXXXXXXXX_!!1-item_pic.gif_400x400.jpg_.webp" alt="product_1">
+                
+                <p class="img_description">CHUCI new style made by organic wood</p>
             </figure>
         </div>
     </div>
