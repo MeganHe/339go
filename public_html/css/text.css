@@ -7,6 +7,14 @@
         color: white;
     }
 
+    .home_web_name h1 {
+        color: black;
+        font-weight: 600;
+        font-size: 4rem;
+        letter-spacing: 0.5px;
+        color: white;
+    }
+
     /*---- for Style Guide ----*/
     .sg_web_name h1{
         color: black;
