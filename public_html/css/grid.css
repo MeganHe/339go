@@ -25,6 +25,10 @@ div {
     width: 100%;
 }
 
+.row {
+    clear: both;
+}
+
 .container:after, .container:before {
     display: table;
     clear:both;

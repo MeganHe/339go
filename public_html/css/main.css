@@ -1,0 +1,163 @@
+/*---- Header ----*/
+    .main_header {
+        margin: 5%;
+    }
+
+    /*---- Website Name ----*/
+    .web_name {
+        display: flex ;
+        height: 30rem;
+        background-color: #E0DDC6; 
+        margin-top: 6%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    /*---- Website Name ----*/
+
+    /*---- Main Navigation ----*/
+        .nav{
+            float: left;
+        }
+        .top_nav{
+            list-style: none;
+            margin-top: 5%;
+            float: left;
+        }
+
+        .top_nav li{
+            display: inline-block;
+            position:relative;
+            font-size: 15px;
+        }
+
+        .top_nav a{
+            color: black;
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            width: 100%;
+            position: relative;
+        }
+
+        .top_nav a:hover, .top_nav a:focus{
+            -webkit-transition: box-shadow .5s ease;
+            box-shadow: 0px -2px 0px #E0DDC6 inset;
+        }
+
+        .top_nav ul li a:hover .top_nav li{
+            box-shadow: 0px -2px 0px #E0DDC6 inset;
+        }
+
+        .top_nav ul{
+            display: none;
+            list-style: none;
+            position: absolute;
+            min-width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.2);
+            font-size: 0.8rem; 
+            padding: 0px;
+            top: 2.5rem;
+        }
+
+        .top_nav ul li{
+            padding-top: 1px;
+            float: none;
+            width: 100%;
+            font-size: 12px;
+        }
+
+        /*---- Current Page ----*/
+            .active {
+                box-shadow: 0px -2px 0px #E0DDC6 inset;
+            }
+        /*---- Current Page ----*/
+
+        .top_nav li:hover ul{
+            display: block;
+        }
+
+        .top_nav ul li:hover a{
+            width: 100%;
+            background-color: #E0DDC6;
+        }
+
+        ul.top_nav li.icon {
+            display: none;
+        }
+    /*---- Main Navigation ----*/
+/*---- Header ----*/
+
+/*---- Content ----*/
+    /*---- The Name of the Product which is place on the left of the img ----*/
+    .left_name {
+        text-align: right;
+        background-color: white;
+        height: 30rem;
+        padding-right: 2rem;
+    }
+
+    .left_name .img_title{
+        float: right;
+        width: 50%;
+        margin-top: 6rem;
+    }
+
+    .left_name .img_description{
+        float: right;
+        width: 30%;
+        margin-top: 1rem;
+    }
+    /*---- The Name of the Product which is place on the left of the img ----*/
+
+    /*---- The Name of the Product which is place on the right of the img ----*/
+    .right_name {
+        text-align: left;
+        background-color: white;
+        height: 30rem;
+        padding-left: 2rem;
+    }
+
+    .right_name .img_title{
+        float: left;
+        width: 50%;
+        margin-top: 6rem;
+    }
+
+    .right_name .img_description{
+        float: left;
+        width: 30%;
+        margin-top: 1rem;
+    }
+    /*---- The Name of the Product which is place on the right of the img ----*/
+
+    /*---- Product Img ----*/
+    .product_img {
+        height: 30rem;
+        overflow: hidden;
+    }
+    /*---- Product Img ----*/
+
+    /*---- Empty Space ----*/
+    .empty{
+        width: 100%;
+        height: 30rem;
+    }
+    /*---- Empty Space ----*/
+/*---- Content ----*/
+
+    .product_img {
+        height: 30rem;
+        overflow: hidden;
+    }
+/*---- The to Top icon ----*/
+    #toTop {
+        position: fixed;
+        bottom: 10px;
+        right: 3%;
+        width: 40px;
+        height: 40px;
+        background: url("img/to-top1.png") no-repeat 0px 0px;
+    }
+/*---- The to Top icon ----*/
