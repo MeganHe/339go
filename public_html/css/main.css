@@ -50,8 +50,8 @@
 
     /*---- Main Navigation ----*/
         .nav{
-            float: right;
-            
+            float: left;
+            padding-top: .5vh;
         }
         
         .top_nav{
