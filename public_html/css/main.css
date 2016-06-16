@@ -4,9 +4,19 @@
     }
 
     /*---- Website Name ----*/
-    .web_name {
+    .home_web_name {
         display: flex ;
         height: 30rem;
+        background-color: #E0DDC6; 
+        margin-top: 6%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .web_name {
+        display: flex ;
+        height: 20rem;
         background-color: #E0DDC6; 
         margin-top: 6%;
         align-items: center;
@@ -145,19 +155,108 @@
         height: 30rem;
     }
     /*---- Empty Space ----*/
-/*---- Content ----*/
 
-    .product_img {
+    /*---- About Page ----*/
+    /*---- Section Title ----*/
+    .about_title {
+        display: flex;
         height: 30rem;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    /*---- Section Title ----*/
+
+    .about_content {
+        display: flex;
+        height: 30rem;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .about_content p{
+        padding: 1rem;
+        display: block;
+        width: 100%;
+    }
+    /*----About Page----*/
+
+    /*----Section Title----*/
+    .sec_title {
+        text-align: center;
+        padding: 1rem;
+    }
+    /*----Section Title----*/
+
+    /*----Categories----*/
+    .category {
+        position: relative;
+        height: 20rem;
+    }
+
+    .cat_title{
+        position: absolute;
+        top: 40%; right: 0;
+        bottom: 0; left: 25%;
+        width: 50%;
+        text-align: center;
+    }
+    
+    /*----Categories Background Img----*/
+    .cat_img {
+        position: relative;
+        height: 20rem;
         overflow: hidden;
     }
-/*---- The to Top icon ----*/
-    #toTop {
-        position: fixed;
-        bottom: 10px;
-        right: 3%;
-        width: 40px;
-        height: 40px;
-        background: url("img/to-top1.png") no-repeat 0px 0px;
+    /*----Categories Background Img----*/
+
+    /*----Categories Background Color----*/
+    .cat_4, .cat_2, .cat_6{
+      background-color: aliceblue;  
     }
+
+    .cat_1, .cat_3, .cat_5{
+      background-color:beige;  
+    }
+    /*----Categories Background Color----*/
+    /*----Categories----*/
+    /*--------*/
+    /*--------*/
+/*---- Content ----*/
+
+
+
+
+/*---- The to Top icon ----*/
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:1rem;
+	right:7rem;
+	overflow:hidden;
+	width:2rem;
+	height:2rem;
+	border:none;
+	text-indent:100%;
+	background:url(../img/to-top1.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../img/to-top1.png) no-repeat left -51px;
+	width:2rem;
+	height:2rem;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
 /*---- The to Top icon ----*/

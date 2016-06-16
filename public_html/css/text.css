@@ -79,6 +79,25 @@
     .product_price{
         font-weight: 700;
     }
+
+    /*---- Section Title ----*/
+    .sec_title h2{
+        font-weight: 300;
+        font-size: 2.5rem;
+    } 
+    /*---- Section Title ----*/
+
+    /*----About Page Section Title ----*/
+    .about_title h2{
+        font-weight: 600;
+        font-size: 3rem;
+    }
+    /*----About Page Section Title ----*/
+
+.cat_title{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
     /*---- Text ----*/
 
 
