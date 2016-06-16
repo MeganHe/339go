@@ -1,4 +1,4 @@
-/*---- Header ----*/
+/*---- Header -------*/
     .main_header {
         margin: 2%;
         padding-top: 1rem;
@@ -50,8 +50,8 @@
 
     /*---- Main Navigation ----*/
         .nav{
-            float: left;
-            padding-top: .5vh;
+            float: right;
+            
         }
         
         .top_nav{
