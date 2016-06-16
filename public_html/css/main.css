@@ -19,13 +19,26 @@
     }
 
     .web_name {
-        display: flex ;
         height: 50vh;
-        background-color: #E0DDC6; 
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+        position: relative;
     }
+
+
+    .website_name{
+        position: absolute;
+        top: 20vh; right: 0;
+        bottom: 0; left: 25%;
+        width: 50%;
+        text-align: center;
+    }
+    
+    /*----Categories Background Img----*/
+    .cat_img {
+        position: relative;
+        height: 20vh;
+        overflow: hidden;
+    }
+    /*----Categories Background Img----*/
     /*---- Website Name ----*/
 
     /*---- Main Navigation ----*/
