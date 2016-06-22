@@ -3,37 +3,6 @@
         margin: 2%;
         padding-top: 1rem;
     }
-    
-  
-    /*---- Website Name ----*/
-    .home_main_photo {
-        height: 20vh;
-        position: relative;  
-        background-color: #E0DDC6;
-    }
-
-    .web_name {
-        display: flex ;
-        height: 30vh;
-        background-color: #E0DDC6; 
-    }
-
-    .website_name{
-        z-index: 10;
-        display: flex;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    
-    /*----Categories Background Img----*/
-    .top_img {
-        z-index: 1;
-        position: absolute;
-    }
-    /*----Categories Background Img----*/
-    /*---- Website Name ----*/
 
     /*---- Main Navigation ----*/
         .nav{
@@ -111,28 +80,80 @@
             display: none;
         }
     /*---- Main Navigation ----*/
+
+    /*---- Big Img on Top ----*/
+    .web_big {
+        margin-top: 1vh;
+        position: relative;
+        background: url(img/homepage.jpg);
+        background-size: cover;
+    }
+    /*---- Big Img on Top ----*/
 /*---- Header ----*/
 
 /*---- Content ----*/
+    .content_row {
+    }
+    /*---- 1st Row ----*/
+        /*---- 1 Column-----*/
+        .content_1 .column_1 {
+        }
+        /*---- 2 Column-----*/
+        .content_1 .column_2 {
+            background: url(img/homephoto1.jpg);
+            background-size: cover;
+        }
+        /*---- 3 Column-----*/
+        .content_1 .column_3 {
+            background: url(img/homephoto2.jpg);
+            background-size: cover;
+        }
+    /*---- 1st Row ----*/
+
+    /*---- 2nd Row ----*/
+        /*---- 1 Column-----*/
+        .content_2 .column_1 {
+        }
+        /*---- 2 Column-----*/
+        .content_2 .column_2 {
+        }
+        /*---- 3 Column-----*/
+        .content_2 .column_3 {
+            background: url(img/homephoto4.jpg);
+            background-size: cover;
+        }
+    /*---- 2nd Row ----*/
+
+    /*---- Product 1 ----*/
+    
+    /*---- Product 1 ----*/
+
     /*---- The Name of the Product which is place on the left of the img ----*/
     .left_name {
         text-align: right;
         background-color: white;
         padding-right: 2vw;
     }
+    
+    .left_name .featured {
+        float: right;
+        position: relative;
+        margin-top: 10vh;
+    }
 
     .left_name .img_title{
-        position: relative;
         float: right;
-        width: 40%;
-        margin-top: 20vh;
+        position: relative;
+        width: 90%;
+        margin-top: 2vh;
     }
 
     .left_name .img_description{
         position: relative;
         float: right;
-        width: 30%;
-        margin-top: 15vh;
+        width: 50%;
+        margin-top: 1vh;
+
     }
     /*---- The Name of the Product which is place on the left of the img ----*/
 
