@@ -1,0 +1,200 @@
+/*
+	Here we are using a 'fancy' css selector that is 
+	specifying if the class of an item starts with
+	'grid-col-', then we should apply the styling listed
+*/
+class^='grid-col-'] {
+	float: left;
+	padding: 0; 
+	/*text-align: center;  center the content in this block by default */
+}
+
+
+/*
+	Here we are defining our default column widths with the intention
+	of keeping it 'mobile first'
+*/
+.grid-col-4, .grid-col-2 {
+	width: 100%;
+}
+
+
+
+
+/*
+	Here we are clearing floated items to ensure that
+	our 'grid' structure can have different rows
+*/
+.grid-row:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+/*----responsive-menu-start--*/
+@media(max-width:1440px){
+	
+}
+
+@media (max-width: 1080px){
+
+}
+@media (max-width: 991px){
+	.navigation ul li a {
+  		  padding: 22px 7px 18px;
+	}
+	.navigation {
+	    width: 74%;
+	}
+	.header-right {
+	    width: 26%;
+	}
+	.header-right ul li a {
+	    padding: 23px 10px 20px;
+	}
+  
+}
+@media (max-width: 853px){
+
+}
+
+@media (max-width: 768px){
+    
+	.header-right {
+	    width: 29%;
+	    float: right;
+	    text-align: right;
+	}
+	.navigation {
+	    width: 4.56%;
+	    float: left;
+	    text-align: left;
+	    border: none !important;
+	    margin-top: 1em;
+	}
+	.navigation ul li a {
+	    padding: 5px 0px 5px;
+	}
+	span.menu {
+    display: block;
+    cursor: pointer;
+	position: relative;
+	text-align: right;
+	float: right;
+	}
+	ul.nav1{
+		display:none;
+		background:#f2f2f2;
+		}
+	.navigation ul.nav1 li {
+    display: inline-block;
+    text-align: center;
+    margin: 1px 0;
+    width: 100%;
+    padding: 5px 0;
+		}
+	.navigation ul.nav1 li:hover {
+	    background-color: #ff415b;
+	    color:#fff;
+	}
+	.navigation ul.nav1 li a:hover {
+	    color:#fff;
+	}
+	.navigation ul {
+	  position: absolute;
+	  padding: 0;
+	  margin: 0;
+	  top: 59px;
+	  left: 0;
+	  width: 100%;
+	  z-index: 9999;
+	  width: 100%;
+	}
+	
+}
+@media (max-width: 603px){
+	.header-right {
+	    width: 34%;
+	}
+	.view .mask, .view .content {
+	    width: 248px;
+	    height: 263px;
+	}
+	.sub-text input[type="submit"] {
+	    padding: 6px 22px 17px 19px;
+	}
+	.view .mask, .view .content {
+	    width: 248px;
+	    height: 263px;
+	}
+}
+@media (max-width: 640px){
+	.header-right {
+	    width: 32%;
+	}
+	.navigation {
+    	width: 5.56%;
+    }
+    ul.callbacks_tabs.callbacks1_tabs {
+	    left: 14em;
+	        bottom: -2em;
+	}
+	.header-banner {
+	    
+	        padding-top: 3em !important;
+	}
+	
+}
+@media (max-width: 600px){
+	.header-right ul li a {
+	    padding: 23px 12px 20px;
+	}
+	.header-right {
+	    width: 38%;
+	}
+	.view .mask, .view .content {
+	    width: 247px;
+	    height: 261px;
+	}
+	.sub-text input[type="submit"] {
+	    padding: 6px 22px 17px 19px;
+	}
+}
+@media (max-width: 533px){
+	.header-right {
+	    width: 43%;
+	}
+
+	.header-banner {
+	    
+	}
+}
+@media (max-width: 480px){
+	.header-banner {
+	   
+	    padding-top: 2em !important;
+	}
+	.header-right {
+	    width: 48%;
+	}
+	.navigation {
+	    width: 7.56%;
+	}
+	
+}
+@media (max-width: 320px){
+	.header-right {
+	    width: 68%;
+	}
+	.navigation {
+	    width: 11.56%;
+	        margin-top: .65em;
+	}
+	.header-right ul li a {
+	    padding: 15px 10px 15px;
+	}
+
+	
+}

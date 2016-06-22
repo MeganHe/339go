@@ -156,8 +156,7 @@ p,a,span,i{
 }
 
 
-#photos{
-    
+.photos-row1{
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
      -webkit-column-gap:0;
     -moz-column-count: 3; /* Firefox */
@@ -170,11 +169,10 @@ p,a,span,i{
    
 }
 
-#photos img{ 
+.photos-row1 img{ 
     width: 100% !important; 
      height: auto !important;
 ｝
-
 
     
     
