@@ -83,44 +83,65 @@
 
     /*---- Big Img on Top ----*/
     .web_big {
-        margin-top: 1vh;
         position: relative;
         background: url(img/homepage.jpg);
         background-size: cover;
+        height: 0;
+        padding-top: 48%;
     }
     /*---- Big Img on Top ----*/
 /*---- Header ----*/
 
 /*---- Content ----*/
     .content_row {
+        position: relative;
     }
     /*---- 1st Row ----*/
         /*---- 1 Column-----*/
         .content_1 .column_1 {
+            background: white;
+            background-size:cover;
+            height: 0;
+            padding-top: 48%;
         }
+
         /*---- 2 Column-----*/
         .content_1 .column_2 {
             background: url(img/homephoto1.jpg);
             background-size: cover;
+            height: 0;
+            padding-top: 48%;
         }
         /*---- 3 Column-----*/
         .content_1 .column_3 {
             background: url(img/homephoto2.jpg);
             background-size: cover;
+            height: 0;
+            padding-top: 48%;
         }
     /*---- 1st Row ----*/
 
     /*---- 2nd Row ----*/
         /*---- 1 Column-----*/
         .content_2 .column_1 {
+            background: white;
+            background-size:cover;
+            height: 0;
+            padding-top: 48%;
         }
         /*---- 2 Column-----*/
         .content_2 .column_2 {
+            background: white;
+            background-size:cover;
+            height: 0;
+            padding-top: 48%;
         }
         /*---- 3 Column-----*/
         .content_2 .column_3 {
             background: url(img/homephoto4.jpg);
             background-size: cover;
+            height: 0;
+            padding-top: 48%;
         }
     /*---- 2nd Row ----*/
 
@@ -130,31 +151,31 @@
 
     /*---- The Name of the Product which is place on the left of the img ----*/
     .left_name {
-        text-align: right;
-        background-color: white;
-        padding-right: 2vw;
-    }
-    
-    .left_name .featured {
-        float: right;
-        position: relative;
-        margin-top: 10vh;
-    }
+                position: relative;
+                text-align: right;
+                background-color: white;
+                padding-right: 2vw;
+            }
 
-    .left_name .img_title{
-        float: right;
-        position: relative;
-        width: 90%;
-        margin-top: 2vh;
-    }
+            .left_name .featured {
+                right: 3vw;
+                position: absolute;
+                top: 13vh;
+            }
 
-    .left_name .img_description{
-        position: relative;
-        float: right;
-        width: 50%;
-        margin-top: 1vh;
+            .left_name .img_title{
+                right: 3vw;
+                position: absolute;
+                width: 90%;
+                top: 18vh;
+            }
 
-    }
+            .left_name .img_description{
+                right: 3vw;
+                position: absolute;
+                width: 50%;
+                top: 28vh;
+            }
     /*---- The Name of the Product which is place on the left of the img ----*/
 
     /*---- The Name of the Product which is place on the right of the img ----*/
