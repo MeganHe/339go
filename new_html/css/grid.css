@@ -74,6 +74,9 @@ div {
     }
 }
 
+
+
+
 /*---- Tablet----*/
 
 @media screen and (min-width: 720px) {
@@ -121,6 +124,11 @@ div {
     }
     /*---- Tablet row height ----*/
 }
+
+
+
+
+
 
 /*---- Desktop----*/
 @media only screen and (min-width: 1024px) {

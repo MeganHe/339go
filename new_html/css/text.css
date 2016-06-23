@@ -2,7 +2,9 @@
 
    .logo h1{
     font-size: 4vmin;
-    font-weight: 600;
+    font-weight: 500;
+    margin-left: 4vw;
+    margin-top: 4vh;
    }
 
     @media screen and (max-width:480px) {

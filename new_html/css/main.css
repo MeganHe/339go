@@ -16,7 +16,7 @@
         }
     }
 
-    @media screen and (min-width: 470px) {
+    @media screen and (min-width: 480px) {
         .logo{
             position: relative;
             left: 45%;
@@ -39,17 +39,21 @@
             right: 0;
         }
     }
-    /*---- Main Navigation ----*/
-        .navigation {
-            float: left;
-            z-index: 1000000;
-            margin-top: 2vmin;
-        }
+
+
+
+/*---- Main Navigation ----*/
+.navigation {
+    float: left;
+    z-index: 10;
+    margin-top: 2vmin;
+    /*margin-left: ;*/
+}
 
 .nav1{
 	padding:0;
 	margin:0;
-    float: right
+    float: right;
 }
 
 
@@ -124,6 +128,8 @@
 .header_right ul{
 	padding: 0;
     float: right;
+    margin-top: 1.6vh;
+    margin-right: 4vw;
 }
 
 .header_right ul li {
@@ -197,7 +203,7 @@
     /*---- Big Img on Top ----*/
     .web_big {
         position: relative;
-        background: url(img/homepage.jpg);
+        background: url(../img/wel1.jpg);
         background-size: cover;
         height: 0;
         padding-top: 50%;
@@ -206,7 +212,7 @@
 
     .about_web_big{
         position: relative;
-        background: url(img/about_page.jpg);
+        background: url(../img/about_page.jpg);
         background-size: cover;
         height: 0;
         padding-top: 30%;
@@ -215,7 +221,7 @@
 
     .contact_web_big{
         position: relative;
-        background: url(img/contact_page.jpg);
+        background: url(../img/contact_page.jpg);
         background-size: cover;
         height: 0;
         padding-top: 30%;
@@ -249,14 +255,14 @@
 
         /*---- 2 Column-----*/
         .content_1 .column_2 {
-            background: url(img/homephoto1.jpg);
+            background: url(../img/homephoto1.jpg);
             background-size: cover;
             height: 0;
             padding-top: 45%;
         }
             @media screen and (max-width:720px) {
                 .content_1 .column_2 {
-                    background: url(img/homephoto1-wide.jpg);
+                    background: url(../img/homephoto1-wide.jpg);
                     background-size: cover;
                     height: 0;
                     padding-top: 45%;
@@ -266,14 +272,14 @@
         
         /*---- 3 Column-----*/
         .content_1 .column_3 {
-            background: url(img/homephoto3.jpg);
+            background: url(../img/homephoto3.jpg);
             background-size: cover;
             height: 0;
             padding-top: 45%;
         }
             @media screen and (max-width:720px) {
                 .content_1 .column_3 {
-                    background: url(img/homephoto3-wide.jpg);
+                    background: url(../img/homephoto3-wide.jpg);
                     background-size: cover;
                     height: 0;
                     padding-top: 45%;
@@ -298,14 +304,14 @@
         }
         /*---- 3 Column-----*/
         .content_2 .column_3 {
-            background: url(img/homephoto4.jpg);
+            background: url(../img/homephoto4.jpg);
             background-size: cover;
             height: 0;
             padding-top: 45%;
         }
             @media screen and (max-width:720px) {
                 .content_2 .column_1 {
-                    background: url(img/homephoto4-wide.jpg);
+                    background: url(../img/homephoto4-wide.jpg);
                     background-size: cover;
                     height: 0;
                     padding-top: 45%;
@@ -317,7 +323,7 @@
     /*---- 3rd Row ----*/
         /*---- 1 Column-----*/
         .content_3 .column_1 {
-            background: url(img/row3p2.jpg);
+            background: url(../img/row3p2.jpg);
             background-size: cover;
             height: 0;
             padding-top: 40%;
@@ -338,8 +344,8 @@
             height: 0;
             padding-top: 40%;
         }
-    /*---- 3rd Row ----*/
-
+    /*--- 3rd Row ends --*/
+    
     
 
     /*---- The Name of the Product which is place on the left of the img ----*/
@@ -357,6 +363,7 @@
 
     .left_name .img_title{
         right: 3vmin;
+        font-weight: 600;
         position: absolute;
         top: 40%;
     }
@@ -730,44 +737,6 @@
     }
     /*---- Submit Button----*/
 
-    .instruction_text_t {
-        position: absolute;
-        top: .01vmin;
-        padding-left: 2vmin;
-        font-size: 2vmin;
-        font-weight: 600;
-    }
-    /*---- Signin or Sign up ----*/
-    .login_signup .empty {
-        position: relative;
-        background: white;
-        background-size:cover;
-        height: 0;
-        padding-top: 40%;
-    }
-
-    .login_part {
-        position: relative;
-        background: white;
-        background-size:cover;
-        height: 0;
-        padding-top: 40%;
-    }
-
-    .login_name {
-        position: absolute;
-        top: 1vmin;
-        padding-left: 2vmin;
-        font-size: 1.5vmin;
-        font-weight: 600;
-    }
-
-    .what_to_do {
-        position: absolute;
-        top: 3.5vmin;
-        padding-left: 2vmin;
-        font-size: 1.2vmin;
-    }
     /*---- TEXT INPUT FIELD ----*/
     *:focus {
         outline: 0;
@@ -810,99 +779,6 @@
     }
     /*----Contact Page----*/
 
-
-    /*----Shopping Cart----*/
-    .shopping_cart_title {
-        margin-top: 5vmin;
-    }
-
-    .shopping_cart_title .empty {
-        position: relative;
-        background: white;
-        background-size:cover;
-        height: 0;
-        padding-top: 5%;
-    }
-
-    .shopping_cart_title .cart_title {
-        position: relative;
-        background: #f8f8f8;
-        background-size:cover;
-        height: 0;
-        padding-top: 5%;
-    }
-
-    .cart .empty{
-        position: relative;
-        background: white;
-        background-size:cover;
-        height: 0;
-        padding-top: 50%;
-    }
-
-    .cart .cart_content{
-        position: relative;
-        background: white;
-        background-size:cover;
-        height: 0;
-        padding-top: 30%;
-    }
-
-    .cart_table {
-        border-collapse: collapse;
-        width: 100%;
-        position: absolute;
-        top: 3vmin;
-        padding-left: 5vmin;
-        font-size: 1.2vmin;
-    }
-
-    th, td {
-        padding-right: 2.9vmin;
-        padding-left: 2.9vmin;
-        text-align: left;
-        border-bottom: 1px solid #ddd;
-        text-align: center;
-    }
-
-    th {
-        padding-bottom: 2vmin;
-    }
-    
-    .table_sum {
-        width: 100%;
-        position: absolute;
-        top: 22vmin;
-        right: 4vmin;
-        padding-left: 5vmin;
-        width: auto;
-        font-size: 1.8vmin;
-        font-weight: 600;
-    }
-
-    .cart_table img {
-       width: 10vmin 
-    }
-
-    .cart_confirm {
-        position: relative;
-        background: white;
-        background-size:cover;
-        height: 0;
-        padding-top: 20%;
-    }
-
-    .cart_confirm .left_btn .btn{
-        top: 2vmin;
-    }
-
-    .cart_confirm .right_btn .btn{
-        top: 2vmin;
-        right: 4vmin;
-        text-align: right;
-    }
-    /*----Shopping Cart----*/
-    /*----Section Title----*/
     /*----Section Title----*/
     .sec_title {
         text-align: center;
