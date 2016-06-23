@@ -730,6 +730,44 @@
     }
     /*---- Submit Button----*/
 
+    .instruction_text_t {
+        position: absolute;
+        top: .01vmin;
+        padding-left: 2vmin;
+        font-size: 2vmin;
+        font-weight: 600;
+    }
+    /*---- Signin or Sign up ----*/
+    .login_signup .empty {
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 40%;
+    }
+
+    .login_part {
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 40%;
+    }
+
+    .login_name {
+        position: absolute;
+        top: 1vmin;
+        padding-left: 2vmin;
+        font-size: 1.5vmin;
+        font-weight: 600;
+    }
+
+    .what_to_do {
+        position: absolute;
+        top: 3.5vmin;
+        padding-left: 2vmin;
+        font-size: 1.2vmin;
+    }
     /*---- TEXT INPUT FIELD ----*/
     *:focus {
         outline: 0;
@@ -772,6 +810,99 @@
     }
     /*----Contact Page----*/
 
+
+    /*----Shopping Cart----*/
+    .shopping_cart_title {
+        margin-top: 5vmin;
+    }
+
+    .shopping_cart_title .empty {
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 5%;
+    }
+
+    .shopping_cart_title .cart_title {
+        position: relative;
+        background: #f8f8f8;
+        background-size:cover;
+        height: 0;
+        padding-top: 5%;
+    }
+
+    .cart .empty{
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 50%;
+    }
+
+    .cart .cart_content{
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 30%;
+    }
+
+    .cart_table {
+        border-collapse: collapse;
+        width: 100%;
+        position: absolute;
+        top: 3vmin;
+        padding-left: 5vmin;
+        font-size: 1.2vmin;
+    }
+
+    th, td {
+        padding-right: 2.9vmin;
+        padding-left: 2.9vmin;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+
+    th {
+        padding-bottom: 2vmin;
+    }
+    
+    .table_sum {
+        width: 100%;
+        position: absolute;
+        top: 22vmin;
+        right: 4vmin;
+        padding-left: 5vmin;
+        width: auto;
+        font-size: 1.8vmin;
+        font-weight: 600;
+    }
+
+    .cart_table img {
+       width: 10vmin 
+    }
+
+    .cart_confirm {
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 20%;
+    }
+
+    .cart_confirm .left_btn .btn{
+        top: 2vmin;
+    }
+
+    .cart_confirm .right_btn .btn{
+        top: 2vmin;
+        right: 4vmin;
+        text-align: right;
+    }
+    /*----Shopping Cart----*/
+    /*----Section Title----*/
     /*----Section Title----*/
     .sec_title {
         text-align: center;

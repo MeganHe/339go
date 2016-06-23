@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>CHUCI Homepage</title>
+        <title>CHUCI Shopping Cart</title>
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,7 +49,7 @@
                 <span class="menu"><img src="img/hambar-menu.png" width=18px height=18px></span>
                 
                 <ul class="nav1">
-                    <li><a class="active">HOME</a></li>
+                    <li><a herf="index.html">HOME</a></li>
                     <li><a href="collections.html">COLLECTIONS</a>
                         <ul>
                             <li><a href="#">Living Room Collections</a></li>
@@ -92,91 +92,81 @@
                         <img src="img/logo.png" width="20px"
                                                 height="20px" alt=""/></span></a>
                     </li>
-                    <li><a href="shopping_cart.html"><span class="shopcar">
+                    <li><a class="active"><span class="shopcar">
                         <img src="img/shopcar.png" width="20px"
                                                 height="20px" alt=""/></span></a>
                     </li>
                 </ul>							 	
             </div>
         </div>
-        
-        <!-- Big Img -->
-        <div class="row col-12 web_big"></div> 
-        <!-- Big Img -->
     </div>
     
-    
-
-   
     <!-- Content -->
-        <div class="content container">
+    <div class="content container">
             
-            <!-- The fisrt row of content -->
-            <div id="content_1" class="content_1">
-                <!-- The Name of the Product -->
-                <div class="col-4 col-m-12 column_1 left_name">
-                    <p class="img_featured">Featured</p>
-                    <p class="img_title">Saxe lounge chair by Lassen</p>
-                    <p class="img_description">CHUCI new style made by organic wood</p>
-                </div>
-                <!-- The Name of the Product -->
-
-                <!-- The middle img of the 1st Product -->
-                <div class="col-4 col-m-12 column_2">
-                </div>
-                <!-- The middle img of the 1st Product -->
-
-                <!-- The right img of the 1st Product -->
-                <div class="col-4 col-m-12 column_3">
-                </div>
-                <!-- The right img of the 1st Product -->
+        <!-- The fisrt row of content -->
+        <div class="shopping_cart_title">
+            <div class="col-4 col-m-12 empty">
             </div>
-            <!-- The fisrt row of content -->
-            
-            <!-- The second row of content -->
-            <div id="content_2" class="content_2 row ">
-                <!-- The Name of the Product -->
-                <div class="col-4 col-m-12 column_1 left_name">
-                    <!--<p class="img_para">Add unique design to the home with this Mobilier de Compagnie ostrich wall console from ibride. Made from high pressure laminate, this ostrich inspired design features the bottom half of an ostrich fashioned into a functional table. This quirky design will create a statement in any home, ideal for use in a hallway or bedroom.</p> -->
-                </div>
-                <!-- The Name of the Product -->
-
-                <!-- The middle img of the 1st Product -->
-                <div class="col-4 col-m-12 column_2 left_name">
-                    <p class="img_featured">Featured</p>
-                    <p class="img_title">Mobilier de Compagnie</p>
-                    <p class="img_description">CHUCI new style made by organic wood</p>
-                    
-                </div>
-                <!-- The middle img of the 1st Product -->
-
-                <!-- The right img of the 1st Product -->
-                <div class="row col-4 col-m-12 column_3 ">
-                    
-                </div>
-                <!-- The right img of the 1st Product -->
+            <div class="col-8 col-m-12 cart_title">
+                <p class="instruction_text_t">SHOPPING CART</p>
             </div>
-            <!-- The Second row of content -->
-            
-            <!-- The second row of content -->
-            <div id="content_3" class="content_3 row">
-                <!-- The Name of the Product -->
-                <div class="col-8 col-m-12 column_1 ">
-                    
-                </div>
-                <!-- The Name of the Product -->
-
-                <!-- The middle img of the 1st Product -->
-                <div class="col-4 col-m-12 column_2 right_name">
-                    <p class="img_featured">Featured</p>
-                    <p class="img_title">Mobilier de Compagnie - Ostrich Wall Console</p>
-                    <p class="img_description">CHUCI new style made by organic wood</p>
-                </div>
-                <!-- The middle img of the 1st Product -->
-            </div>
-            <!-- The Second row of content -->
         </div>
-        <!-- Content -->
+    
+        <div class="cart">
+            <div class="col-4 col-m-12 empty">
+            </div>
+            
+            <div class="col-8 col-m-12 cart_content">
+                <table class="col-8 col-m-12 column_2 cart_table">
+                    <thead>
+                        <tr class="table_title">
+                            <th>PRODUCT</th>
+                            <th>DESCRIPTION</th>
+                            <th>COLOR</th>
+                            <th>PRICE</th>
+                            <th>UNITS</th>
+                            <th>DELETE</th>
+                        </tr>
+                    </thead>
+                    <tbody class="cart_table_body">
+                        <tr>
+                            <td><img src="img/homephoto2.jpg" ></td>
+                            <td>NAME</td>
+                            <td>PINK</td>
+                            <td>1</td>
+                            <td>499.99 CAD</td>
+                            <td>X</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="table_sum">
+                    <p>TOTAL PRICE: 499.99 CAD</p>
+                </div>
+                <div class="cart_confirm">
+                    <div class="left_btn">
+                        <div class="btn">
+                            <svg>
+                                <rect x="0" y="0" fill="none"/>
+                            </svg>
+                                CONTINUE SHOPPING
+                        </div>
+                    </div>
+                    <div class="right_btn">
+                        <div class="btn">
+                            <svg>
+                                <rect x="0" y="0" fill="none"/>
+                            </svg>
+                                CONFIRM
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                
+                    
+                    
     
         <!-- Footer -->
     <div class="footer">
