@@ -59,6 +59,7 @@
 }
 
 .nav1 li ul{
+    z-index: 10000000;
     display: none;
     list-style: none;
     position: absolute;
@@ -202,6 +203,37 @@
         padding-top: 50%;
         z-index: -1;
     }
+
+    .about_web_big{
+        position: relative;
+        background: url(img/about_page.jpg);
+        background-size: cover;
+        height: 0;
+        padding-top: 30%;
+        z-index: -1;
+    }
+
+    .contact_web_big{
+        position: relative;
+        background: url(img/contact_page.jpg);
+        background-size: cover;
+        height: 0;
+        padding-top: 30%;
+        z-index: -1;
+    }
+
+    .login_top{
+        position: relative;
+        display: flex;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .login_top .login_title{
+        font-size: 7vmin;
+        padding-bottom: 5vmin;
+    }
     /*---- Big Img on Top ----*/
 /*---- Header ----*/
 
@@ -230,6 +262,8 @@
                     padding-top: 45%;
                 }
             }
+
+        
         /*---- 3 Column-----*/
         .content_1 .column_3 {
             background: url(img/homephoto3.jpg);
@@ -306,6 +340,8 @@
         }
     /*---- 3rd Row ----*/
 
+    
+
     /*---- The Name of the Product which is place on the left of the img ----*/
     .left_name {
         position: relative;
@@ -345,12 +381,14 @@
     }
 
     .right_name .img_description{
+        z-index: 1000;
         left: 3vw;
         position: absolute;
         width: 70%;
     }
 
     .right_name .img_featured {
+        z-index: 1000;
         left: 3vw;
         position: absolute;
     }
@@ -408,6 +446,19 @@
         .right_name .img_para {
             top: 10%;
             font-size: 3vmin;
+        }
+        
+        .about_description{
+            position: relative;
+            background: #f8f8f8;
+            background-size:cover;
+            height: 0;
+            padding-top: 60%;
+        }
+        
+        .about_description .img_para {
+            font-size: 3vmin;
+            padding: 0;
         }
     }
 
@@ -477,8 +528,9 @@
         }
         
         .right_name .img_para {
-            top: 40%;
+            top: 2vmin;
             font-size: 1.3vmin;
+            padding: 1rem;
         }
     }
     /*---- The Name of the Product which is place on the right of the img ----*/
@@ -490,39 +542,235 @@
     }
     /*---- Product Img ----*/
 
-    /*---- Empty Space ----*/
-    .empty{
-        width: 100%;
-        height: 50vh;
-    }
-    /*---- Empty Space ----*/
-
     /*---- About Page ----*/
     /*---- Section Title ----*/
     .about_title {
-        display: flex;
-        height: 50vh;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 45%;
     }
-    /*---- Section Title ----*/
 
-    .about_content {
-        display: flex;
-        height: 50vh;
-        align-items: center;
-        text-align: left;
-        justify-content: center;
+    .about_title .img_title{
+        position: absolute;
+        top: 4vmin;
         padding: 2rem;
     }
+    /*---- Section Title ----*/
+    .about_description {
+        z-index: 100;
+        position: relative;
+        background: #f8f8f8;
+        background-size:cover;
+        height: 0;
+        padding-top: 45%;
+    }
 
-    .about_content p{
-        padding: 1rem;
-        display: block;
-        width: 100%;
+    .about_description .img_para{
+        position: absolute;
+        top: 5vmin;
+        padding: 4rem;
     }
     /*----About Page----*/
+
+    /*---- Contact Page ----*/
+    /*---- Location Title ----*/
+    .location_title {
+        position: relative;
+        background: #f8f8f8;
+        background-size:cover;
+        height: 0;
+        padding-top: 20%;
+    }
+
+    .location_title .location_head{
+        position: absolute;
+        top: 4vmin;
+        padding-top: 2vmin;
+        padding-left: 2vmin;
+        font-size: 5vmin;
+    }
+    /*---- List of locations ----*/
+    .contact_list {
+        z-index: 100;
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 40%;
+    }
+
+    .contact_list  .location_t{
+        position: absolute;
+        top: 5vmin;
+        padding-left: 2vmin;
+        font-size: 2.5vmin;
+    }
+
+    .contact_list  .location_details{
+        position: absolute;
+        top: 12vmin;
+        padding-left: 2vmin;
+        padding-right: 2vmin;
+        font-size: 1.5vmin;
+    }
+    /*----Contact Page----*/
+
+    /*---- Login Page ----*/
+    /*---- Insction Row ----*/
+    .login_instruction .empty {
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 5%;
+    }
+
+    .login_instruction .instruction_text {
+        position: relative;
+        background: #f8f8f8;
+        background-size:cover;
+        height: 0;
+        padding-top: 5%;
+    }
+
+    .instruction_text_t {
+        position: absolute;
+        top: .01vmin;
+        padding-left: 2vmin;
+        font-size: 2vmin;
+        font-weight: 600;
+    }
+    /*---- Signin or Sign up ----*/
+    .login_signup .empty {
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 40%;
+    }
+
+    .login_part {
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 40%;
+    }
+
+    .login_name {
+        position: absolute;
+        top: 1vmin;
+        padding-left: 2vmin;
+        font-size: 1.5vmin;
+        font-weight: 600;
+    }
+
+    .what_to_do {
+        position: absolute;
+        top: 3.5vmin;
+        padding-left: 2vmin;
+        font-size: 1.2vmin;
+    }
+
+    /*---- Submit Button ----*/
+
+    .btn {
+        position: absolute;
+        top: 22vmin;
+        padding-left: 2vmin;
+        font-size: 1.2vmin;
+        display: inline-block;
+        width: 166px;
+        height: 45px;
+        font-size: 1.5vmin;
+        font-weight: 500;
+        line-height: 45px;
+        text-align: left;
+        cursor: pointer;
+        overflow: hidden;
+        -webkit-transition-property: all;
+        -webkit-transition-duration: .2s;
+        -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+        -moz-transition-property: all;
+        -moz-transition-duration: .2s;
+        -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    }
+
+    .signup_part .btn{
+        top: 15vmin;
+    }
+
+    .btn svg {
+        position: absolute;
+        top: 0; left: 0;
+    }
+
+    .btn svg rect {
+        fill: none;
+        stroke: black;
+        stroke-width: 2px;
+        stroke-dasharray: 422px, 0;
+        @include transition(all 1300ms $ease-out-expo);
+    }
+
+    .btn:hover svg rect {
+        stroke-width: 3px;
+        stroke-dasharray: 10px, 310px;
+        stroke-dashoffset: 33px;
+    }
+
+    .btn:hover {
+        color:#000;
+        font-size:18px;
+        letter-spacing:1px;
+        font-weight:bold;
+        
+    }
+    /*---- Submit Button----*/
+
+    /*---- TEXT INPUT FIELD ----*/
+    *:focus {
+        outline: 0;
+        border-bottom: 1.5px solid black; 
+    }
+  
+    .signin_form {
+        position: absolute;
+        position: absolute;
+        top: 9vmin;
+        padding-left: 2vmin;
+    }
+
+    .signin_form span{
+        color: #888;
+        display: block;
+        font-size: 1.6vmin;
+        padding-top: 5px;
+        letter-spacing: 4px;
+    }
+    
+    input {
+        background-color: transparent;
+        border-top: 1px solid transparent;
+        border-left: 1px solid transparent;
+        border-bottom: 1px solid #999;
+        border-right: 1px solid transparent;
+        width: 25vmin;
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 0.1px;
+    }
+
+    .signup_part {
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 40%;
+    }
+    /*----Contact Page----*/
 
     /*----Section Title----*/
     .sec_title {
@@ -589,11 +837,11 @@
 	height:2rem;
 	border:none;
 	text-indent:100%;
-	background:url(../img/to-top1.png) no-repeat left top;
+	background:url(img/to-top1.png) no-repeat left top;
 }
 
 #toTopHover {
-	background:url(../img/to-top1.png) no-repeat left -51px;
+	background:url(img/to-top1.png) no-repeat left -51px;
 	width:2rem;
 	height:2rem;
 	display:block;

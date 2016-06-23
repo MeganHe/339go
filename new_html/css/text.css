@@ -7,7 +7,7 @@
 
     @media screen and (max-width:480px) {
         .logo h1{
-            font-size: 8vmin;
+            font-size: 7vmin;
             font-weight: 600;
         }
     }
