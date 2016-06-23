@@ -49,7 +49,44 @@
             <!-- Website Name -->
             
             <!-- Main Navigation -->
-            <nav class="nav">
+            <div class="header" id="home">
+	        <div class="container">
+				<nav class="navigation">
+					<span class="menu"><img src="img/hambar-menu.png" width=18px; height=18px;alt=""/></span>
+					<div class="clearfix"> </div>
+					<ul class="nav1">
+						<li><a href="index.html">HOME</a></li>
+						<li><a class="scroll" href="#product">PRODUCTS</a></li>
+						<li><a class="scroll" href="#about">ABOUT</a></li>
+						<li><a class="scroll" href="#contact">CONTACT</a></li>
+					</ul>
+								<!-- script for menu -->
+									<script> 
+										$( "span.menu" ).click(function() {
+										$( "ul.nav1" ).slideToggle( 300, function() {
+										 // Animation complete.
+										});
+										});
+									</script>
+								<!-- //script for menu -->	
+                </nav>
+							<div class="header-right">
+								<ul>
+									<li><a href="#"> <span class="logoin">
+                                            <img src="img/logo.png" width="20px"
+                                            height="20px" alt=""/>
+                                            </span></a></li>
+									<li><a href="#"><span class="shopcar">
+                                             <img src="img/shopcar.png" width="20px"
+                                            height="20px" alt=""/></span></a></li>
+									
+							 </ul>							 	
+						  </div>
+					 <div class="clearfix"> </div>
+				</div>
+</div>
+            
+           <!-- <nav class="nav">
                 <ul class="top_nav">
                     <li><a class="col-2 col-m-12 active" href="#home">Home</a></li>
                     <li>
@@ -87,7 +124,7 @@
                         document.getElementsByClassName("top_nav")[0].classList.toggle("responsive");
                     }
                 </script>
-            </nav>
+            </nav>-->
             <!-- Main Navigation -->
             
             <!-- Big Img -->
@@ -103,11 +140,11 @@
         <div class="content container">
             
             <!-- The fisrt row of content -->
-            <div id="content_1" class="content_1 row">
+            <div id="content_1" class="content_1 content_row">
                 <!-- The Name of the Product -->
                 <div class="col-4 col-m-12 column_1 left_name">
-                    <p class="img_featured">Featured</p>
-                    <p class="img_title">Saxe lounge chair by Lassen</p>
+                    <p class="featured">Featrued</p>
+                    <p class="img_title">CHUCI new style made by organic wood</p>
                     <p class="img_description">CHUCI new style made by organic wood</p>
                 </div>
                 <!-- The Name of the Product -->
@@ -125,46 +162,50 @@
             <!-- The fisrt row of content -->
             
             <!-- The second row of content -->
-            <div id="content_2" class="content_2 row">
+            <div id="content_2" class="row content_2 content_row">
                 <!-- The Name of the Product -->
                 <div class="col-4 col-m-12 column_1 ">
-                    
                 </div>
                 <!-- The Name of the Product -->
 
                 <!-- The middle img of the 1st Product -->
-                <div class="col-4 col-m-12 column_2 right_name">
-                    <p class="img_featured">Featured</p>
-                    <p class="img_title">Mobilier de Compagnie - Ostrich Wall Console</p>
+                <div class="col-4 col-m-12 column_2 left_name">
+                    <p class="featured">Featrued</p>
+                    <p class="img_title">CHUCI new style made by organic wood</p>
                     <p class="img_description">CHUCI new style made by organic wood</p>
                 </div>
                 <!-- The middle img of the 1st Product -->
 
                 <!-- The right img of the 1st Product -->
-                <div class="row col-4 col-m-12 column_3 right_name">
-                    <p class="img_para">Add unique design to the home with this Mobilier de Compagnie ostrich wall console from ibride. Made from high pressure laminate, this ostrich inspired design features the bottom half of an ostrich fashioned into a functional table. This quirky design will create a statement in any home, ideal for use in a hallway or bedroom.</p>
+                <div class="row col-4 col-m-12 column_3">
                 </div>
                 <!-- The right img of the 1st Product -->
             </div>
-            <!-- The Second row of content -->
-            
+            <!-- The second row of content ends-->
+
             <!-- The second row of content -->
-            <div id="content_3" class="content_3 row">
+            <div id="content_3" class="row content_3 content_row">
                 <!-- The Name of the Product -->
                 <div class="col-8 col-m-12 column_1 ">
-                    
                 </div>
                 <!-- The Name of the Product -->
 
-                <!-- The middle img of the 1st Product -->
-                <div class="col-4 col-m-12 column_2 right_name">
-                    <p class="img_featured">Featured</p>
-                    <p class="img_title">Mobilier de Compagnie - Ostrich Wall Console</p>
-                    <p class="img_description">CHUCI new style made by organic wood</p>
-                </div>
-                <!-- The middle img of the 1st Product -->
+                <div class="col-4 col-m-12 column_2 ">             
+                </div>   
             </div>
-            <!-- The Second row of content -->
+            <!-- The second row of content ends-->
+            
+ <div id="content_4" class="row content_4 content_row">
+                <!-- The Name of the Product -->
+                <div class="col-8 col-m-12 column_1 ">
+                </div>
+                <!-- The Name of the Product -->
+
+                <div class="col-4 col-m-12 column_2 ">             
+                </div>   
+            </div>
+
+
         </div>
         <!-- Content -->
         
