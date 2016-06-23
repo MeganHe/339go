@@ -7,7 +7,6 @@
     /*---- Main Navigation ----*/
         .nav{
             float: right;
-            
         }
         
         .top_nav{
@@ -87,22 +86,19 @@
         background: url(img/homepage.jpg);
         background-size: cover;
         height: 0;
-        padding-top: 48%;
+        padding-top: 50%;
     }
     /*---- Big Img on Top ----*/
 /*---- Header ----*/
 
 /*---- Content ----*/
-    .content_row {
-        position: relative;
-    }
     /*---- 1st Row ----*/
         /*---- 1 Column-----*/
         .content_1 .column_1 {
             background: white;
             background-size:cover;
             height: 0;
-            padding-top: 48%;
+            padding-top: 45%;
         }
 
         /*---- 2 Column-----*/
@@ -110,92 +106,267 @@
             background: url(img/homephoto1.jpg);
             background-size: cover;
             height: 0;
-            padding-top: 48%;
+            padding-top: 45%;
         }
+            @media screen and (max-width:720px) {
+                .content_1 .column_2 {
+                    background: url(img/homephoto1-wide.jpg);
+                    background-size: cover;
+                    height: 0;
+                    padding-top: 45%;
+                }
+            }
         /*---- 3 Column-----*/
         .content_1 .column_3 {
-            background: url(img/homephoto2.jpg);
+            background: url(img/homephoto3.jpg);
             background-size: cover;
             height: 0;
-            padding-top: 48%;
+            padding-top: 45%;
         }
+            @media screen and (max-width:720px) {
+                .content_1 .column_3 {
+                    background: url(img/homephoto3-wide.jpg);
+                    background-size: cover;
+                    height: 0;
+                    padding-top: 45%;
+                }
+            }
     /*---- 1st Row ----*/
 
     /*---- 2nd Row ----*/
+
         /*---- 1 Column-----*/
         .content_2 .column_1 {
-            background: white;
-            background-size:cover;
+            background: url(img/homephoto4.jpg);
+            background-size: cover;
             height: 0;
-            padding-top: 48%;
+            padding-top: 45%;
         }
+            @media screen and (max-width:720px) {
+                .content_2 .column_1 {
+                    background: url(img/homephoto4-wide.jpg);
+                    background-size: cover;
+                    height: 0;
+                    padding-top: 45%;
+                }
+            }
         /*---- 2 Column-----*/
         .content_2 .column_2 {
             background: white;
             background-size:cover;
             height: 0;
-            padding-top: 48%;
+            padding-top: 45%;
         }
         /*---- 3 Column-----*/
         .content_2 .column_3 {
-            background: url(img/homephoto4.jpg);
-            background-size: cover;
+            background: white;
+            background-size:cover;
             height: 0;
-            padding-top: 48%;
+            padding-top: 45%;
         }
     /*---- 2nd Row ----*/
 
-    /*---- Product 1 ----*/
-    
-    /*---- Product 1 ----*/
+    /*---- 3rd Row ----*/
+        /*---- 1 Column-----*/
+        .content_3 .column_1 {
+            background: url(img/Living-Room-2.jpg);
+            background-size: cover;
+            height: 0;
+            padding-top: 40%;
+        }
+            @media screen and (max-width:720px) {
+                .content_3 .column_1 {
+                    background: url(img/Living-Room-2-wide.jpg);
+                    background-size: cover;
+                    height: 0;
+                    padding-top: 45%;
+                }
+            }
+        /*---- 2 Column-----*/
+        .content_3 .column_2 {
+            background: white;
+            background-size:cover;
+            height: 0;
+            padding-top: 40%;
+        }
+    /*---- 3rd Row ----*/
 
     /*---- The Name of the Product which is place on the left of the img ----*/
     .left_name {
-                position: relative;
-                text-align: right;
-                background-color: white;
-                padding-right: 2vw;
-            }
+        position: relative;
+        text-align: right;
+        background-color: white;
+        padding-right: 5%;
+    }
 
-            .left_name .featured {
-                right: 3vw;
-                position: absolute;
-                top: 13vh;
-            }
+    .left_name .img_featured {
+        right: 3vmin;
+        position: absolute;
+        top: 30%;
+    }
 
-            .left_name .img_title{
-                right: 3vw;
-                position: absolute;
-                width: 90%;
-                top: 18vh;
-            }
+    .left_name .img_title{
+        right: 3vmin;
+        position: absolute;
+        top: 40%;
+    }
 
-            .left_name .img_description{
-                right: 3vw;
-                position: absolute;
-                width: 50%;
-                top: 28vh;
-            }
+    .left_name .img_description{
+        right: 3vmin;
+        position: absolute;
+    }
     /*---- The Name of the Product which is place on the left of the img ----*/
 
     /*---- The Name of the Product which is place on the right of the img ----*/
     .right_name {
+        position: relative;
         text-align: left;
         background-color: white;
-        height: 50vh;
-        padding-left: 2vw;
+        padding-right: 2vw;
     }
 
     .right_name .img_title{
-        float: left;
-        width: 50%;
-        margin-top: 20vh;
+        left: 3vw;
+        position: absolute;
+        width: 90%;
     }
 
     .right_name .img_description{
-        float: left;
-        width: 30%;
-        margin-top: 15vh;
+        left: 3vw;
+        position: absolute;
+        width: 70%;
+    }
+
+    .right_name .img_featured {
+        left: 3vw;
+        position: absolute;
+    }
+
+    .right_name .img_para{
+        left: 3vw;
+        position: absolute;
+        width: 80%;
+    }
+
+    @media screen and (max-width:480px) {
+        .left_name{
+            text-align: left;
+        }
+        
+        .left_name .img_featured {
+            top: 15%;
+            font-size: 2.8vmin;
+            width: 100%;
+            padding-left: 6vmin;
+        }
+        .left_name .img_description{
+            top: 50%;
+            font-size: 3.5vmin;
+            width: 100%;
+            padding-left: 6vmin;
+        }
+        .left_name .img_title {
+            top: 25%;
+            font-size: 6vmin;
+            width: 100%;
+            padding-left: 6vmin;
+        }
+        
+        .left_name .img_para {
+            top: 10%;
+            font-size: 3vmin;
+            width: 100%;
+            padding-left: 6vmin;
+        }
+        
+        .right_name .img_featured {
+            top: 15%;
+            font-size: 2.8vmin;
+        }
+        .right_name .img_description{
+            top: 70%;
+            font-size: 3.5vmin;
+        }
+        .right_name .img_title {
+            top: 25%;
+            font-size: 6vmin;
+        }
+        
+        .right_name .img_para {
+            top: 10%;
+            font-size: 3vmin;
+        }
+    }
+
+    @media screen and (min-width: 480px) {
+        .left_name .img_featured {
+            top: 20%;
+        }
+        .left_name .img_title{
+            top: 30%;
+        }
+        
+        .left_name .img_description {
+            top: 55%;
+        }
+        
+        .left_name .img_para {
+            top: 30%;
+            font-size: 1.5vmin;
+        }
+        
+        .right_name .img_featured {
+            top: 20%;
+        }
+        .right_name .img_title{
+            top: 30%;
+        }
+        
+        .right_name .img_description {
+            top: 65%;
+        }
+        
+        .right_name .img_para {
+            top: 30%;
+            font-size: 1.5vmin;
+        }
+    }
+    
+    /*---- When the Title is 2 lines ----*/
+    @media screen and (min-width: 970px) {
+        .left_name .img_featured {
+            top: 30%;
+        }
+        
+        .left_name .img_title{
+            top: 40%;
+        }
+        
+        .left_name .img_description {
+            top: 50%;
+        }
+        
+        .left_name .img_para {
+            top: 40%;
+            font-size: 1.3vmin;
+        }
+        
+        .right_name .img_featured {
+            top: 30%;
+        }
+        
+        .right_name .img_title{
+            top: 40%;
+        }
+        
+        .right_name .img_description {
+            top: 60%;
+        }
+        
+        .right_name .img_para {
+            top: 40%;
+            font-size: 1.3vmin;
+        }
     }
     /*---- The Name of the Product which is place on the right of the img ----*/
 

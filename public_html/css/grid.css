@@ -34,7 +34,7 @@ div {
 
 /*---- Mobile----*/
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:480px) {
     
     /*---- NAV ----*/
     ul.top_nav {
@@ -66,9 +66,9 @@ div {
     
     /*---- mobile row height ----*/
     .row{
-        height: 30vh;
+        max-height: 30vh;
     }
-    /*---- row height ----*/
+    /*---- mobile row height ----*/
     #toTop {
         visibility: hidden;
     }
@@ -113,13 +113,9 @@ div {
 
 /*---- Tablet----*/
 
-@media (min-width: 720px) {
+@media screen and (min-width: 720px) {
     ul.top_nav {
         float:left;
-    }
-    
-    .row{
-        height: 40vh;
     }
     
     .col-12 {
@@ -158,13 +154,21 @@ div {
     .col-1 {
         width: 8.33%;
     }
+    
+    /*---- Tablet row height ----*/
+    .row{
+        max-height: 35vh;
+    }
+    /*---- Tablet row height ----*/
 }
 
 /*---- Desktop----*/
 @media only screen and (min-width: 1024px) {
+    /*---- Desktop row height ----*/
     .row{
-        height: 50vh;
+        max-height: 50vh;
     }
+    /*---- Desktop row height ----*/
     
     .container {
         max-width: 1400px;
