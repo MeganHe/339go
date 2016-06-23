@@ -1,0 +1,137 @@
+.nav {
+    float: left;
+}
+
+.nav1{
+	padding:0;
+	margin:0;
+}
+
+
+.nav1 li{
+	display:inline-block;
+    position:relative;
+}
+
+.nav1 li ul{
+    display: none;
+    list-style: none;
+    position: absolute;
+    padding-left: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    font-size: 0.8rem; 
+    top: 2.5rem;
+}
+
+.nav1 ul li{
+    padding: .2rem;
+    width: 100%;
+    font-size: 12px;
+}
+
+.nav1 li:hover ul{
+    display: block;
+}
+
+.nav1 li:nth-child(4) {
+  margin-left: 0;
+}
+.nav1 ul li:hover a{
+    width: 100%;
+    background-color: #E0DDC6;
+}
+
+.nav1 li a {
+    color: #6A6A6A;
+    margin: 0 0px;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 22px 10px 18px 13px;
+    display: block;
+}
+
+.nav1 li a:hover,.nav1 li a.active{
+    color: #F896A9;
+}
+
+.nav span{
+    padding-left: .6rem;
+    padding-top: 1.4rem;
+	display:none;
+}
+
+.header_right {
+    float: right;
+}
+
+.header_right ul{
+	padding: 0;
+}
+
+.header_right ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+
+.header_right ul li:hover{
+    display: block;
+}
+
+.header_right ul li a{
+    padding: 5px 16px 20px;
+    display: block;
+}
+
+.header_right ul li a span {
+    /*background: url(../images/social.png) no-repeat;*/
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.header_right ul li a span.logoin{
+	background-position:-48px 0px;
+}
+.header_right ul li a span.shopcar{
+	background-position:-64px 0px;
+}
+
+.header_right ul li:hover.header_right ul li a span{
+    transform: rotatey(360deg);
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+.header_right ul li:hover span.logoin, .about-two ul li a span:hover {
+    transform: rotatey(360deg);
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+.header_right ul li:hover span.shopcar, .about-two ul li a span:hover {
+    transform: rotatey(360deg);
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}

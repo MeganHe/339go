@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        
+        <!--website title-->
+        <title>CHUCI STYLE GUIDE</title> 
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+        
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/grid.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/text.css">
+        <!-- <link rel='stylesheet'  href='page.css' type='text/css' media='all' />-->
+        
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,800italic,800,700italic,700,600,600italic' rel='stylesheet' type='text/css'>
+        
+        <!-- jQuery -->
+        <script src="http://thecodeplayer.com/u/js/jquery-1.9.1.min.js" type="text/javascript">
+        </script>
+        
+        <script type='text/javascript' src='http://code.jquery.com/jquery-2.1.3.min.js'>
+        </script>
+        
+        <!-- toTop -->
+        <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+        
+            <!-- easing plugin -->
+        <script src="js/easing.js" type="text/javascript"></script>
+            <!-- easing plugin -->
+        
+            <!-- UItoTop plugin -->
+        <script src="js/jquery.ui.totop.js" type="text/javascript"></script>
+            <!-- UItoTop plugin -->
+        <!-- toTop -->
+       
+    </head>
+    
+    <body>
+        <!-- Header -->
+        <div class="main_header container" id="home">
+            <!-- Website Name -->
+            <div class="col-2 col-m-12 logo">
+                
+                <h1>CHUCI</h1>
+            </div>
+            
+            <!-- Website Name -->
+            <!-- Main Navigation -->
+            <nav class="nav">
+                <ul class="top_nav">
+                    <li><a class="col-2 col-m-12" href="home.html">Home</a></li>
+                    <li>
+                        <a class="col-2 col-m-12" href="collections.html">Collections</a>
+                        <ul>
+                            <li><a href="#">Living Room Collections</a></li>
+                            <li><a href="#">Outdoor Collections</a></li>
+                            <li><a href="#">Kitchen Collections</a></li>
+                            <li><a href="#">Bedroom Collections</a></li>
+                            <li><a href="#">Dining Room Collections</a></li>
+                            <li><a href="#">Study Collections</a></li>
+                            <li><a href="#">Bathroom Collections</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="col-2 col-m-12" href="products.html">Products</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">Living Room</a></li>
+                            <li><a href="#">Outdoor</a></li>
+                            <li><a href="#">Kitchen</a></li>
+                            <li><a href="#">Bedroom</a></li>
+                            <li><a href="#">Dining Room</a></li>
+                            <li><a href="#">Study</a></li>
+                            <li><a href="#">Bathroom</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="col-2 col-m-12 active">About CHUCI</a></li>
+                    <li><a class="col-2 col-m-12" href="account.html">My Account</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+                    </li>
+                </ul>
+                
+                <script>
+                    function myFunction() {
+                        document.getElementsByClassName("top_nav")[0].classList.toggle("responsive");
+                    }
+                </script>
+            </nav>
+            <!-- Main Navigation -->
+                   
+            <!-- Website Name -->
+            <div class="row col-12 col-m-12 web_name">  
+                <h1 class="col-12 col-m-12 website_name">About CHUCI</h1>
+            </div> 
+            <!-- Website Name -->
+        </div>
+        <!-- Header -->
+        
+        <section class="content container">
+            <div class="row description">
+                <div class="col-4 col-m-12 about_title">
+                    <h2>Description</h2>
+                </div>
+                
+                <div class="col-8 col-m-12 about_content">
+                    <p>Maecenas pellentesque lectus sit amet eros venenatis, id congue urna mollis. Proin blandit felis id pellentesque maximus. Quisque efficitur mauris ut laoreet ornare. Etiam elementum vulputate metus, ut tristique metus. In at ex at nulla dictum mollis in at ipsum. Curabitur eu quam tincidunt, maximus arcu sed, venenatis libero. Pellentesque a metus sit amet odio gravida suscipit. Vivamus hendrerit, ligula id pharetra dapibus, sem mi lacinia augue, a ullamcorper nunc orci id mi. Praesent tempus mattis risus placerat aliquet. Mauris vestibulum lectus sem, sed laoreet lectus faucibus a. Nam eget ipsum cursus, efficitur erat sit amet, mattis erat.</p>
+                </div>
+            </div>
+            
+            <div class="row location">
+                <div class="col-4 col-m-12 about_title">
+                    <h2>Location</h2>
+                </div>
+                
+                <div class="col-8 col-m-12 about_content">
+                    <h3>Vancouver</h3>
+                    <p>Integer tincidunt efficitur nulla, eget tempor nulla elementum sit amet.</p>
+                    
+                    <h3>Burnaby</h3>
+                    <p>Integer tincidunt efficitur nulla, eget tempor nulla elementum sit amet.</p>
+                    
+                    <h3>Surrey</h3>
+                    <p>Integer tincidunt efficitur nulla, eget tempor nulla elementum sit amet.</p>
+                </div>
+            </div>
+            
+            <div class="row contacts">
+                <div class="col-4 col-m-12 about_title">
+                    <h2>Contacts</h2>
+                </div>
+                
+                <div class="col-4 col-m-12 about_content">
+                    <p>Integer tincidunt efficitur nulla, eget tempor nulla elementum sit amet.</p>
+                    
+                </div>
+            </div>
+        </section>
+            
+        <!--go to top button-->
+        <div class="gotop">
+            <!-- Starting the plugin -->
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $().UItoTop({ easingType: 'easeOutQuart' });
+                });
+            </script>
+            <a href="#" id="toTop" style="display: none;">
+                <span id="toTopHover" style="opacity: 0;"></span>
+            </a>
+        </div>
+    </body>
+</html>
+        

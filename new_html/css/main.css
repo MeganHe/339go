@@ -1,0 +1,610 @@
+/*---- Header -------*/
+    .main_header {
+        margin: 2%;
+        padding-top: 1rem;
+    }
+
+    @media screen and (max-width:480px) {
+        .logo{
+            position: relative;
+            left: 34%;
+        }
+        
+        .header_right {
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    @media screen and (min-width: 470px) {
+        .logo{
+            position: relative;
+            left: 45%;
+        }
+        
+        .header_right {
+            position: relative;
+            right: 0;
+        }
+    }
+
+    @media screen and (min-width: 770px) {
+        .logo{
+            position: relative;
+            left: 0%;
+        }
+        
+        .header_right {
+            position: relative;
+            right: 0;
+        }
+    }
+    /*---- Main Navigation ----*/
+        .navigation {
+            float: left;
+            z-index: 1000000;
+            margin-top: 2vmin;
+        }
+
+.nav1{
+	padding:0;
+	margin:0;
+    float: right
+}
+
+
+.nav1 li{
+	display:inline-block;
+    position:relative;
+}
+
+.nav1 li ul{
+    display: none;
+    list-style: none;
+    position: absolute;
+    padding-left: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    font-size: 0.8rem; 
+    top: 2.5rem;
+}
+
+.nav1 ul li{
+    padding: .2rem;
+    width: 100%;
+    font-size: 12px;
+}
+
+.nav1 li:hover ul{
+    display: block;
+}
+
+.nav1 li:nth-child(4) {
+  margin-left: 0;
+}
+.nav1 ul li:hover a{
+    width: 100%;
+    background-color: #E0DDC6;
+}
+
+.nav1 li a {
+    color: #6A6A6A;
+    margin: 0 0px;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 22px 10px 18px 13px;
+    display: block;
+}
+
+.nav1 li a:hover,.nav1 li a.active{
+    color: #F896A9;
+}
+
+.navigation span{
+    padding-left: .6rem;
+    padding-top: 1.4rem;
+	display:none;
+}
+
+    @media screen and (max-width:480px) {
+        .navigation span{
+            position: absolute;
+            display: block;
+            left: 0;
+        }
+    }
+
+.header_right {
+    float: right;
+    right: 0;
+    margin-top: 2vmin;
+}
+
+.header_right ul{
+	padding: 0;
+    float: right;
+}
+
+.header_right ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+
+.header_right ul li:hover{
+    display: block;
+}
+
+.header_right ul li a{
+    padding: 5px 16px 20px;
+    display: block;
+}
+
+.header_right ul li a span {
+    /*background: url(../images/social.png) no-repeat;*/
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.header_right ul li a span.logoin{
+	background-position:-48px 0px;
+}
+.header_right ul li a span.shopcar{
+	background-position:-64px 0px;
+}
+
+.header_right ul li:hover.header_right ul li a span{
+    transform: rotatey(360deg);
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+.header_right ul li:hover span.logoin, .about-two ul li a span:hover {
+    transform: rotatey(360deg);
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+.header_right ul li:hover span.shopcar, .about-two ul li a span:hover {
+    transform: rotatey(360deg);
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+    /*---- Main Navigation ----*/
+
+    /*---- Big Img on Top ----*/
+    .web_big {
+        position: relative;
+        background: url(img/homepage.jpg);
+        background-size: cover;
+        height: 0;
+        padding-top: 50%;
+        z-index: -1;
+    }
+    /*---- Big Img on Top ----*/
+/*---- Header ----*/
+
+/*---- Content ----*/
+    /*---- 1st Row ----*/
+        /*---- 1 Column-----*/
+        .content_1 .column_1 {
+            background: white;
+            background-size:cover;
+            height: 0;
+            padding-top: 45%;
+        }
+
+        /*---- 2 Column-----*/
+        .content_1 .column_2 {
+            background: url(img/homephoto1.jpg);
+            background-size: cover;
+            height: 0;
+            padding-top: 45%;
+        }
+            @media screen and (max-width:720px) {
+                .content_1 .column_2 {
+                    background: url(img/homephoto1-wide.jpg);
+                    background-size: cover;
+                    height: 0;
+                    padding-top: 45%;
+                }
+            }
+        /*---- 3 Column-----*/
+        .content_1 .column_3 {
+            background: url(img/homephoto3.jpg);
+            background-size: cover;
+            height: 0;
+            padding-top: 45%;
+        }
+            @media screen and (max-width:720px) {
+                .content_1 .column_3 {
+                    background: url(img/homephoto3-wide.jpg);
+                    background-size: cover;
+                    height: 0;
+                    padding-top: 45%;
+                }
+            }
+    /*---- 1st Row ----*/
+
+    /*---- 2nd Row ----*/
+        /*---- 1 Column-----*/
+        .content_2 .column_1 {
+            background: #f8f8f8;
+            background-size:cover;
+            height: 0;
+            padding-top: 45%;
+        }
+        /*---- 2 Column-----*/
+        .content_2 .column_2 {
+            background: #f8f8f8;
+            background-size:cover;
+            height: 0;
+            padding-top: 45%;
+        }
+        /*---- 3 Column-----*/
+        .content_2 .column_3 {
+            background: url(img/homephoto4.jpg);
+            background-size: cover;
+            height: 0;
+            padding-top: 45%;
+        }
+            @media screen and (max-width:720px) {
+                .content_2 .column_1 {
+                    background: url(img/homephoto4-wide.jpg);
+                    background-size: cover;
+                    height: 0;
+                    padding-top: 45%;
+                }
+            }
+        
+    /*---- 2nd Row ----*/
+
+    /*---- 3rd Row ----*/
+        /*---- 1 Column-----*/
+        .content_3 .column_1 {
+            background: url(img/row3p2.jpg);
+            background-size: cover;
+            height: 0;
+            padding-top: 40%;
+        }
+            @media screen and (max-width:720px) {
+                .content_3 .column_1 {
+                    background: url(img/Living-Room-2-wide.jpg);
+                    background-size: cover;
+                    height: 0;
+                    padding-top: 45%;
+                }
+            }
+        /*---- 2 Column-----*/
+        .content_3 .column_2 {
+            background: #9598a1;
+            color: aliceblue;
+            background-size:cover;
+            height: 0;
+            padding-top: 40%;
+        }
+    /*---- 3rd Row ----*/
+
+    /*---- The Name of the Product which is place on the left of the img ----*/
+    .left_name {
+        position: relative;
+        text-align: right;
+        background-color: white;
+    }
+
+    .left_name .img_featured {
+        right: 3vmin;
+        position: absolute;
+        top: 30%;
+    }
+
+    .left_name .img_title{
+        right: 3vmin;
+        position: absolute;
+        top: 40%;
+    }
+
+    .left_name .img_description{
+        right: 3vmin;
+        position: absolute;
+    }
+    /*---- The Name of the Product which is place on the left of the img ----*/
+
+    /*---- The Name of the Product which is place on the right of the img ----*/
+    .right_name {
+        position: relative;
+        text-align: left;
+        background-color: white;
+    }
+
+    .right_name .img_title{
+        left: 3vw;
+        position: absolute;
+        width: 90%;
+    }
+
+    .right_name .img_description{
+        left: 3vw;
+        position: absolute;
+        width: 70%;
+    }
+
+    .right_name .img_featured {
+        left: 3vw;
+        position: absolute;
+    }
+
+    .right_name .img_para{
+        left: 3vw;
+        position: absolute;
+        width: 80%;
+    }
+
+    @media screen and (max-width:480px) {
+        .left_name{
+            text-align: left;
+        }
+        
+        .left_name .img_featured {
+            top: 15%;
+            font-size: 2.8vmin;
+            width: 100%;
+            padding-left: 6vmin;
+        }
+        .left_name .img_description{
+            top: 50%;
+            font-size: 3.5vmin;
+            width: 100%;
+            padding-left: 6vmin;
+        }
+        .left_name .img_title {
+            top: 25%;
+            font-size: 6vmin;
+            width: 100%;
+            padding-left: 6vmin;
+        }
+        
+        .left_name .img_para {
+            top: 10%;
+            font-size: 3vmin;
+            width: 100%;
+            padding-left: 6vmin;
+        }
+        
+        .right_name .img_featured {
+            top: 15%;
+            font-size: 2.8vmin;
+        }
+        .right_name .img_description{
+            top: 70%;
+            font-size: 3.5vmin;
+        }
+        .right_name .img_title {
+            top: 25%;
+            font-size: 6vmin;
+        }
+        
+        .right_name .img_para {
+            top: 10%;
+            font-size: 3vmin;
+        }
+    }
+
+    @media screen and (min-width: 480px) {
+        .left_name .img_featured {
+            top: 20%;
+        }
+        .left_name .img_title{
+            top: 30%;
+        }
+        
+        .left_name .img_description {
+            top: 55%;
+        }
+        
+        .left_name .img_para {
+            top: 30%;
+            font-size: 1.5vmin;
+        }
+        
+        .right_name .img_featured {
+            top: 20%;
+        }
+        .right_name .img_title{
+            top: 30%;
+        }
+        
+        .right_name .img_description {
+            top: 65%;
+        }
+        
+        .right_name .img_para {
+            top: 30%;
+            font-size: 1.5vmin;
+        }
+    }
+    
+    /*---- When the Title is 2 lines ----*/
+    @media screen and (min-width: 970px) {
+        .left_name .img_featured {
+            top: 30%;
+        }
+        
+        .left_name .img_title{
+            top: 40%;
+        }
+        
+        .left_name .img_description {
+            top: 50%;
+        }
+        
+        .left_name .img_para {
+            top: 40%;
+            font-size: 1.3vmin;
+        }
+        
+        .right_name .img_featured {
+            top: 30%;
+        }
+        
+        .right_name .img_title{
+            top: 40%;
+        }
+        
+        .right_name .img_description {
+            top: 60%;
+        }
+        
+        .right_name .img_para {
+            top: 40%;
+            font-size: 1.3vmin;
+        }
+    }
+    /*---- The Name of the Product which is place on the right of the img ----*/
+
+    /*---- Product Img ----*/
+    .product_img {
+        height: 50vh;
+        overflow: hidden;
+    }
+    /*---- Product Img ----*/
+
+    /*---- Empty Space ----*/
+    .empty{
+        width: 100%;
+        height: 50vh;
+    }
+    /*---- Empty Space ----*/
+
+    /*---- About Page ----*/
+    /*---- Section Title ----*/
+    .about_title {
+        display: flex;
+        height: 50vh;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    /*---- Section Title ----*/
+
+    .about_content {
+        display: flex;
+        height: 50vh;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .about_content p{
+        padding: 1rem;
+        display: block;
+        width: 100%;
+    }
+    /*----About Page----*/
+
+    /*----Section Title----*/
+    .sec_title {
+        text-align: center;
+        padding: 1rem;
+    }
+    /*----Section Title----*/
+
+    /*----Categories----*/
+    .category {
+        position: relative;
+        height: 20vh;
+    }
+
+    .cat_title{
+        position: absolute;
+        top: 40%; right: 0;
+        bottom: 0; left: 25%;
+        width: 50%;
+        text-align: center;
+    }
+    
+    /*----Categories Background Img----*/
+    .cat_img {
+        position: relative;
+        height: 20vh;
+        overflow: hidden;
+    }
+    /*----Categories Background Img----*/
+
+    /*----Categories Background Color----*/
+    .cat_4, .cat_2, .cat_6{
+      background-color: aliceblue;  
+    }
+
+    .cat_1, .cat_3, .cat_5{
+      background-color:beige;  
+    }
+    /*----Categories Background Color----*/
+    /*----Categories----*/
+    /*--------*/
+    /*--------*/
+/*---- Content ----*/
+
+/*---- Footer ----*/
+.footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10vmin;
+}
+/*---- Footer ----*/
+
+/*---- The to Top icon ----*/
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:1vh;
+	right:7vw;
+	overflow:hidden;
+	width:2rem;
+	height:2rem;
+	border:none;
+	text-indent:100%;
+	background:url(../img/to-top1.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../img/to-top1.png) no-repeat left -51px;
+	width:2rem;
+	height:2rem;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
+/*---- The to Top icon ----*/
