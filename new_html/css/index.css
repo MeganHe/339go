@@ -1,0 +1,131 @@
+.home_web_big{
+    background-image: url(../img/homepage.png);
+}
+
+/*.content_bg is in main.css*/
+
+.content_outer_box_left {
+    position: absolute;
+    top: 5vmin;
+    right: 5vmin;
+}
+.content_inner_box{
+    position: relative;
+}
+
+.content_outer_box_right {
+    position: absolute;
+    top: 5vmin;
+    left: 5vmin;
+}
+
+.content_outer_box_right .btn{
+    color: #f8f8f8;
+}
+
+.content_outer_box_right .btn:hover{
+    color: #f8f8f8;
+}
+
+.content_outer_box_right .btn svg rect{
+    stroke: #f8f8f8;
+}
+
+/*---- Mobile----*/
+@media screen and (max-width:520px) {
+    .home_web_big {  
+        padding-top: 30%;
+    }
+    
+    .home_content .content_bg {
+        padding-top: 60%;
+    }
+    
+    .content_1 .product_img_left {
+        background-image: url(../img/homephoto1-wide.png);
+    }
+    
+    .content_1 .product_img_right {
+        background-image: url(../img/homephoto3-wide.png);
+    }
+    
+    .content_2 .product_img_right {
+        background-image: url(../img/homephoto4-wide.png);
+    }
+    
+    .content_3 .product_img {
+        background-image: url(../img/row3p2.png);
+    }
+    
+    .home_content .img_featured{
+        margin-top: 0;
+    }
+    
+    .home_content .btn{
+        width: 100%;
+        font-size: 3vmin;
+    }
+    .home_content .btn:hover{
+        font-size: 3.5vmin;
+    }
+    
+    .home_content .btn svg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0vmin;
+    }
+    
+    .home_content .btn svg rect{
+        width: 100%;
+    }
+    
+    .content_outer_box_left {
+        left: 5vmin;
+    }
+}
+
+/*---- Bigger than Mobile----*/
+@media screen and (min-width: 520px) { 
+    .home_web_big {
+        padding-top: 42%;
+    }
+    
+    .home_content .content_bg {
+        padding-top: 60%;
+    }
+    
+    .content_1 .product_img_left {
+        background-image: url(../img/homephoto1.png);
+    }
+    
+    .content_1 .product_img_right {
+        background-image: url(../img/homephoto3.png);
+    }
+    
+    .content_2 .product_img_right {
+        background-image: url(../img/homephoto4.png);
+    }
+    
+    .content_3 .product_img {
+        background-image: url(../img/Living-Room-2-wide.png);
+    }
+}
+
+/*---- Bigger than Tablet----*/
+@media screen and (min-width: 1000px) {
+    .home_content .content_bg {
+        padding-top: 40%;
+    }
+}
+@media screen and (min-width: 800px) {
+    .home_content .btn{
+        margin-top: 5vmin;
+    }
+    
+    .content_outer_box_right .btn{
+        float: left;
+        left: -1.8vmin;
+    }
+}

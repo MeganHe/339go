@@ -1,31 +1,21 @@
-/*---- Content ----*/
 
-/*---- Big Img on Top ----*/
-    .web_big {
-        position: relative;
-        background: url(../img/homepage.png);
-        background-size: cover;
-        height: 0;
-        padding-top: 42%;
-        z-index: -1;
-    }
+/*-- every content boxes --*/
+.content_bg {
+    position: relative;
+    z-index: 0;
+    background-size: cover;
+    height: 0;
+}
 
-    .about_web_big{
-        position: relative;
+    .about_web_big{ 
         background: url(../img/about_page.png);
-        background-size: cover;
-        height: 0;
         padding-top: 30%;
-        z-index: -1;
+        
     }
 
     .contact_web_big{
-        position: relative;
         background: url(../img/contact_page.png);
-        background-size: cover;
-        height: 0;
         padding-top: 30%;
-        z-index: -1;
     }
 
     .login_top{
@@ -41,27 +31,6 @@
         padding-bottom: 5vmin;
     }
     /*---- Big Img on Top ----*/
-    .column_content {
-        position: relative;
-        background-size:cover;
-        height: 0;
-    }
-
-    .content_outer_box_left {
-        position: absolute;
-        top: 5vmin;
-        right: 5vmin;
-    }
-
-    .content_outer_box_right {
-        position: absolute;
-        top: 5vmin;
-        left: 5vmin;
-    }
-
-    .content_inner_box {
-        position: relative;
-    }
 
     .light_grey_gb{
         background: #f8f8f8;
@@ -70,63 +39,7 @@
     .dark_grey_gb {
         background: #9598a1;
     }
-    /*---- 1st Row ----*/
-        /*---- 1 Column-----*/
-        .content_1 .column_content {
-            padding-top: 45%;
-        }
 
-        /*---- 2 Column-----*/
-        .content_1 .product_img_left {
-            background-image: url(../img/homephoto1.png);
-        }
-            @media screen and (max-width:720px) {
-                .content_1 .product_img_left {
-                    background-image: url(../img/homephoto1-wide.png);
-                }
-            }
-
-        /*---- 3 Column-----*/
-        .content_1 .product_img_right {
-            background-image: url(../img/homephoto3.png);
-        }
-            @media screen and (max-width:720px) {
-                .content_1 .product_img_right {
-                    background-image: url(../img/homephoto3-wide.png);
-                }
-            }
-
-    /*---- 2nd Row ----*/
-        /*---- 1 Column-----*/
-        .content_2 .column_content {
-            padding-top: 45%;
-        }
-
-        /*---- 3 Column-----*/
-        .content_2 .product_img_right {
-            background-image: url(../img/homephoto4.png);
-        }
-            @media screen and (max-width:720px) {
-                .content_2 .product_img_right {
-                    background-image: url(../img/homephoto4-wide.png);
-                }
-            }
-
-    /*---- 3rd Row ----*/
-        /*---- 1 Column-----*/
-        .content_3 .column_content {
-            padding-top: 45%;
-        }
-
-        .content_3 .product_img {
-            background-image: url(../img/row3p2.png);
-        }
-
-            @media screen and (max-width:720px) {
-                .content_3 .product_img {
-                    background-image: url(../img/Living-Room-2-wide.png);
-                }
-            }
 
     /*---- About Page ----*/
     /*---- Section Title ----*/
@@ -259,22 +172,13 @@
         font-size: 1.2vmin;
     }
 
-    /*---- Submit Button ----*/
-
+    /*---- Button ----*/
     .btn {
-        position: absolute;
-        top: 22vmin;
+        position: relative;
         padding-left: 2vmin;
-        font-size: 1.2vmin;
-        display: inline-block;
-        width: 166px;
-        height: 45px;
-        font-size: 1.5vmin;
         font-weight: 500;
-        line-height: 45px;
-        text-align: left;
+        text-align: center;
         cursor: pointer;
-        overflow: hidden;
         -webkit-transition-property: all;
         -webkit-transition-duration: .2s;
         -moz-transition-timing-function: cubic-bezier(100,50,21,6);
@@ -283,20 +187,16 @@
         -moz-transition-timing-function: cubic-bezier(100,50,21,6);
     }
 
-    .signup_part .btn{
-        top: 15vmin;
-    }
-
     .btn svg {
         position: absolute;
-        top: 0; left: 0;
     }
 
     .btn svg rect {
         fill: none;
+        width: 100%;
+        height: 100%;
         stroke: black;
         stroke-width: 2px;
-        stroke-dasharray: 422px, 0;
         @include transition(all 1300ms $ease-out-expo);
     }
 
@@ -307,13 +207,11 @@
     }
 
     .btn:hover {
-        color:#000;
-        font-size:18px;
+        color: #F896A9;
         letter-spacing:1px;
         font-weight:bold;
-        
     }
-    /*---- Submit Button----*/
+    /*---- Button ----*/
 
     /*---- TEXT INPUT FIELD ----*/
     *:focus {

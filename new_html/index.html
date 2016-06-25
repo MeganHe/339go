@@ -11,10 +11,11 @@
         
         <!--coustom css-->
         <link href="css/main.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
         <link href="css/grid.css" rel="stylesheet">
         <link href="css/text.css" rel="stylesheet">
         <link href="css/fixed.css" rel="stylesheet">
-        <link href="css/nav.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
         <link rel="stylesheet" href="css/meanmenu.css" media="all" />
         
         <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,800italic,800,700italic,700,600,600italic' rel='stylesheet' type='text/css'>
@@ -38,6 +39,7 @@
             <!-- UItoTop plugin -->
         <!-- toTop -->
     </head>
+    
     <body>
         <header>
             <div class="container">
@@ -45,47 +47,48 @@
                 <div class="logo">  
                     <a herf="index.html"><h1>CHUCI</h1></a>
                 </div>
-        <!-- Website Name -->
-        <div class="header_right">
-            <ul>
-                <li>
-                    <a href="login.html">
-                        <div class="logoin">
-                            <img src="img/logo.png" width="20px" height="20px" alt=""/>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="shopping_cart.html">
-                        <div class="shopcar">
-                            <img src="img/shopcar.png" width="20px" height="20px" alt=""/>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="navigation">
-            <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">PRODUCTS</a>
+                <!-- Website Name -->
+                
+                <div class="header_right">
+                    <ul>
+                        <li>
+                            <a href="login.html">
+                                <div class="logoin">
+                                    <img src="img/logo.png" width="20px" height="20px" alt=""/>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="shopping_cart.html">
+                                <div class="shopcar">
+                                    <img src="img/shopcar.png" width="20px" height="20px" alt=""/>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigation">
+                    <nav>
                         <ul>
-                            <li><a href="#">LIVING ROOM</a></li>
-                            <li><a href="#">OUTDOOR</a></li>
-                            <li><a href="#">KITCHEN</a></li>
-                            <li><a href="#">BEDROOM</a></li>
-                            <li><a href="#">DINING ROOM</a></li>
-                            <li><a href="#">STUDY</a></li>
-                            <li><a href="#">BATHROOM</a></li>  
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">PRODUCTS</a>
+                                <ul>
+                                    <li><a href="#">LIVING ROOM</a></li>
+                                    <li><a href="#">OUTDOOR</a></li>
+                                    <li><a href="#">KITCHEN</a></li>
+                                    <li><a href="#">BEDROOM</a></li>
+                                    <li><a href="#">DINING ROOM</a></li>
+                                    <li><a href="#">STUDY</a></li>
+                                    <li><a href="#">BATHROOM</a></li>  
+                                </ul>
+                            </li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">CONTACT</a></li>
                         </ul>
-                    </li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
+                    </nav>
+                </div>
+            </div>
+        </header>
         
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="js/jquery.meanmenu.js"></script>
@@ -96,41 +99,47 @@
         </script>
 
         <!-- Big Img -->
-        <div class="col-12 web_big"></div> 
+        <div class="col-12 content_bg home_web_big"></div> 
         <!-- Big Img -->
     
         <!-- Content -->
-        <div class="content container">
+        <div class="home_content container">
             <!-- The fisrt row of content -->
             <div id="content_1" class="content_1">
                 <!-- The Name of the Product -->
-                <div class="col-4 col-m-12 column_content right_align">
-                    <div class="content_outer_box_left">
+                <div class="col-4 col-m-12 content_bg right_align light_grey_gb">
+                    <div class="content_outer_box_left ">
                         <div class="content_inner_box">
                             <p class="img_featured">Featured</p>
                             <a class="img_title" href="product_details.html">
                                 <p>Saxe lounge chair by Lassen</p>
                             </a>
                             <p class="img_description">CHUCI new style made by organic wood</p>
+                            <div class="btn">
+                                <svg>
+                                    <rect x="0" y="0" fill="none" width="160" height="45"/>
+                                </svg>
+                                SEE DETAILS
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- The middle img of the 1st Product -->
-                <div class="col-4 col-m-12 column_content product_img_left"></div>
+                <div class="col-4 col-m-12 content_bg product_img_left"></div>
 
                 <!-- The right img of the 1st Product -->
-                <div class="col-4 col-m-12 column_content product_img_right"></div>
+                <div class="col-4 col-m-12 content_bg product_img_right"></div>
             </div>
             <!-- The fisrt row of content -->
             
             <!-- The second row of content -->
             <div id="content_2" class="content_2">
                 <!-- The Name of the Product -->
-                <div class="col-4 col-m-12 column_content"></div>
+                <div class="col-4 col-m-12 content_bg"></div>
 
                 <!-- The middle img of the 1st Product -->
-                <div class="col-4 col-m-12 column_content right_align light_grey_gb">
+                <div class="col-4 col-m-12 content_bg right_align light_grey_gb">
                     <div class="content_outer_box_left">
                         <div class="content_inner_box">
                             <p class="img_featured">Featured</p>
@@ -138,21 +147,27 @@
                                 <p>Mobilier de Compagnie</p>
                             </a>
                             <p class="img_description">CHUCI new style made by organic wood</p>
+                            <div class="btn">
+                                <svg>
+                                    <rect x="0" y="0" fill="none" width="160" height="45"/>
+                                </svg>
+                                SEE DETAILS
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- The right img of the 1st Product -->
-                <div class="row col-4 col-m-12 column_content product_img_right"></div>
+                <div class="row col-4 col-m-12 content_bg product_img_right"></div>
             </div>
             
             <!-- The third row of content -->
             <div id="content_3" class="content_3">
                 <!-- The Name of the Product -->
-                <div class="col-8 col-m-12 column_content product_img"></div>
+                <div class="col-8 col-m-12 content_bg product_img"></div>
 
                 <!-- The middle img of the 1st Product -->
-                <div class="col-4 col-m-12 column_content left_align dark_grey_gb">
+                <div class="col-4 col-m-12 content_bg left_align dark_grey_gb">
                     <div class="content_outer_box_right">
                         <div class="content_inner_box">
                             <p class="img_featured">Featured</p>
@@ -160,6 +175,12 @@
                                 <p>Mobilier de Compagnie</p>
                             </a>
                             <p class="img_description">CHUCI new style made by organic wood</p>
+                            <div class="btn">
+                                <svg>
+                                    <rect x="0" y="0" fill="none" width="160" height="45"/>
+                                </svg>
+                                SEE DETAILS
+                            </div>
                         </div>
                     </div>
                 </div>

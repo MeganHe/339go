@@ -1,3 +1,57 @@
+    * {
+        -webkit-transition-property: all;
+        -webkit-transition-duration: .2s;
+        -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+        -moz-transition-property: all;
+        -moz-transition-duration: .2s;
+        -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    }
+
+    .btn {
+        position: relative;
+        float: right;
+        display: flex;
+        align-items: center;
+        width: 160px;
+        height: 45px;
+        font-size: 1.4vmin;
+        font-weight: 600;
+        letter-spacing:1px;
+        line-height: 45px;
+        text-align: center;
+        justify-content: center;
+        color: #000;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .btn svg {
+        left: 15px;
+        width: 160px;
+        height: 45px;
+    }
+
+    .btn svg rect {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2;
+        stroke-dasharray: 422, 0;
+        @include transition(all 1300ms $ease-out-expo);
+    }
+
+    .btn:hover svg rect {
+        stroke-width: 2.5;
+        stroke-dasharray: 10, 310;
+        stroke-dashoffset: 33;
+    }
+
+    .btn:hover {
+        color:#000;
+        font-size:1.8vmin;
+        letter-spacing:2px;
+        font-weight:bold;
+    }
+
 
 /*---- Footer ----*/
 .footer{
@@ -38,37 +92,3 @@
 }
 /*---- The to Top icon ----*/
 
-/*---- Mobile----*/
-@media screen and (max-width:520px) {
-  
-}
-
-@media screen and (max-width:780px) {
-    .logo{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding-top: 2.5vmin;
-    }
-
-    .header_right {
-        position: absolute;
-        right: 0;
-    }
-}
-/*---- Bigger than Tablet----*/
-@media screen and (min-width: 520px) {
-    
-    .header_right ul li a:hover{
-        transform: rotatey(360deg);
-        -webkit-transform: rotatey(360deg);
-        -moz-transform: rotatey(360deg);
-        -o-transform: rotatey(360deg);
-        -ms-transform: rotatey(360deg);
-        transition: 0.5s all ease;
-        -webkit-transition: 0.5s all ease;
-        -moz-transition: 0.5s all ease;
-        -o-transition: 0.5s all ease;
-        -ms-transition: 0.5s all ease;
-    }
-}

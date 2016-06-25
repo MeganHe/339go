@@ -4,17 +4,18 @@
         <title>CHUCI Homepage</title>
         
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
         <!--flexslider-css-->
         
         <!--coustom css-->
-        <link href="css/nav_grid.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <link href="css/grid.css" rel="stylesheet">
         <link href="css/text.css" rel="stylesheet">
         <link href="css/fixed.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/meanmenu.css" media="all" />
         
         <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,800italic,800,700italic,700,600,600italic' rel='stylesheet' type='text/css'>
         
@@ -36,131 +37,121 @@
         <script src="js/jquery.ui.totop.js" type="text/javascript"></script>
             <!-- UItoTop plugin -->
         <!-- toTop -->
-</head>
-<body>
-    <div class="header" id="home">
-        <div class="container">
-            <!-- Website Name -->
-            <div class="col-2 col-m-4 logo">  
-                <a hrf="index.html"><h1>CHUCI</h1></a>
-            </div>
-            <!-- Website Name -->
-            
-            <div class="col-8 col-m-4 navigation">
-                <span class="menu"><img src="img/hambar-menu.png" width=18px height=18px></span>
+    </head>
+    
+    <body>
+        <header>
+            <div class="container">
+                <!-- Website Name -->
+                <div class="logo">  
+                    <a herf="index.html"><h1>CHUCI</h1></a>
+                </div>
+                <!-- Website Name -->
                 
-                <ul class="nav1">
-                    <li><a class="active">HOME</a></li>
-                    <li><a href="products.html">PRODUCTS</a>
-                        <ul class="sub_nav">
-                            <li><a href="#">Living Room</a></li>
-                            <li><a href="#">Outdoor</a></li>
-                            <li><a href="#">Kitchen</a></li>
-                            <li><a href="#">Bedroom</a></li>
-                            <li><a href="#">Dining Room</a></li>
-                            <li><a href="#">Study</a></li>
-                            <li><a href="#">Bathroom</a></li>
+                <div class="header_right">
+                    <ul>
+                        <li>
+                            <a href="login.html">
+                                <div class="logoin">
+                                    <img src="img/logo.png" width="20px" height="20px" alt=""/>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="shopping_cart.html">
+                                <div class="shopcar">
+                                    <img src="img/shopcar.png" width="20px" height="20px" alt=""/>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">PRODUCTS</a>
+                                <ul>
+                                    <li><a href="#">LIVING ROOM</a></li>
+                                    <li><a href="#">OUTDOOR</a></li>
+                                    <li><a href="#">KITCHEN</a></li>
+                                    <li><a href="#">BEDROOM</a></li>
+                                    <li><a href="#">DINING ROOM</a></li>
+                                    <li><a href="#">STUDY</a></li>
+                                    <li><a href="#">BATHROOM</a></li>  
+                                </ul>
+                            </li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">CONTACT</a></li>
                         </ul>
-                    </li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-                <!-- script for menu -->
-                <script> 
-                    $( "span.menu" ).click(function() {
-                        $( "nav1" ).slideToggle( 300, function() {
-                            // Animation complete.
-                        });
-                    });
-                </script>
-                <!-- //script for menu -->	
+                    </nav>
+                </div>
             </div>
-
-            <div class="col-2 col-m-4 header_right">
-                <ul>
-                    <li><a href="login.html"> <span class="logoin">
-                        <img src="img/logo.png" width="20px"
-                                                height="20px" alt=""/></span></a>
-                    </li>
-                    <li><a href="shopping_cart.html"><span class="shopcar">
-                        <img src="img/shopcar.png" width="20px"
-                                                height="20px" alt=""/></span></a>
-                    </li>
-                </ul>							 	
-            </div>
-        </div>
+        </header>
+        
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery.meanmenu.js"></script>
+        <script>
+            jQuery(document).ready(function () {
+                jQuery('header nav').meanmenu();
+            });
+        </script>
         
         <!-- Big Img -->
         <div class="col-12 login_top">
             <p class="login_title">Hi, Welcome to CHUCI!</p>
         </div> 
         <!-- Big Img -->
-    </div>
-    
-    
-
    
-    <!-- Content -->
-    <div class="content container">
-            
-        <!-- The fisrt row of content -->
-        <div id="login_instruction" class="login_instruction">
-            <div class="col-4 col-m-12 empty">
-            </div>
-            <div class="col-8 col-m-12 instruction_text">
-                <p class="instruction_text_t">LOG IN / CREATE ACCOUNT</p>
-            </div>
-        </div>
-        
-        <div id="login_signup" class="login_signup">
-            <!-- The Name of the Product -->
-            <div class="col-4 col-m-12 empty">
-            </div>
-            <!-- The Name of the Product -->
-
-            <!-- The middle img of the 1st Product -->
-            <div class="col-4 col-m-12 column_2 login_part">
-                <p class="login_name">EXISTING CHUCI CUSTOMER</p>
-                <p class="what_to_do">Enter your e-mail address and password to log in.</p>
-                <form class="signin_form off-canvas form-frame">
-                    <span class ="attr">E-MAIL</span>
-                    <input class="focus" type="text" />
-                    <span class ="attr">PASSWORD</span>
-                    <input class="focus" type="text" />
-                </form>
-                    
-                <div class="btn">
-                    <svg>
-                        <rect x="0" y="0" fill="none"/>
-                    </svg>
-                        LOG IN
+        <!-- Content -->
+        <div class="content container">
+            <div id="login_instruction" class="login_instruction">
+                <div class="col-4 col-m-12 empty">
+                </div>
+                <div class="col-8 col-m-12 instruction_text">
+                    <p class="instruction_text_t">LOG IN / CREATE ACCOUNT</p>
                 </div>
             </div>
-                <!-- The middle img of the 1st Product -->
 
-                <!-- The right img of the 1st Product -->
+            <div id="login_signup" class="login_signup">
+                <div class="col-4 col-m-12 empty"></div>
+
+                <div class="col-4 col-m-12 column_2 login_part">
+                    <p class="login_name">EXISTING CHUCI CUSTOMER</p>
+                    <p class="what_to_do">Enter your e-mail address and password to log in.</p>
+                    <form class="signin_form off-canvas form-frame">
+                        <span class ="attr">E-MAIL</span>
+                        <input class="focus" type="text" />
+                        <span class ="attr">PASSWORD</span>
+                        <input class="focus" type="text" />
+                    </form>
+
+                    <div class="btn">
+                        <svg>
+                            <rect x="0" y="0" fill="none"/>
+                        </svg>
+                            LOG IN
+                    </div>
+                </div>
                 <div class="col-4 col-m-12 column_3 signup_part">
                     <p class="login_name">NEW CHUCI CUSTOMER</p>
-                    <p class="what_to_do">If you still don't have a Zara.com account, use this option to access the registration form.<br><br>By giving us your details, purchasing in Zara.com will be faster and an enjoyable experience.</p>
+                    <p class="what_to_do">If you still don't have a CHUCI account, use this option to access the registration form.<br><br>By giving us your details, purchasing in CHUCI will be faster and an enjoyable experience.</p>
                     <div class="btn">
-                    <svg>
-                        <rect x="0" y="0" fill="none"/>
-                    </svg>
-                        CREATE AN ACCOUNT
+                        <svg>
+                            <rect x="0" y="0" fill="none"/>
+                        </svg>
+                            CREATE AN ACCOUNT
+                    </div>
                 </div>
-                </div>
-                <!-- The right img of the 1st Product -->
             </div>
-            <!-- The fisrt row of content -->
-            
         </div>
         <!-- Content -->
     
-        <!-- Footer -->
-    <div class="footer">
-        <p>CHUCI</p>
-    </div>
-        <!-- Footer -->
+            <!-- Footer -->
+        <div class="footer">
+            <p>CHUCI</p>
+        </div>
+            <!-- Footer -->
         
         <!--go to top button-->
         <div class="gotop">

@@ -59,9 +59,7 @@ header nav ul li a {
     padding: 22px 10px 18px 13px;
     display: block;
 }
-header nav ul ul li:hover a{
-    background: #f8f8f8;
-}
+
 header nav ul li a:hover, .nav ul li a.active{
     color: #F896A9;
 }
@@ -91,9 +89,11 @@ header nav ul li a:hover, .nav ul li a.active{
     
     .logo{
         position: absolute;
-        display: flex;
         width: 100%;
         bottom: -7px;
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5vmin;
     }
     
     .header_right {
@@ -120,6 +120,7 @@ header nav ul li a:hover, .nav ul li a.active{
         width: 20%;
         position: relative;
         float: left;
+        margin-left: 5vmin;
     }
     nav{
         float: right;
@@ -131,7 +132,10 @@ header nav ul li a:hover, .nav ul li a.active{
     header nav ul, .header_right {
         margin-top: 15px;
     }
-
+    
+    header nav ul ul li:hover a{
+        background: #f8f8f8;
+    }
     .header_right ul li a:hover{
         transform: rotatey(360deg);
         -webkit-transform: rotatey(360deg);
