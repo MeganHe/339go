@@ -224,13 +224,16 @@
 
     .about_web_big{
         position: relative;
-        background: url(../img/about.png) no-repeat;
-        /*---background-size: cover;--*/
-        margin-left: 35vw;
-        margin-top:18vh;
-        height: 0;
-        padding-top: 25%;
-    
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 35vmin;
+    }
+    @media screen and (max-width: 520px) {
+        .about_img {
+            width: 80%;
+        }
     }
 
     .contact_web_big{
