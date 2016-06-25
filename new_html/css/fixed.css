@@ -1,0 +1,74 @@
+
+/*---- Footer ----*/
+.footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10vmin;
+}
+/*---- Footer ----*/
+
+/*---- The to Top icon ----*/
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:1vmin;
+	right:7vmin;
+	overflow:hidden;
+	width:2vmin;
+	height:2vmin;
+	border:none;
+	background:url(../img/to-top1.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../img/to-top1.png) no-repeat left -51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
+/*---- The to Top icon ----*/
+
+/*---- Mobile----*/
+@media screen and (max-width:520px) {
+  
+}
+
+@media screen and (max-width:780px) {
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5vmin;
+    }
+
+    .header_right {
+        position: absolute;
+        right: 0;
+    }
+}
+/*---- Bigger than Tablet----*/
+@media screen and (min-width: 520px) {
+    
+    .header_right ul li a:hover{
+        transform: rotatey(360deg);
+        -webkit-transform: rotatey(360deg);
+        -moz-transform: rotatey(360deg);
+        -o-transform: rotatey(360deg);
+        -ms-transform: rotatey(360deg);
+        transition: 0.5s all ease;
+        -webkit-transition: 0.5s all ease;
+        -moz-transition: 0.5s all ease;
+        -o-transition: 0.5s all ease;
+        -ms-transition: 0.5s all ease;
+    }
+}

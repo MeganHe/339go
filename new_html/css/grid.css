@@ -8,7 +8,7 @@ div {
     width:100%;
 }
 
-.clear-col{
+.clear-col {
     clear:both;
     float:inherit;
 }
@@ -24,18 +24,12 @@ div {
 }
 
 /*---- Mobile----*/
-
-@media screen and (max-width:480px) {
-    
-    /*---- mobile row height ----*/
-    .row{
-        max-height: 30vh;
-    }
+@media screen and (max-width:520px) {
     /*---- mobile row height ----*/
     #toTop {
         visibility: hidden;
     }
-
+    
     .col-m-12 {
         width: 100%;
     }
@@ -74,13 +68,8 @@ div {
     }
 }
 
-
-
-
-/*---- Tablet----*/
-
-@media screen and (min-width: 720px) {
-    
+/*---- Bigger than Tablet----*/
+@media screen and (min-width: 520px) { 
     .col-12 {
         width: 100%;
     }
@@ -117,27 +106,10 @@ div {
     .col-1 {
         width: 8.33%;
     }
-    
-    /*---- Tablet row height ----*/
-    .row{
-        max-height: 35vh;
-    }
-    /*---- Tablet row height ----*/
 }
 
-
-
-
-
-
 /*---- Desktop----*/
-@media only screen and (min-width: 1024px) {
-    /*---- Desktop row height ----*/
-    .row{
-        max-height: 50vh;
-    }
-    /*---- Desktop row height ----*/
-    
+@media only screen and (min-width: 1400px) {
     .container {
         max-width: 1400px;
         margin: 0 auto;
