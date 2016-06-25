@@ -1,22 +1,7 @@
+/*---- Css In Index----*/
+
 .home_web_big{
     background-image: url(../img/homepage.png);
-}
-
-/*.content_bg is in main.css*/
-
-.content_outer_box_left {
-    position: absolute;
-    top: 5vmin;
-    right: 5vmin;
-}
-.content_inner_box{
-    position: relative;
-}
-
-.content_outer_box_right {
-    position: absolute;
-    top: 5vmin;
-    left: 5vmin;
 }
 
 .content_outer_box_right .btn{
@@ -31,6 +16,22 @@
     stroke: #f8f8f8;
 }
 
+/*---- Css for About Page ----*/
+
+.about_content .content_bg {
+    padding-top: 45%;
+}
+
+.about_web_big{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 35vmin;
+}
+
+/*----About Page----*/
 /*---- Mobile----*/
 @media screen and (max-width:520px) {
     .home_web_big {  
@@ -109,7 +110,7 @@
     }
     
     .content_3 .product_img {
-        background-image: url(../img/Living-Room-2-wide.png);
+        background-image: url(../img/row3p2.png);
     }
 }
 

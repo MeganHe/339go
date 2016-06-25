@@ -7,16 +7,20 @@
     height: 0;
 }
 
-    .about_web_big{ 
-        background: url(../img/about_page.png);
-        padding-top: 30%;
-        
-    }
+.content_outer_box_left {
+    position: absolute;
+    top: 5vmin;
+    right: 5vmin;
+}
+.content_inner_box{
+    position: relative;
+}
 
-    .contact_web_big{
-        background: url(../img/contact_page.png);
-        padding-top: 30%;
-    }
+.content_outer_box_right {
+    position: absolute;
+    top: 5vmin;
+    left: 5vmin;
+}
 
     .login_top{
         position: relative;
@@ -32,46 +36,7 @@
     }
     /*---- Big Img on Top ----*/
 
-    .light_grey_gb{
-        background: #f8f8f8;
-    }
-
-    .dark_grey_gb {
-        background: #9598a1;
-    }
-
-
-    /*---- About Page ----*/
-    /*---- Section Title ----*/
-    .about_title {
-        position: relative;
-        background: white;
-        background-size:cover;
-        height: 0;
-        padding-top: 45%;
-    }
-
-    .about_title .img_title{
-        position: absolute;
-        top: 4vmin;
-        padding: 2rem;
-    }
-    /*---- Section Title ----*/
-    .about_description {
-        z-index: 100;
-        position: relative;
-        background: #f8f8f8;
-        background-size:cover;
-        height: 0;
-        padding-top: 45%;
-    }
-
-    .about_description .img_para{
-        position: absolute;
-        top: 5vmin;
-        padding: 4rem;
-    }
-    /*----About Page----*/
+    
 
     /*---- Contact Page ----*/
     /*---- Location Title ----*/
@@ -172,46 +137,7 @@
         font-size: 1.2vmin;
     }
 
-    /*---- Button ----*/
-    .btn {
-        position: relative;
-        padding-left: 2vmin;
-        font-weight: 500;
-        text-align: center;
-        cursor: pointer;
-        -webkit-transition-property: all;
-        -webkit-transition-duration: .2s;
-        -moz-transition-timing-function: cubic-bezier(100,50,21,6);
-        -moz-transition-property: all;
-        -moz-transition-duration: .2s;
-        -moz-transition-timing-function: cubic-bezier(100,50,21,6);
-    }
-
-    .btn svg {
-        position: absolute;
-    }
-
-    .btn svg rect {
-        fill: none;
-        width: 100%;
-        height: 100%;
-        stroke: black;
-        stroke-width: 2px;
-        @include transition(all 1300ms $ease-out-expo);
-    }
-
-    .btn:hover svg rect {
-        stroke-width: 3px;
-        stroke-dasharray: 10px, 310px;
-        stroke-dashoffset: 33px;
-    }
-
-    .btn:hover {
-        color: #F896A9;
-        letter-spacing:1px;
-        font-weight:bold;
-    }
-    /*---- Button ----*/
+    
 
     /*---- TEXT INPUT FIELD ----*/
     *:focus {

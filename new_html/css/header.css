@@ -60,7 +60,7 @@ header nav ul li a {
     display: block;
 }
 
-header nav ul li a:hover, .nav ul li a.active{
+header nav ul li a:hover, header nav ul li a.active{
     color: #F896A9;
 }
 

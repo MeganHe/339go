@@ -1,59 +1,80 @@
-    * {
-        -webkit-transition-property: all;
-        -webkit-transition-duration: .2s;
-        -moz-transition-timing-function: cubic-bezier(100,50,21,6);
-        -moz-transition-property: all;
-        -moz-transition-duration: .2s;
-        -moz-transition-timing-function: cubic-bezier(100,50,21,6);
-    }
-
-    .btn {
-        position: relative;
-        float: right;
-        display: flex;
-        align-items: center;
-        width: 160px;
-        height: 45px;
-        font-size: 1.4vmin;
-        font-weight: 600;
-        letter-spacing:1px;
-        line-height: 45px;
-        text-align: center;
-        justify-content: center;
-        color: #000;
-        cursor: pointer;
-        overflow: hidden;
-    }
-
-    .btn svg {
-        left: 15px;
-        width: 160px;
-        height: 45px;
-    }
-
-    .btn svg rect {
-        fill: none;
-        stroke: #000;
-        stroke-width: 2;
-        stroke-dasharray: 422, 0;
-        @include transition(all 1300ms $ease-out-expo);
-    }
-
-    .btn:hover svg rect {
-        stroke-width: 2.5;
-        stroke-dasharray: 10, 310;
-        stroke-dashoffset: 33;
-    }
-
-    .btn:hover {
-        color:#000;
-        font-size:1.8vmin;
-        letter-spacing:2px;
-        font-weight:bold;
-    }
-
-
+/*---- Background Color ---*/
+/*---- Button ----*/
 /*---- Footer ----*/
+/*---- Go top Icon ----*/
+
+/*---- Background Color Starts---*/
+.light_grey_gb{
+    background: #f8f8f8;
+}
+
+.dark_grey_gb {
+    background: #9598a1;
+}
+/*---- Background Color Ends---*/
+
+/*----Button Starts----*/
+* {
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .2s;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    -moz-transition-property: all;
+    -moz-transition-duration: .2s;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+.btn {
+    position: relative;
+    float: right;
+    display: flex;
+    width: 160px;
+    height: 45px;
+    font-size: 1.4vmin;
+    letter-spacing:1px;
+    line-height: 45px;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    cursor: pointer;
+    overflow: hidden;
+    font-weight: 500;
+    padding-left: 2vmin;
+}
+
+.btn svg {
+    left: 15px;
+    width: 160px;
+    height: 45px;
+    position: absolute;
+}
+
+.btn svg rect {
+    fill: none;
+    width: 100%;
+    height: 100%;
+    stroke-width: 2;
+    stroke: black;
+    stroke-dasharray: 422, 0;
+    @include transition(all 1300ms $ease-out-expo);
+}
+
+.btn:hover svg rect {
+    stroke-width: 2.5px;
+    stroke-dasharray: 10, 310;
+    stroke-dashoffset: 33;
+}
+
+.btn:hover {
+    color:#000;
+    font-size:1.8vmin;
+    letter-spacing:2px;
+    font-weight:bold;
+}
+
+/*---- Button Ends----*/
+
+
+/*---- Footer Starts----*/
 .footer{
     display: flex;
     align-items: center;
@@ -61,9 +82,9 @@
     justify-content: center;
     height: 10vmin;
 }
-/*---- Footer ----*/
+/*---- Footer Ends----*/
 
-/*---- The to Top icon ----*/
+/*---- The to Top icon Starts----*/
 #toTop {
 	display:none;
 	text-decoration:none;
@@ -90,5 +111,5 @@
 #toTop:active, #toTop:focus {
 	outline:none;
 }
-/*---- The to Top icon ----*/
+/*---- The to Top icon Ends----*/
 
