@@ -1,3 +1,4 @@
+/*---- Homepage text description style -------*/
 .line1{
     position: absolute;
     top: 50%;
@@ -6,6 +7,8 @@
     width: 100px;
     background-color: black;
 }
+/*---- Homepage text description style end-------*/
+
 /*---- Header -------*/
     .main_header {
         margin: 2%;
@@ -221,11 +224,13 @@
 
     .about_web_big{
         position: relative;
-        background: url(../img/about_page.jpg);
-        background-size: cover;
+        background: url(../img/about.png) no-repeat;
+        /*---background-size: cover;--*/
+        margin-left: 35vw;
+        margin-top:18vh;
         height: 0;
-        padding-top: 30%;
-        z-index: -1;
+        padding-top: 25%;
+    
     }
 
     .contact_web_big{
@@ -358,6 +363,22 @@
     
 
     /*---- The Name of the Product which is place on the left of the img ----*/
+    /*--.img_title{
+        border: none;
+        width:23vw;
+    }----*/
+    .img_title a{
+        text-decoration: none;
+        color: black;
+    }
+    .img_title a:visited{
+        text-decoration: line-through;
+        color: black;
+    }
+    .img_title a:hover{
+        color: #6A6A6A;
+        text-decoration: underline;
+    }
     .left_name {
         position: relative;
         text-align: right;
@@ -374,12 +395,14 @@
         right: 3vmin;
         font-weight: 600;
         position: absolute;
+        letter-spacing: 1px;
         top: 40%;
     }
 
     .left_name .img_description{
         right: 3vmin;
         position: absolute;
+        padding-top: 3vh;
     }
     /*---- The Name of the Product which is place on the left of the img ----*/
 
