@@ -1,0 +1,135 @@
+.concept_line{
+    position: absolute;
+    top: 11%;
+    height: 3px;
+    width: 35px;
+    background-color: black;
+}
+/*---- Text ----*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    padding:0;
+}
+.pra_title{
+    font-size: 2.3vmin;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.content_inner_box a{
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 15vh;
+}
+p,a,span{
+    transition: 0.5s all ease;
+    -webkit-transition: 0.1s all ease;
+    -moz-transition: 0.1s all ease;
+    -o-transition: 0.1s all ease;
+    -ms-transition: 0.1s all ease;
+}
+
+.left_align {
+    text-align: left;
+}
+
+/*---- Heading ----*/
+.logo h1{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.img_featured {
+    font-weight: 600;
+    color: #F896A9;
+}
+.img_para{
+    margin-top: 5vh;
+}
+
+.img_title {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.dark_grey_gb .img_title, .dark_grey_gb .img_description{
+    color: aliceblue;
+}
+
+.img_description {
+    font-weight: 200;
+}
+
+.product_price{
+    font-weight: 700;
+}
+
+/*---- Mobile----*/
+@media screen and (max-width:520px) {
+    .right_align {
+        text-align: left;
+    }
+
+    .img_featured {
+        font-size: 5vmin;
+    }
+
+    .img_title {
+        font-size: 6vmin;
+    }
+
+    .img_description {
+        font-size: 4vmin;
+    }
+    
+    header nav ul ul li a{
+        font-size: 3vmin;
+    }
+    
+    .btn{
+        font-size: 4vmin;
+    }
+}
+
+@media screen and (max-width:640px){
+      .img_para{
+         font-size: 1.8vmin;
+    }
+
+}
+
+/*---- Bigger than Tablet----*/
+@media screen and (min-width: 520px) { 
+    .right_align {
+        text-align: right;
+    }
+
+    /*---- Heading ----*/
+    .logo h1{
+        font-size: 2.5rem;
+    }
+
+    .img_featured {
+        font-size: 2.2vmin;
+    }
+
+    .img_title {
+        font-size: 3.2vmin;
+    }
+  
+    .img_description {
+        font-size: 2vmin;
+    }
+    header nav ul ul li a{
+        font-size: 1.7vmin;
+    }
+}
+
+@media screen and (min-width:800px) {
+    header nav ul ul li a{
+        font-size: 1.3vmin;
+    }
+}
