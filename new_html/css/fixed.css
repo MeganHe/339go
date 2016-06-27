@@ -1,8 +1,34 @@
+/*---- Content boxes ----*/
 /*---- Background Color ---*/
 /*---- Button ----*/
 /*---- Form ----*/
 /*---- Footer ----*/
 /*---- Go top Icon ----*/
+
+/*-- every content boxes --*/
+.content_bg {
+    position: relative;
+    z-index: 0;
+    background-size: cover;
+    height: 0;
+}
+
+.content_outer_box_left {
+    position: absolute;
+    top: 5vmin;
+    right: 5vmin;
+    width: 80%;
+}
+.content_inner_box{
+    position: relative;
+}
+
+.content_outer_box_right {
+    position: absolute;
+    top: 5vmin;
+    left: 5vmin;
+    width: 80%;
+}
 
 /*---- Background Color Starts---*/
 .light_grey_gb{
@@ -26,9 +52,7 @@
 
 .btn {
     position: relative;
-    float: right;
     display: flex;
-    width: 100%;
     height: 45px;
     font-size: 1.4vmin;
     letter-spacing:1px;
@@ -43,17 +67,14 @@
 }
 
 .btn svg {
-    left: 15px;
-    width: 100%;
     height: 45px;
     position: absolute;
 }
 
 .btn svg rect {
     fill: none;
-    width: 100%;
     height: 100%;
-    stroke-width: 2;
+    stroke-width: 1;
     stroke: black;
     stroke-dasharray: 422, 0;
     @include transition(all 1300ms $ease-out-expo);

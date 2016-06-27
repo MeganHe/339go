@@ -2,7 +2,9 @@
 .quantity_input {
     width: 5rem;
 }
-
+.intro_option {
+    text-align: left;
+}
 .img_option_para{
     position: relative;
     display: none;
@@ -39,6 +41,7 @@
 
 .variant_table {
      padding-bottom: 1vmin;
+    width: 100%;
 }
 
 .variants {
@@ -47,7 +50,7 @@
 }
 
 /*---- Mobile----*/
-@media screen and (max-width:800px) {
+@media screen and (max-width:520px) {
     .product_detail_des_group {
         width: 100%;
         position: relative;
@@ -139,7 +142,7 @@
 }
 
 /*---- Bigger than Tablet----*/
-@media screen and (min-width: 800px) { 
+@media screen and (min-width: 520px) { 
     .product_detail_des_group {
         width: 50%;
         float: right;
@@ -156,7 +159,7 @@
     .product_detail_des{
         position: fixed;
         height: 100%;
-        padding-left: 5vmin;
+        padding-left: 8vmin;
         padding-top: 0;
     }
 
@@ -189,17 +192,18 @@
     }
     .buy_btn .btn{
         position: relative;
+        float: left;
         font-size: 2vmin;
         width: 100%;
-        height: 45px;
-        margin-left: -12px;
         text-decoration: none;
     }
      .buy_btn .btn svg{
-        width: 96%;
+        width: 100%;
+         left: 0;
+         padding-left: 1vmin; 
     }
     .buy_btn .btn svg rect{
-        width: 96%;
+        width: 100%;
     }
 
     .product_details{

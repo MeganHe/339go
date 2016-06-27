@@ -1,0 +1,152 @@
+/*---- Home Starts ----*/
+.home_web_big{
+    background-image: url(../img/homepage.png);
+}
+.img_intro {
+    cursor: pointer;
+}
+.intro_option {
+    width: 100%;
+}
+.home_content .btn svg{
+        width: 100%;
+}
+.home_content .btn svg rect{
+        width: 100%;
+}
+.content_outer_box_right .btn{
+    color: #f8f8f8;
+}
+
+.intro_option:active .option_icon{
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.intro_option .img3_intro {
+    color: lightgray;
+}
+.content_outer_box_right .btn:hover{
+    color: #f8f8f8;
+}
+
+.content_outer_box_right .btn svg rect{
+    stroke: #f8f8f8;
+}
+
+/*---- Mobile----*/
+@media screen and (max-width:520px) {
+    /*---- Home Page Starts ----*/
+    .home_web_big {  
+        padding-top: 40%;
+    }
+    
+    .home_content .content_bg {
+        padding-top: 85%;
+    }
+    
+    .content_1 .product_img_left {
+        background-image: url(../img/homephoto1-wide.png);
+    }
+    
+    .content_1 .product_img_right {
+        background-image: url(../img/homephoto3-wide.png);
+    }
+    
+    .content_2 .product_img_right {
+        background-image: url(../img/homephoto4-wide.png);
+    }
+    
+    .content_3 .product_img {
+        background-image: url(../img/row3p2.png);
+    }
+    
+    .home_content .img_featured{
+        margin-top: 0;
+    }
+    
+    .home_content .btn{
+        width: 100%;
+        font-size: 3vmin;
+    }
+    .home_content .btn:hover{
+        font-size: 3.5vmin;
+    }
+    
+    .home_content .btn svg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0vmin;
+    }
+    
+    .home_content .btn svg rect{
+        width: 100%;
+    }
+    
+    .content_outer_box_left {
+        left: 5vmin;
+        width: 90%;
+    }
+    
+    .content_outer_box_right {
+        width: 90%;
+    }
+}
+
+/*---- Bigger than Mobile----*/
+@media screen and (min-width: 520px) { 
+     /*---- Home Page Starts ----*/
+    .home_web_big {
+        padding-top: 42%;
+    }
+    
+    .home_content .content_bg {
+        padding-top: 50%;
+    }
+    
+    .content_1 .product_img_left {
+        background-image: url(../img/homephoto1.png);
+    }
+    
+    .content_1 .product_img_right {
+        background-image: url(../img/homephoto3.png);
+    }
+    
+    .content_2 .product_img_right {
+        background-image: url(../img/homephoto4.png);
+    }
+    
+    .content_3 .product_img {
+        background-image: url(../img/row3p2.png);
+    }
+    
+    .home_content .btn{
+        margin-top: 0vmin;
+        width: 45%;
+        left: -1vmin;
+    }
+    
+    .home_content .btn svg{
+        width: 100%;
+        left: 0vmin;
+        padding-left: 1vmin;
+    }
+    .content_outer_box_left .btn{
+        float: right;
+    }
+    .content_outer_box_right .btn{
+        float: left;
+    }
+}
+
+/*---- Bigger than Tablet----*/
+@media screen and (min-width: 1000px) {
+    .home_content .content_bg {
+        padding-top: 42%;
+    }
+    .home_content .btn{
+        margin-top: 5vmin;
+    }
+}

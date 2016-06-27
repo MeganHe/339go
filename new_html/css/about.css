@@ -1,0 +1,54 @@
+/*---- Css for About Page ----*/
+.about_web_big{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 40vmin;
+    padding-bottom: 5vh;
+}
+
+.concept_line{
+    position: relative;
+    height: 3px;
+    width: 35px;
+    background-color: black;
+}
+.pra_title{
+    font-size: 2.3vmin;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.content_2 .content_inner_box a{
+    display: block;
+    font-size: 4vmin;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 15vmin;
+}
+.content_1 .content_bg {
+    padding-top: 45%;
+}
+.content_2 .content_bg {
+    padding-top: 45%;
+}
+.content_3 .content_bg{
+    padding-top: 30%;
+    overflow: hidden;
+}
+
+.content_1 .about_img_left{
+     background-image: url(../img/about1.jpg);
+}
+.content_2 .about_img_left {
+     background-image: url(../img/about4.jpg);
+}
+.content_2 .about_img_right{
+    background-image: url(../img/about2.jpg);
+}
+.content_3 .about_img_right{
+    background-image: url(../img/h2.jpg);
+}
+
+/*----About Page----*/
