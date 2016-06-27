@@ -29,6 +29,12 @@ p,a,span{
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+.img_featured_white{
+     font-weight: 500;
+    color: white;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
 
 .img_title {
     font-weight: 600;
@@ -40,10 +46,16 @@ p,a,span{
     font-size: 2vmin;
 }
 
-.dark_grey_gb .img_title, .dark_grey_gb .img_description{
+/* .dark_grey_gb .img_introduction{
     color: aliceblue;
+}*/
+.dark_grey_gb .img_introduction{
+    color: white;
+    font-weight: 300;
 }
-
+.dark_grey_gb .img_title{
+    color: white;
+}
 .img_description {
     font-weight: 400;
 }
@@ -100,16 +112,26 @@ p,a,span{
     }
 
     .img_title {
-        font-size: 3vmin;
+  
+        font-size: 3.8vmin;
     }
     /*-----homepage img introduction -----*/
     .img_introduction{
           display: none;
+        font-weight: 400;
+        font-size: 1.8vmin;
+        line-height: 1.65;
     }
     
     .img_intro{
         color: #7e7e7e;
         letter-spacing: 1px;
+        font-size: 1.6vmin;
+    }
+    .img_intro_white{
+        color: white;
+         letter-spacing: 1px;
+        font-size: 1.6vmin;
     }
     
     /*-----homepage img introduction ends-----*/
