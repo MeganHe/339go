@@ -62,10 +62,12 @@
     margin: top;
 }
 .quantity_input .minus{
+    padding-bottom: 19px;
     margin-right: 5vmin;
 }
 .quantity_input .plus{
     margin-left: 5vmin;
+    padding-bottom: 19px;
 }
 .variant_table {
     padding-bottom: 1vmin;
