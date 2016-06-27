@@ -1,4 +1,5 @@
 /*----Product details page----*/
+
 .quantity_input {
     width: 5rem;
 }
@@ -6,7 +7,6 @@
     text-align: left;
 }
 .img_option_para{
-    position: relative;
     display: none;
 }
 
@@ -14,9 +14,12 @@
     position: relative;
     cursor: pointer;
 }
-.product_detail_img{
-    width: 50%;
+.intro_option:active .option_icon{
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
+
 .product_detail_img img{
     position: relative;
     width: 100%;
@@ -25,47 +28,71 @@
     border-color: lightgray;
     padding: .4vmin;
 }
-    
+.product_detail_des_content {
+    position: relative;
+}
 .img_option:hover {
     font-weight: 600;
 }
 
 .img_option_para {
     padding-top: .4vmin;
+    display: none;
 }
 .product_details_group {
     border-bottom: thin solid lightgray;
     padding-bottom: 1vmin;
     padding-top: .4vmin;
 }
-
+.price {
+    margin-top: 0;
+    border-bottom: thin solid lightgray;
+    padding-bottom: 1vmin;
+}
+.quantity_input {
+    margin-top: 2vmin;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+}
+.quantity_input input{
+    margin: top;
+}
+.quantity_input .minus{
+    margin-right: 5vmin;
+}
+.quantity_input .plus{
+    margin-left: 5vmin;
+}
 .variant_table {
-     padding-bottom: 1vmin;
+    padding-bottom: 1vmin;
     width: 100%;
 }
 
 .variants {
-    border-bottom: thin solid lightgray;
-    padding-bottom: 2.5vmin;
 }
 
 /*---- Mobile----*/
-@media screen and (max-width:520px) {
+@media screen and (max-width:780px) {
     .product_detail_des_group {
-        width: 100%;
         position: relative;
         padding-left: 5vmin;
         padding-right: 5vmin;
+        width: 100%;
     }
     .product_detail_des{
         position: relative;
         padding-top: 0;
-        width: 90%;
+        width: 100%;
     }
     
     .product_detail_des .img_title{
         font-size: 6vmin;
         margin-top: 2vmin;
+        width: 100%;
     }
     
     .product_detail_des .img_featured{
@@ -81,7 +108,9 @@
         font-size: 1.7vmin;
         font-weight: 300;
     }
-    
+    .variants{
+        width: 100%;
+    }
     .variant_table_label {
         font-size: 2.5vmin;
     }
@@ -98,29 +127,30 @@
         font-size: 3.5vmin;
         text-align: center;
         margin-top: 2vmin;
-        margin-bottom: 2vmin;
+    }
+    .quantity_input {
+        margin-bottom: 4vmin;
+        width: 100%
     }
     
     .buy_btn{
-        display: flex;
         width: 100%;
-        align-items: center;
-        justify-content: center;
         margin-bottom: 1vmin;
     }
     .buy_btn .btn{
-        position: relative;
         font-size: 2vmin;
         width: 100%;
         height: 45px;
-        margin-left: -12px;
+        padding-left: -6vmin;
         text-decoration: none;
     }
      .buy_btn .btn svg{
-        width: 100%;
+         left: 0;
+         width: 100%;
     }
     .buy_btn .btn svg rect{
         width: 100%;
+        
     }
     .variant_table, .quantity{
         width: 100%;
@@ -142,20 +172,24 @@
 }
 
 /*---- Bigger than Tablet----*/
-@media screen and (min-width: 520px) { 
+@media screen and (min-width: 780px) { 
     .product_detail_des_group {
         width: 50%;
         float: right;
         position: relative;
     }
-    
+    .product_detail_des_content {
+        width: 100%;
+    }
     .product_detail_img{
         position: relative;
         float: left;
         width: 41.6665%;
         margin-left: 8.33%;
     }
-
+    .product_details_group {
+        width: 80%;
+    }
     .product_detail_des{
         position: fixed;
         height: 100%;
@@ -164,6 +198,7 @@
     }
 
     .product_detail_des .img_title{
+        width: 100%;
         font-size: 4.5vmin;
         margin-top: 2vmin;
     }
@@ -173,12 +208,12 @@
         margin: 0;
     }
 
-     .img_option_para{
+     .intro_option .img_option_para{
         font-size: 1.7vmin;
         font-weight: 300;
     }
     .variant_table{
-        width: 50%;
+        width: 50%
     }
     .variant_colors{
         width: 100%;
@@ -203,25 +238,27 @@
          padding-left: 1vmin; 
     }
     .buy_btn .btn svg rect{
-        width: 100%;
+        width: 98%;
     }
 
     .product_details{
         margin-top: 1vmin;
+        margin-bottom: 2vmin;
         width: 100%;
     }
 
-    .quantity_input .price{
+    .price{
         font-size: 2.5vmin;
-        float: right;
-        padding-top: .5vmin;
+        float: left;
+        width: 80%;
     }
+
     .quantity_input input{
-        margin-top: 2vmin;
         border-color: lightgrey;
         width: 3rem;
         height: 3rem;
         text-align: center;
+        margin-bottom: 2vmin;
     }
 
     .variant_table_label {
