@@ -34,6 +34,10 @@ p,a,span{
     color: black;
 }
 
+.img_option {
+    font-size: 2vmin;
+}
+
 .dark_grey_gb .img_title, .dark_grey_gb .img_description{
     color: aliceblue;
 }
@@ -71,6 +75,14 @@ p,a,span{
     .btn{
         font-size: 4vmin;
     }
+    
+    .instruction_text_t{
+        font-size: 4vmin;
+    }
+    
+    .what_to_do {
+        font-size: 2.7vmin;
+    }
 }
 
 /*---- Bigger than Tablet----*/
@@ -97,6 +109,14 @@ p,a,span{
     }
     header nav ul ul li a{
         font-size: 1.7vmin;
+    }
+    
+    .instruction_text_t{
+        font-size: 2vmin;
+    }
+    
+    .what_to_do {
+        font-size: 1.4vmin;
     }
 }
 

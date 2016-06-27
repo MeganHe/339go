@@ -1,7 +1,38 @@
-/*---- Css In Index----*/
+/*---- Home ----*/
+/*---- Index ----*/
+/*---- Index ----*/
+/*---- Index ----*/
+/*---- Mobile ----*/
+/*---- Bigger than Tablet ----*/
 
+/*---- Home Starts ----*/
 .home_web_big{
     background-image: url(../img/homepage.png);
+}
+
+/*-- every content boxes --*/
+.content_bg {
+    position: relative;
+    z-index: 0;
+    background-size: cover;
+    height: 0;
+}
+
+.content_outer_box_left {
+    position: absolute;
+    top: 5vmin;
+    right: 5vmin;
+    width: 80%;
+}
+.content_inner_box{
+    position: relative;
+}
+
+.content_outer_box_right {
+    position: absolute;
+    top: 5vmin;
+    left: 5vmin;
+    width: 80%;
 }
 
 .content_outer_box_right .btn{
@@ -15,9 +46,9 @@
 .content_outer_box_right .btn svg rect{
     stroke: #f8f8f8;
 }
+/*---- Home Ends ----*/
 
-/*---- Css for About Page ----*/
-
+/*---- About Page Starts ----*/
 .about_content .content_bg {
     padding-top: 45%;
 }
@@ -31,15 +62,118 @@
     height: 35vmin;
 }
 
-/*----About Page----*/
+/*---- About Page Ends----*/
+
+/*---- Login Page Starts ----*/
+    /*---- Insction Row ----*/
+    .login_instruction .empty {
+        padding-top: 5%;
+    }
+
+    .login_instruction .instruction_text {
+        padding-top: 5%;
+    }
+
+    .instruction_text_t {
+        position: absolute;
+        top: .01vmin;
+        padding-left: 2vmin;
+        font-size: 2vmin;
+        font-weight: 600;
+    }
+
+    /*---- Signin or Sign up ----*/
+    .login_signup .empty {
+        padding-top: 40%;
+    }
+
+    .login_part {
+        padding-top: 40%;
+    }
+
+    .login_name {
+        position: absolute;
+        top: 1vmin;
+        padding-left: 2vmin;
+        font-size: 1.5vmin;
+        font-weight: 600;
+    }
+
+    .what_to_do {
+        position: absolute;
+        top: 3.5vmin;
+        padding-left: 2vmin;
+    }
+
+    .signup_part {
+        padding-top: 40%;
+    }
+
+    .login_top{
+        position: relative;
+        display: flex;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .login_top .login_title{
+        font-size: 7vmin;
+        padding-bottom: 5vmin;
+    }
+/*---- Login Page Ends ----*/
+
+/*---- Contact Page Starts----*/
+    /*---- Location Title ----*/
+    .location_title {
+        position: relative;
+        background: #f8f8f8;
+        background-size:cover;
+        height: 0;
+        padding-top: 13%;
+    }
+
+    .location_title .location_head{
+        position: absolute;
+        top: 0vmin;
+        padding-left: 2vmin;
+        font-size: 5vmin;
+    }
+    /*---- List of locations ----*/
+    .contact_list {
+        z-index: 100;
+        position: relative;
+        background: white;
+        background-size:cover;
+        height: 0;
+        padding-top: 40%;
+    }
+
+    .contact_list  .location_t{
+        position: absolute;
+        top: 5vmin;
+        padding-left: 2vmin;
+        font-size: 2.5vmin;
+    }
+
+    .contact_list  .location_details{
+        position: absolute;
+        top: 12vmin;
+        padding-left: 2vmin;
+        padding-right: 2vmin;
+        font-size: 1.5vmin;
+    }
+/*----Contact Page Ends----*/
+
 /*---- Mobile----*/
 @media screen and (max-width:520px) {
+    /*---- Home Page Starts ----*/
     .home_web_big {  
-        padding-top: 30%;
+        padding-top: 40%;
     }
     
     .home_content .content_bg {
-        padding-top: 60%;
+        padding-top: 85%;
     }
     
     .content_1 .product_img_left {
@@ -84,11 +218,18 @@
     
     .content_outer_box_left {
         left: 5vmin;
+        width: 90%;
     }
+    
+    .content_outer_box_right {
+        width: 90%;
+    }
+     /*---- Home Page Ends ----*/
 }
 
 /*---- Bigger than Mobile----*/
 @media screen and (min-width: 520px) { 
+     /*---- Home Page Starts ----*/
     .home_web_big {
         padding-top: 42%;
     }
@@ -112,6 +253,22 @@
     .content_3 .product_img {
         background-image: url(../img/row3p2.png);
     }
+    
+    .home_content .btn{
+        margin-top: 0vmin;
+         width: 80%;
+    }
+    .home_content .btn svg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0vmin;
+    }
+    
+    .content_outer_box_right .btn{
+        float: left;
+    }
 }
 
 /*---- Bigger than Tablet----*/
@@ -119,14 +276,16 @@
     .home_content .content_bg {
         padding-top: 40%;
     }
-}
-@media screen and (min-width: 800px) {
     .home_content .btn{
         margin-top: 5vmin;
     }
+}
+
+@media screen and (min-width: 800px) {
     
-    .content_outer_box_right .btn{
-        float: left;
-        left: -1.8vmin;
+    .login_content .btn{
+        top: 0vmin;
     }
+    
+   
 }

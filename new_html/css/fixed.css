@@ -1,11 +1,12 @@
 /*---- Background Color ---*/
 /*---- Button ----*/
+/*---- Form ----*/
 /*---- Footer ----*/
 /*---- Go top Icon ----*/
 
 /*---- Background Color Starts---*/
 .light_grey_gb{
-    background: #f8f8f8;
+    background-color: #f8f8f8;
 }
 
 .dark_grey_gb {
@@ -27,7 +28,7 @@
     position: relative;
     float: right;
     display: flex;
-    width: 160px;
+    width: 100%;
     height: 45px;
     font-size: 1.4vmin;
     letter-spacing:1px;
@@ -36,14 +37,14 @@
     justify-content: center;
     color: #000;
     cursor: pointer;
-    overflow: hidden;
     font-weight: 500;
     padding-left: 2vmin;
+    text-decoration: none;
 }
 
 .btn svg {
     left: 15px;
-    width: 160px;
+    width: 100%;
     height: 45px;
     position: absolute;
 }
@@ -73,6 +74,39 @@
 
 /*---- Button Ends----*/
 
+/*---- Form Starts ----*/
+input:focus {
+    outline: 0;
+    border-bottom: 1.5px solid black; 
+}
+  
+.signin_form {
+    position: absolute;
+    position: absolute;
+    top: 9vmin;
+    padding-left: 2vmin;
+}
+
+.signin_form span{
+    color: #888;
+    display: block;
+    font-size: 1.6vmin;
+    padding-top: 5px;
+    letter-spacing: 4px;
+}
+    
+input {
+    background-color: transparent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid transparent;
+    width: 25vmin;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0.1px;
+}
+/*---- Form Ends ----*/
 
 /*---- Footer Starts----*/
 .footer{
