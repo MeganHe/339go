@@ -13,7 +13,6 @@
 .img_option{
     position: relative;
     cursor: pointer;
-    font-weight: 500;
     font-size: 1.5vmin;
 }
 .intro_option:active .option_icon{
@@ -85,6 +84,28 @@
 .variants {
 }
 
+.combine_products{
+    margin-top: 5%;
+}
+.combine_line span{
+    position: relative;
+}
+.combine_line span:before, .combine_line span:after {
+    border-top: 2px solid #dfdfdf;
+    content:"";
+    position: absolute;
+    top: 11px;
+    right: 18em;
+    bottom: 0;
+    width: 154%;
+}
+.combine_line span:after {
+    position: absolute;
+    top: 11px;
+    left:18em;
+    right:0;
+    bottom: 0;
+}
 /*---- Mobile----*/
 @media screen and (max-width:780px) {
     .product_detail_des_group {
@@ -215,9 +236,9 @@
     }
 
      .intro_option .img_option_para{
-        font-size: 1.55vmin;
+        font-size: 1.4vmin;
          letter-spacing: .4px;
-        font-weight: 300;
+        font-weight: 400;
     }
     .variant_table{
         width: 50%

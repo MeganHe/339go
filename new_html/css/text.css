@@ -159,7 +159,15 @@ p,a,span{
          font-weight: 500;
     }
     .img_option_para{
-        font-size: 1.4vmin;
+        font-size: 2vmin;  
+    }
+    .combine_line {
+        text-align: center;
+    }
+    .combine_products h2{
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 1px;
     }
   
     /*-----homepage img introduction -----*/
@@ -203,4 +211,5 @@ p,a,span{
     header nav ul ul li a{
         font-size: 1.3vmin;
     }
+ 
 }
