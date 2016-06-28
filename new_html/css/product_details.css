@@ -48,7 +48,7 @@
     line-height: 1.6;
 }
 .product_details_group {
-    border-top: thin solid lightgray;
+    border-top: 1px solid lightgray;
     padding-bottom: 1vmin;
     padding-top: .4vmin;
 }
@@ -85,19 +85,19 @@
 }
 
 .combine_products{
-    margin-top: 5%;
+    margin-top: 7%;
 }
 .combine_line span{
     position: relative;
 }
 .combine_line span:before, .combine_line span:after {
-    border-top: 2px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
     content:"";
     position: absolute;
     top: 11px;
     right: 18em;
     bottom: 0;
-    width: 154%;
+    width: 205%;
 }
 .combine_line span:after {
     position: absolute;
@@ -301,4 +301,25 @@
     .variant_table_label {
         font-size: 1.8vmin;
     }
+    .whole_combine .content_bg{
+        padding-top: 25%;
+    }
+    .cb_content1 .combine_img1 {
+        background-image: url(../img/combie1-01.png);
+      
+    }
+    .cb_content1 .combine_img2 {
+        background-image: url(../img/combine2-01.png);
+      
+    }
+    .cb_content1 .combine_img3 {
+        background-image: url(../img/combine3-01.png);
+      
+    }
+    .cb_content1 .combine_img4 {
+        background-image: url(../img/combine4-01.png);
+      
+    }
+    
+    
 }
