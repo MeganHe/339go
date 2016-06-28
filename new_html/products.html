@@ -15,6 +15,7 @@
         <link href="css/text.css" rel="stylesheet">
         <link href="css/fixed.css" rel="stylesheet">
         <link href="css/header.css" rel="stylesheet">
+        <link href="css/products.css" rel="stylesheet">
         <link rel="stylesheet" href="css/meanmenu.css" media="all" />
         
         <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,800italic,800,700italic,700,600,600italic' rel='stylesheet' type='text/css'>
@@ -40,7 +41,7 @@
     </head>
     
     <body>
-        <header>
+                <header>
             <div class="container">
                 <!-- Website Name -->
                 <div class="logo">  
@@ -69,7 +70,7 @@
                 <div class="navigation">
                     <nav>
                         <ul>
-                            <li><a href="index.html">HOME</a></li>
+                            <li><a class="active">HOME</a></li>
                             <li><a href="#">SHOP</a>
                                 <ul>
                                     <li><a href="#">LIVING ROOM</a></li>
@@ -79,7 +80,7 @@
                                     <li><a href="#">BATHROOM</a></li>  
                                 </ul>
                             </li>
-                            <li><a class="active">ABOUT</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
                             <li><a href="contact.html">CONTACT</a></li>
                         </ul>
                     </nav>
@@ -94,80 +95,25 @@
                 jQuery('header nav').meanmenu();
             });
         </script>
+         <div class="container">
+        <div class="col-2 col-m-12 left_fixed_navigation">
         
-        <div class="col-12 col-m-12 about_web_big">
-            <img class="col-4 col-m-8 about_img" src="img/about.png">
-        </div> 
-    
-        <!-- Content -->
-        <div class="about_content container">
-            <div id="content_1" class="content_1">
-                <div class="col-8 col-m-12 content_bg about_img_left ">
-                </div>
-
-                <div class="col-4 col-m-12 content_bg left_align">
-                    <div class="content_outer_box_right ">
-                        <div class="content_inner_box">
-                            <p class="pra_title">CONCEPT</p>
-                              <div class="concept_line">
-                              </div>
-                            <p class="img_para">Since opening our doors in 1984 our commitment to our clients and our passion for modern design have remained at the core of everything we do. With a team of talented design consultants and a personalized one-on-one approach, we offer a thoughtfully curated selection of modern furniture, art and accessories and a comprehensive range of interior design services, from custom kitchen and closet design to turnkey project management. Whether you are building a new home, starting a renovation, redecorating, shopping for many items or just the perfect piece to complete a room, we welcome the opportunity to help you create a space you love.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <div id="content_2" class="content_2">
-                 <div class="col-4 col-m-12 content_bg about_img_left">
-                </div>
-                
-                <div class="col-4 col-m-12 content_bg left_align">
-                    <div class="content_outer_box_right ">
-                        <div class="content_inner_box">
-                                <p>THERE IS NOTHING LIKE STAYING AT HOME FOR REAL COMFORT.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-4 col-m-12 content_bg about_img_right">
-                </div>
-            </div>
-            
-            <div id="content_3" class="content_3">
-                <div class="col-4 col-m-12 content_bg about_last left_align">
-                    <div class="content_outer_box_right ">
-                        <div class="content_inner_box">
-                            <p class="pra_title">INSPIRATION</p>
-                            <div class="concept_line">
-                            </div>
-                            <p class="img_para">It was sang that "everyone is the one and only flower in the world, just put efforts to the blossoming." This song inadvertenly became CHUCI's inspiration.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                 <div class="col-8 col-m-12 content_bg about_img_right">
-                </div>
-            </div>  
+        <div class="left_fixed_nav">
+         <aside>
+             <ul>
+             <li>NEW</li>
+             <li>SHOP</li>
+             <li>SALE</li>
+             <li class="seperate_line">DESIGNERS</li>
+             
+             </ul>
+             <ul>
+             <li>BY DESIGNER</li>
+             <li>BY COLOR</li>
+             </ul>
+            </aside>
         </div>
-    
-        <!-- Footer -->
-        <div class="footer">
-            <p>CHUCI</p>
         </div>
-        <!-- Footer -->
-                   
-        <!--go to top button-->
-        <div class="gotop">
-            <!-- Starting the plugin -->
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    $().UItoTop({ easingType: 'easeOutQuart' });
-                });
-            </script>
-            <a href="#" id="toTop" style="display: none;">
-                <span id="toTopHover" style="opacity: 0;"></span>
-            </a>
         </div>
     </body>
 </html>
-        

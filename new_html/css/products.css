@@ -1,0 +1,9 @@
+.left_fixed_nav li{
+    list-style: none;
+    padding-bottom: 2vh;
+    text-align: left;
+}
+.seperate_line{
+    border-bottom: 1px solid lightgray;
+    width: 6vw;;
+}

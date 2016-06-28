@@ -34,6 +34,9 @@
 .light_grey_gb{
     background-color: #f8f8f8;
 }
+.white_gb{
+    background-color: white;
+}
 
 .dark_grey_gb {
     background: #9598a1;
@@ -100,6 +103,8 @@ input:focus {
     outline: 0;
     border-bottom: 1.5px solid black; 
 }
+
+
   
 .signin_form {
     position: absolute;
