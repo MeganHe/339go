@@ -66,6 +66,10 @@ p,a,span{
     text-decoration: none;
     color: black;
 }
+.product_img_title{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
 
 
 /* .dark_grey_gb .img_introduction{
@@ -84,6 +88,18 @@ p,a,span{
 
 .product_price{
     font-weight: 700;
+}
+.price{
+    font-size: 1.85vmin;
+     font-weight: 400;
+}
+.variant_table_label {
+        font-size: 1.35vmin;
+    letter-spacing: .4px;
+    }
+.quantity_input p{
+    font-size: 1.35vmin;
+     letter-spacing: .4px;
 }
 
 /*---- Mobile less than 520px----*/
@@ -137,6 +153,15 @@ p,a,span{
   
         font-size: 3.8vmin;
     }
+     .product_details_group .img_option{
+        font-size: 1.3vmin;
+         letter-spacing: .5px;
+         font-weight: 500;
+    }
+    .img_option_para{
+        font-size: 1.4vmin;
+    }
+  
     /*-----homepage img introduction -----*/
     .img_introduction{
           display: none;

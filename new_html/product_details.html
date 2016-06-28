@@ -114,38 +114,13 @@
         <div class="product_detail_des_group">
             <div class="product_detail_des">
                 <div class="product_detail_des_content">
-                <p class="img_featured">PRODUCT</p>
-                <p class="img_title">Saxe Lounge Chair by Lassen</p>
+    
+                <p class="product_img_title">Saxe Lounge Chair by Lassen</p>
                 <p class="price">3,999.99 CAD</p>
-                <div class="variants">
-                    <div class="product_details">
-                    <div class="product_details_group">
-                        <table class="intro_option">
-                                <tr>
-                                    <th class="img_option1 img_option">DESCRIPTION
-                                    <img class="option_icon" src="img/icon-down.png" width="10px"></th>
-                                </tr>
-                                <tr>
-                                    <th class="img_option_para img_1_para">Saxe is a characterful and timeless folding chair designed in 1955 by the visionary designer and architect Mogens Lassen for The Copenhagen Cabinetmakers’ Guild Competition. It was originally made by the master joiner A.J. Iversen and is now being produced by by Lassen to mark the 60th anniversary of its design.</th>
-                                </tr>
-                            </table>
-                    </div>
-                    <div class="product_details_group">
-                        <table class="intro_option">
-                            <tr>
-                                <th class="img_option2 img_option">SPECIFICATION
-                                    <img class="option_icon" src="img/icon-down.png" width="10px"></th>
-                            </tr>
-                                <tr>
-                                    <th class="img_option_para img_2_para">Product: Saxe<br>Design: Mogens Lassen 1955<br>Height: 84 cm <br>Width: 60 cm<br>Depth: 67 cm<br>Seat height: 37 cm <br>Seat depth: 35 cm<br>Colour/material: Nature leather, oak</th>
-                                </tr>
-                            </table>
-                    </div>
-                </div>
-                    <table class="variant_table" border="0" cellpadding="1" cellspacing="1">
+                        <table class="variant_table" border="0" cellpadding="1" cellspacing="1">
                         <tbody>
                             <tr>
-                                <td class="variant_table_label">CHOOSE COLOR</td>
+                                <td class="variant_table_label">Other colors</td>
                             </tr>
                             <tr>
                                 <td>
@@ -158,9 +133,14 @@
                             </tr>
                             <tr>
                                 <td class="quantity_input">
-                                    <img class="minus" src="img/200px-Minus_font_awesome.svg.png" width="20px">
-                                    <input id="amount" type="text" class="amount_input" value="1">
-                                    <img class="plus" src="img/add-128.png" width="20px">
+                                    <p>Type quantity</p>
+                                    <!--<img class="minus" src="img/minus.png" width="20px">-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input id="amount" type="text" class="solid" value="1">
+                                    <!--<img class="plus" src="img/add-128.png" width="20px">-->
                                 </td>
                             </tr>
                             <tr>
@@ -177,6 +157,32 @@
                             </tr>
                         </tbody>
                     </table>
+                <div class="variants">
+                    <div class="product_details">
+                    <div class="product_details_group">
+                        <table class="intro_option">
+                                <tr>
+                                    <th class="img_option1 img_option">DESCRIPTION&nbsp;
+                                    <img class="option_icon" src="img/arrowdown.png" width="11px"></th>
+                                </tr>
+                                <tr>
+                                    <th class="img_option_para img_1_para">Saxe is a characterful and timeless folding chair designed in 1955 by the visionary designer and architect Mogens Lassen for The Copenhagen Cabinetmakers’ Guild Competition. It was originally made by the master joiner A.J. Iversen and is now being produced by by Lassen to mark the 60th anniversary of its design.</th>
+                                </tr>
+                            </table>
+                    </div>
+                    <div class="product_details_group">
+                        <table class="intro_option">
+                            <tr>
+                                <th class="img_option2 img_option">SPECIFICATION&nbsp;
+                                    <img class="option_icon" src="img/arrowdown.png" width="11px"></th>
+                            </tr>
+                                <tr>
+                                    <th class="img_option_para img_2_para">Product: Saxe<br>Design: Mogens Lassen 1955<br>Height: 84 cm <br>Width: 60 cm<br>Depth: 67 cm<br>Seat height: 37 cm <br>Seat depth: 35 cm<br>Colour/material: Nature leather, oak</th>
+                                </tr>
+                            </table>
+                    </div>
+                </div>
+                
                 </div>
                 </div>
                 
@@ -184,12 +190,16 @@
         </div>
         <div class="product_detail_img">
             <picture>
+    
               <source media="(min-width: 800px)"
                       srcset="img/homephoto1.png 1x">
+         
               <source media="(max-width: 800px)"
                       srcset="img/homephoto1-wide.png 2x">
-              <img
+           
+              <img class="first"
                    src="img/homephoto1.png 1x" srcset="img/homephoto1-wide.png 2x" alt="">
+           
             </picture>
             <picture>
               <source media="(min-width: 800px)"
