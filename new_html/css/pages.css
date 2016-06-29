@@ -117,9 +117,16 @@
 }
 
 @media screen and (min-width: 800px) {
-    
+    .login_content {
+        margin-top: 14vmin;
+    }
+
     .login_content .btn{
         top: 0vmin;
+    }
+    
+    .contact_content {
+        margin-top: 11vmin;
     }
     
 }

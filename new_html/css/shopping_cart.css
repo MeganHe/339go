@@ -2,6 +2,9 @@
     /*---- Big Img on Top ----*/
 
     /*----Shopping Cart----*/
+.shopping_cart_content{
+    margin-top: 14vmin;
+}
 
     .shopping_cart_title .cart_title {
         position: relative;

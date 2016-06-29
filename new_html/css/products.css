@@ -1,12 +1,17 @@
 .product_content .empty{
-    height: 100vmin;
+    height: 160vmin;
     position: relative;
 }
-
+.left_fixed_nav .li_big {
+    font-size: 2vmin;
+    font-weight: 600;
+}
 .box{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    color: black;
 }
 .row2{
     padding-top: 5vh;
@@ -34,12 +39,13 @@
 /*---------page----------*/
 
 .buttom_page{
- position:absolute;
+    position:relative;
     margin-left: 66.66666664%;
-    margin-top: -50vh;
+    margin-top: 3vmin;
+    margin-bottom: 5vmin;
 }
 
-button {
+button.paginate{
   -webkit-appearance: none;
   background: transparent;
   border: 0;
@@ -167,5 +173,9 @@ button {
 @media screen and (min-width: 800px) { 
     .left_fixed_navigation {
         position: fixed;
+    }
+    
+    .product_content {
+        margin-top: 14vmin;
     }
 }
