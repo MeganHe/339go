@@ -1,5 +1,13 @@
-.box{
-    
+.product_container{
+    display: flex;   
+    width: 100%;
+}
+/*.aside{
+    position: fixed;
+}*/
+
+.left_fixed_nav{
+    width: 20%;
 }
 .left_fixed_nav li{
     list-style: none;
