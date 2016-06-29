@@ -1,13 +1,14 @@
-.product_container{
-    display: flex;   
-    width: 100%;
+.product_content .empty{
+    height: 100vmin;;
+    position: relative;
 }
-/*.aside{
-    position: fixed;
-}*/
+
 .box{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .left_fixed_nav li{
     list-style: none;
     padding-bottom: 2vh;
@@ -25,8 +26,12 @@
 .table_box td{
     text-align: center;
 }
+@media screen and (max-width:800px) {
 
-/*
-.box_sp_line{
-    border-top: 1px solid lightgray;
-}*/
+}
+/*---- Bigger than Tablet----*/
+@media screen and (min-width: 800px) { 
+    .left_fixed_navigation {
+        position: fixed;
+    }
+}
