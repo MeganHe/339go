@@ -146,6 +146,7 @@ input {
     right: 0;
     left: 0;
     bottom: 0;
+    box-shadow: 0px -2px 1px #f8f8f8;
 }
 /*---- Footer Ends----*/
 

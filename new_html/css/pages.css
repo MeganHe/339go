@@ -1,72 +1,9 @@
-/*---- Home ----*/
-/*---- Index ----*/
+/*---- Login ----*/
+/*---- Contact ----*/
 /*---- Index ----*/
 /*---- Index ----*/
 /*---- Mobile ----*/
 /*---- Bigger than Tablet ----*/
-
-<<<<<<< Updated upstream
-/*---- Home Starts ----*/
-.home_web_big{
-    background-image: url(../img/homepage.png);
-}
-
-/*-- every content boxes --*/
-.content_bg {
-    position: relative;
-    z-index: 0;
-    background-size: cover;
-    height: 0;
-}
-
-.content_outer_box_left {
-    position: absolute;
-    top: 5vmin;
-    right: 5vmin;
-    width: 80%;
-}
-.content_inner_box{
-    margin-top: 3vh;
-    position: relative;
-}
-
-.content_outer_box_right {
-    position: absolute;
-    top: 5vmin;
-    left: 5vmin;
-    width: 80%;
-}
-
-.content_outer_box_right .btn{
-    color: #f8f8f8;
-}
-
-.content_outer_box_right .btn:hover{
-    color: #f8f8f8;
-}
-
-.content_outer_box_right .btn svg rect{
-    stroke: #f8f8f8;
-}
-/*---- Home Ends ----*/
-
-/*---- About Page Starts ----*/
-.about_content .content_bg {
-    padding-top: 45%;
-}
-
-.about_web_big{
-    position: relative;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    height: 35vmin;
-}
-
-/*---- About Page Ends----*/
-=======
->>>>>>> Stashed changes
 
 /*---- Login Page Starts ----*/
     /*---- Insction Row ----*/

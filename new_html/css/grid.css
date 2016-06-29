@@ -114,6 +114,9 @@ div {
         max-width: 1400px;
         margin: 0 auto;
     }
+    .head_fixed {
+        max-width: 1400px;
+    }
     
     .container-fluid {
         max-width: 90%;

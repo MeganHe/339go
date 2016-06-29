@@ -1,16 +1,8 @@
-.container {
-    width: 100%;
-}
 
 .container:after, .container:before {
     display: table;
     clear:both;
     content: " ";
-}
-
-.navigation {
-    position: relative;
-    width: 100%;
 }
 
 header nav {
@@ -116,11 +108,20 @@ header nav ul li a:hover, header nav ul li a.active{
 
 /*---- Bigger than Tablet----*/
 @media screen and (min-width: 800px) {
+    .head_fixed{
+        position: fixed;
+        background-color: white;
+        box-shadow: 0px 2px 1px #f8f8f8;
+        width: 100%;
+        z-index: 1000000;
+    }
+    
     .logo {
-        width: 20%;
-        position: relative;
         float: left;
         margin-left: 5vmin;
+    }
+    .header_right{
+        float: right;
     }
     nav{
         float: right;
@@ -134,7 +135,7 @@ header nav ul li a:hover, header nav ul li a.active{
     }
     
     header nav ul ul li:hover a{
-        background: #f8f8f8;
+        background-color: #f8f8f8;
     }
     .header_right ul li a:hover{
         transform: rotatey(360deg);
