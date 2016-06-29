@@ -164,7 +164,9 @@ button.paginate{
 /*-------page end---------*/
 @media screen and (max-width:520px) {
     .empty {
-        width: 0;
+        
+        
+        width: 0%;
     }
     .left_fixed_navigation {
         width: 100%;
