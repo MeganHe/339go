@@ -5,9 +5,8 @@
 /*.aside{
     position: fixed;
 }*/
-
-.left_fixed_nav{
-    width: 20%;
+.box{
+    
 }
 .left_fixed_nav li{
     list-style: none;
