@@ -11,6 +11,7 @@ p,a,span{
     -moz-transition: 0.1s all ease;
     -o-transition: 0.1s all ease;
     -ms-transition: 0.1s all ease;
+    text-decoration: none;
 }
 
 .left_align {
@@ -46,6 +47,7 @@ p,a,span{
 .logo h1{
     font-weight: 500;
     font-size: 2rem;
+    color: black;
 }
 
 .img_featured {
@@ -66,11 +68,6 @@ p,a,span{
     text-decoration: none;
     color: black;
 }
-.product_img_title{
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
 
 /* .dark_grey_gb .img_introduction{
     color: aliceblue;
@@ -150,9 +147,7 @@ p,a,span{
         font-weight: 500;
         font-size: 1.5vmin;  
     } 
-  
-    
-    
+
     .right_align {
         text-align: right;
     }
@@ -176,14 +171,9 @@ p,a,span{
     }
 
     .img_title {
-  
         font-size: 3.8vmin;
     }
-     .product_details_group .img_option{
-        font-size: 1.3vmin;
-         letter-spacing: .5px;
-         font-weight: 500;
-    }
+
     .img_option_para{
         font-size: 2vmin;  
     }

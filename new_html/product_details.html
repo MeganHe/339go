@@ -22,6 +22,14 @@
         <!-- jQuery -->
         <script src="http://thecodeplayer.com/u/js/jquery-1.9.1.min.js" type="text/javascript">
         </script>
+        <script src="js/fix.js" type="text/javascript"></script>
+        <script>
+            $(document).scroll(function() {
+                if($(window).width() > 780 ){
+                    checkOffset();
+                }
+            });
+        </script>
         
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <script>
@@ -56,9 +64,10 @@
     <body>
         <header>
             <div class="container">
+                <div class="head">
                 <!-- Website Name -->
                 <div class="logo">  
-                    <a herf="index.html"><h1>CHUCI</h1></a>
+                    <a href="index.html"><h1>CHUCI</h1></a>
                 </div>
                 <!-- Website Name -->
                 
@@ -97,6 +106,7 @@
                     </nav>
                 </div>
             </div>
+            </div>
         </header>
         
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -108,59 +118,58 @@
         </script>
     
     <!-- Content -->
-    <div class="content container product_page">
+    <div class="product_detail_content container product_page">
         <div class="product_detail_des_group">
             <div class="product_detail_des">
                 <div class="product_detail_des_content">
-                <p class="product_img_title">Saxe Lounge Chair by Lassen</p>
+                <p class="img_title">Saxe Lounge Chair by Lassen</p>
                 <p class="price">3,999.99 CAD</p>
-                        <table class="variant_table" border="0" cellpadding="1" cellspacing="1">
-                        <tbody>
-                            <tr>
-                                <td class="variant_table_label">Other colors</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <select class="variant_colors" id="variant_colors" onchange="variant_colors_seleted(0);">
-                                        <option>Oak # Natural leather</option>
-                                        <option>Black stained oak # Black leather</option>
-                                        <option>Smoked oak # Brown leather</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="quantity_input">
-                                    <p>Type quantity</p>
-                                    <!--<img class="minus" src="img/minus.png" width="20px">-->
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input id="amount" type="text" class="solid" value="1">
-                                    <!--<img class="plus" src="img/add-128.png" width="20px">-->
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="col-12 buy_btn">
-                                        <a class="btn" href="shopping_cart.html">
-                                            <svg>
-                                                 <rect x="0" y="0" fill="none"/>
-                                            </svg>
-                                                BUY NOW
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <table class="variant_table" border="0" cellpadding="1" cellspacing="1">
+                    <tbody>
+                        <tr>
+                            <td class="variant_table_label">Other colors</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select class="variant_colors" id="variant_colors" onchange="variant_colors_seleted(0);">
+                                    <option>Oak # Natural leather</option>
+                                    <option>Black stained oak # Black leather</option>
+                                    <option>Smoked oak # Brown leather</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="quantity_input">
+                                <p>Type quantity</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="amount" type="text" class="solid" value="1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="col-12 buy_btn">
+                                    <a class="btn" href="shopping_cart.html">
+                                        <svg>
+                                            <rect x="0" y="0" fill="none"/>
+                                        </svg>
+                                            BUY NOW
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                    
                 <div class="variants">
                     <div class="product_details">
                     <div class="product_details_group">
                         <table class="intro_option">
                                 <tr>
-                                    <th class="img_option1 img_option">DESCRIPTION&nbsp;
-                                    <img class="option_icon" src="img/arrowdown.png" width="11px"></th>
+                                    <th class="img_option1 img_option">DESCRIPTION
+                                        <img class="option_icon" src="img/arrowdown.png" width="11px"></th>
                                 </tr>
                                 <tr>
                                     <th class="img_option_para img_1_para">Saxe is a characterful and timeless folding chair designed in 1955 by the visionary designer and architect Mogens Lassen for The Copenhagen Cabinetmakers’ Guild Competition. It was originally made by the master joiner A.J. Iversen and is now being produced by by Lassen to mark the 60th anniversary of its design.</th>
@@ -170,7 +179,7 @@
                     <div class="product_details_group">
                         <table class="intro_option">
                             <tr>
-                                <th class="img_option2 img_option">SPECIFICATION&nbsp;
+                                <th class="img_option2 img_option">SPECIFICATION
                                     <img class="option_icon" src="img/arrowdown.png" width="11px"></th>
                             </tr>
                                 <tr>
@@ -198,7 +207,8 @@
               <source media="(max-width: 800px)"
                       srcset="img/homephoto1-wide.png 2x">
            
-              <img src="img/homephoto1.png 1x" srcset="img/homephoto1-wide.png 2x" alt="">
+              <img class="first"
+                   src="img/homephoto1.png 1x" srcset="img/homephoto1-wide.png 2x" alt="">
            
             </picture>
             <picture>
@@ -230,16 +240,16 @@
         
         <div class="col-12 combine_products">
         <h2 class="combine_line">
-        <span>RECOMMEND&nbsp; COMBINE &nbsp;WITH</span>
+        <span>RECOMMEND COMBINE WITH</span>
         </h2>
          
         <div class="whole_combine">
         <div id="cb_content1" class="cb_content1">
                 <!-- The Name of the Product -->
-                <div class="col-3 col-m-12 content_bg combine_img1"></div>
-                <div class="col-3 col-m-12 content_bg combine_img2"></div>
-                <div class="col-3 col-m-12 content_bg combine_img3"></div>
-                <div class="col-3 col-m-12 content_bg combine_img4"></div>
+                <div class="col-3 col-m-3 content_bg combine_img1"></div>
+                <div class="col-3 col-m-3 content_bg combine_img2"></div>
+                <div class="col-3 col-m-3 content_bg combine_img3"></div>
+                <div class="col-3 col-m-3 content_bg combine_img4"></div>
         </div>
         </div>
         </div>
