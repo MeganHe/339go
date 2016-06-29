@@ -135,6 +135,24 @@ p,a,span{
 
 /*---- Bigger than 520px Tablet ----*/
 @media screen and (min-width: 520px) { 
+    .table_box h3{
+        margin-top: -1.2vh; 
+        font-weight: 600;
+        font-size: 1.6vmin;
+    }
+    .table_box h4{
+        margin-top: -1vh;
+        font-weight: 500;
+        font-size: 1.5vmin;    
+    }
+    .table_box h5{
+        margin-top: -1.4vh;
+        font-weight: 500;
+        font-size: 1.5vmin;  
+    } 
+  
+    
+    
     .right_align {
         text-align: right;
     }

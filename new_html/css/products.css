@@ -1,3 +1,6 @@
+.box{
+    
+}
 .left_fixed_nav li{
     list-style: none;
     padding-bottom: 2vh;
@@ -7,3 +10,16 @@
     border-bottom: 1px solid lightgray;
     width: 6vw;;
 }
+
+/*.table_box{
+    border:1px solid lightgrey;
+}*/
+
+.table_box td{
+    text-align: center;
+}
+
+/*
+.box_sp_line{
+    border-top: 1px solid lightgray;
+}*/
