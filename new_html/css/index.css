@@ -100,8 +100,9 @@
      /*---- Home Page Starts ----*/
     .home_web_big {
         padding-top: 42%;
+        margin-top: 11vmin;
     }
-    
+
     .home_content .content_bg {
         padding-top: 50%;
     }
