@@ -8,6 +8,9 @@
     align-items: center;
     justify-content: center;
 }
+.row2{
+    padding-top: 5vh;
+}
 
 .left_fixed_nav li{
     list-style: none;
