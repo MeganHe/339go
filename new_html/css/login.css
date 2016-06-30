@@ -66,7 +66,7 @@
     }
 
     .login_top{
-        background-image: url(../img/c.jpg)
+        background-image: url(../img/c.jpg);
         position: relative;
         display: flex;
         align-content: center;
@@ -115,4 +115,5 @@
     .contact_content {
         margin-top: 11vmin;
     }
+}
   
