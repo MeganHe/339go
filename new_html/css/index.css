@@ -42,7 +42,7 @@
     }
     
     .home_content .content_bg {
-        padding-top: 85%;
+        padding-top: 45%;
     }
     
     .content_1 .product_img_left {
@@ -100,7 +100,7 @@
      /*---- Home Page Starts ----*/
     .home_web_big {
         padding-top: 42%;
-        margin-top: 11vmin;
+        margin-top:0px;
     }
 
     .home_content .content_bg {
@@ -109,6 +109,7 @@
     
     .content_1 .product_img_left {
         background-image: url(../img/homephoto1.png);
+        z-index: 100;
     }
     
     .content_1 .product_img_right {
@@ -139,6 +140,38 @@
     }
     .content_outer_box_right .btn{
         float: left;
+    }
+    
+    .home_line1{
+        position: absolute;
+        top: 25%;
+        left: -3vmin;
+        height: 2px;
+        width: 70px;
+        background-color: black;
+        z-index: 100000;
+    }
+    .home_line2{
+        position: absolute;
+        top: 25%;
+        left: -3vmin;
+        height: 2px;
+        width: 70px;
+        background-color: black;
+        z-index: 100000;
+    }
+    .home_line3{
+        position: absolute;
+        top: 25%;
+        left: -5vmin;
+        height: 2px;
+        width: 70px;
+        background-color: white;
+    }
+}
+@media screen and (min-width: 800px) {
+    .home_web_big {
+        margin-top: 60px;
     }
 }
 

@@ -5,7 +5,6 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 40vmin;
 }
 
 .concept_line{
@@ -37,6 +36,10 @@
 
 /*---- Mobile----*/
 @media screen and (max-width:520px) {
+    .about_web_big{
+        height: 25vmin;
+        margin-top: 0;
+    }
     .content_1 .about_img_left{
          background-image: url(../img/about1-wide.png);
     }
@@ -68,9 +71,6 @@
 }
 /*---- Bigger than Mobile----*/
 @media screen and (min-width: 520px) { 
-    .about_content .img_para{
-        font-size: 1.2vmin;
-    }
     .content_1 .about_img_left{
      background-image: url(../img/about1.jpg);
     }
@@ -91,8 +91,12 @@
         margin-top: 10vmin;
     }
     .about_content .content_inner_box {
-        margin-top: 0;
+        margin-top: -3vmin;
     }
+    .about_web_big{
+        height: 30vmin;
+    }
+    
     .about_web_big .about_img {
         width: 50%;
     }
@@ -103,8 +107,21 @@
         font-size: 1.3vmin;
     }
 }
+
+@media screen and (min-width: 800px) {
+    .about_web_big{
+        margin-top: 60px;
+    }
+    .about_web_big .about_img {
+        width: 40%;
+    }
+}
 /*---- Bigger than Tablet----*/
 @media screen and (min-width: 1080px) {
+    .about_web_big{
+        height: 40vmin;
+        margin-top: 60px;
+    }
     .about_content .img_para{
         font-size: 1.5vmin;
     }

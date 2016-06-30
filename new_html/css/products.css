@@ -235,22 +235,19 @@ button.paginate{
 /*-------page end---------*/
 @media screen and (max-width:520px) {
     .empty {
-        
-        
         width: 0%;
     }
     .left_fixed_navigation {
-        width: 100%;
+        display: none;
     }
     .box {
-        width: 100%;
+        width: 50%;
     }
 }
 
 @media screen and (min-width:520px) {
     .left_fixed_navigation {
-        width: 33.33%;
-        position: fixed;
+        display: none;
     }
     .empty {
         width: 0;
@@ -258,14 +255,11 @@ button.paginate{
     .box {
         width: 33.33%;
     }
-    .product_listing {
-        margin-left: 33.33%;
-    }
-
 }
 /*---- Bigger than Tablet----*/
 @media screen and (min-width: 800px) { 
     .left_fixed_navigation {
+        display: block;
         position: fixed;
         width:  24.99%;
     }
@@ -273,7 +267,9 @@ button.paginate{
     .product_content {
         margin-top: 14vmin;
     }
-    
+    .product_listing {
+        margin-left: 24.99%;
+    }
 
     .row2{
         padding-top: 5vh;
