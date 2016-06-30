@@ -37,19 +37,55 @@
         top: 3.5vmin;
         padding-left: 2vmin;
     }
+
     .login_btn{
-        position: absolute;
-        margin-top: 0%;
+        position: relative;
+        bottom: 35vmin;
+        left: -45vmin;
     }
-    .sign_up_btn{
-         position: absolute;
-         margin-top: -50%;
-    }
+.login_btn .btn{
+    left: 1vmin;
+}
+.login_btn .btn rect{
+
+}
+.signin_form .form_left{
+    width: 50%;
+    float: left;
+}
+.signin_form .form_right{
+    width: 50%;
+    float: right;
+}
+.signin_form .form_full{
+    width: 100%;
+
+}
     .signin_form{
-        margin-top: -8%;
-        margin-left: -1.58%
-  
+        display: block;
+        position: relative;
+        margin-top: -5%;
+        margin-left: -1.58%;
+        width: 100%;
     }
+
+.payment {
+    width: 100%;
+    position: relative;
+    height: 30vmin;
+    top: 90vmin;
+}
+.payment_form input{
+    margin-top: 4vmin;
+    padding-left: 0;
+    width: 10px;
+}
+.payment_form label{
+    margin-right: 31vmin;
+}
+.radio_btn {
+    width: 100%;
+}
 
     .here-to-there input {
         background-color: transparent;
@@ -66,6 +102,7 @@
     letter-spacing: 1px;
 }
     .black_line{
+        margin-top: 2vmin;
     width: 100%;
     height: 1px;
     color: black; 
@@ -74,13 +111,12 @@
     background-color: black;
     z-index: 100000;   
 }
-.form-left{
+.sign_form_payment{
+    display: block;
     position: relative;
+    margin-top: 65vmin;
 }
-.form-right{
-    margin-left: 45%;
-    position: relative;
-}
+
 
 
 @media screen and (min-width: 800px) {
