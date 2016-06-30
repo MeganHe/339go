@@ -1,8 +1,68 @@
 /*---- Contact Page Starts----*/
 .contact_img{
     position: relative;
-    background-size: cover;
+    background-size:cover;
 }
+
+
+   /*---- Submit Button ----*/
+
+
+    * {
+        -webkit-transition-property: all;
+        -webkit-transition-duration: .2s;
+        -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+        -moz-transition-property: all;
+        -moz-transition-duration: .2s;
+        -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    }
+
+    .send_btn {
+        margin-top: 55%;
+        margin-left: -43.5%;
+        position: relative;
+        display: inline-block;
+        width: 166px;
+        height: 45px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 45px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .send_btn svg {
+        position: absolute;
+        top: 0; left: 0;
+    }
+
+    .send_btn svg rect {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2;
+        stroke-dasharray: 422, 0;
+        @include transition(all 1300ms $ease-out-expo);
+    }
+
+    .send_btn:hover svg rect {
+        stroke-width: 3;
+        stroke-dasharray: 10, 310;
+        stroke-dashoffset: 33;
+    }
+
+    .send_btn:hover {
+        color:#000;
+        font-size:18px;
+        letter-spacing:1px;
+        font-weight:bold;
+    }
+
+        /*---- Submit Button----*/
+
+
 
 
 /* TEXT INPUT FIELD*/
@@ -11,7 +71,9 @@
     margin-top: 20%;
     margin-left: 8.33%;
     position:relative;
+
     height: 40px;
+
     background-color:#f8f8f8;
 }
     *:focus {
@@ -22,6 +84,7 @@
     .here-to-there {
         height: 100%;
         width: 100%;
+        
     }
 
 
@@ -71,7 +134,7 @@
         font-size: 12px;
         line-height: 18px;
         padding: 4px 0px;
-        height: 10vw;
+        height: 200px;
         width: 100%;
         margin-top: 10px;
     }
