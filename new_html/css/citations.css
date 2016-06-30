@@ -2,8 +2,19 @@ h1{
 	margin-top: 3%;
 	text-transform: uppercase;
 	font-weight: 600;
+    font-size:2.5vmin;
+    letter-spacing: 2px;
 	
 }
+h2{
+    font-size: 1.8vmin;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+p,ul{
+    font-size: 1.5vmin;
+}
+
 
 body{
   font-family: 'Open Sans', sans-serif;
@@ -16,3 +27,40 @@ body{
 ul{
 	list-style-type:square;
 }
+/*---- Footer Starts----*/
+.footer{
+    position: sticky;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0px -2px 1px #f8f8f8;
+}
+
+.footer li{
+    list-style: none;
+    float: left;
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+    font-size: 1.4vmin;
+}
+.footer li.footer_not_big{
+     font-size: 1.3vmin;
+    margin-top: 3px;
+}
+.footer li.footer_not_big a{
+   
+    color: #bdbdbd;
+    letter-spacing: 1px;
+}
+.footer li.footer_big{
+    font-size: 1.6vmin;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+/*---- Footer Ends----*/
