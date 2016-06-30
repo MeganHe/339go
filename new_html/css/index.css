@@ -73,6 +73,7 @@
     
     .content_1 .product_img_left {
         background-image: url(../img/homephoto1-wide.png);
+        padding-top: 50%;
     }
     
     .content_1 .product_img_right {
