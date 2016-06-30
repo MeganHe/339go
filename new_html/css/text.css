@@ -43,13 +43,15 @@ p,a,span{
     text-decoration: none;
     color: black;
 }
-
+.img_introduction{
+        display: none;
+        font-weight: 400;
+}
 /* .dark_grey_gb .img_introduction{
     color: aliceblue;
 }*/
 .dark_grey_gb .img_introduction{
     color: white;
-    font-weight: 300;
 }
 .dark_grey_gb .img_title{
     color: white;
@@ -163,7 +165,7 @@ p,a,span{
   
     /*-----homepage img introduction -----*/
     .img_introduction{
-          display: none;
+        display: none;
         font-weight: 400;
         font-size: 1.8vmin;
         line-height: 1.65;

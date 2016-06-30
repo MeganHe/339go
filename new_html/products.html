@@ -25,6 +25,15 @@
         <script type='text/javascript' src='http://code.jquery.com/jquery-2.1.3.min.js'>
         </script>
         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".shop_expand").click(function(){
+                    $(".shop_expand_list").toggle();
+                });
+            });
+        </script>
+        
         <!-- toTop -->
         <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
         
@@ -97,62 +106,20 @@
         </script>
         
         <div class="product_content container">
-            <div class="col-3 col-m-12 left_fixed_navigation">
-
+            <div class="left_fixed_navigation">
                 <div class="left_fixed_nav">
                  <aside>
                      <ul>
                          <li>NEW</li>
-                         
-                         
- <!--------SHOP----------->                           
-
-	
-    	<li>
-    		<i class="fa fa-plus-square-o"></i>SHOP
-        	<ul>
-                <li><a href="about.html">Living room</a></li>
-                <li><a href="about.html">Kitchen</a></li>
-                <li><a href="about.html">Bedroom</a></li> 
-            </ul>
-        </li>
-    
-
-        
-        
-<script>
-$('.left_fixed_nav li').click(function(eo) {
-
-  // Pulldown (Core)
-  $('ul:first,ol:first', this).slideToggle();
-  $('ul:gt(0),ol:gt(0)', this).slideUp(0);
-  eo.stopPropagation();
-  $(this).siblings().children('ul,ol').slideUp();
-
-  //optional
-  //Icon change(1)
-  if ($('i', this).attr('class') == 'fa fa-plus-square-o') {
-    $('i:first', this).removeClass('fa-plus-square-o');
-    $('i[class="fa"]', this).toggleClass('fa-minus-square-o');
-  } else {
-    $('i:first', this).removeClass('fa-minus-square-o');
-    $('i[class="fa"]', this).toggleClass('fa-plus-square-o');
-  }
-  //Icon change(2)
-  $('i:gt(0)', this).removeClass('fa-plus-square-o fa-minus-square-o');
-  $('i[class="fa"]', this).toggleClass('fa-plus-square-o');
-  $(this).siblings().children('i').removeClass('fa-plus-square-o fa-minus-square-o');
-  $(this).siblings().children('i[class="fa"]').toggleClass('fa-plus-square-o');
-
-});
-     </script>    
-        
-        
-        
-<!--------SHOP ENDS----------->           
-                         
-                         
-                         
+                         <!-- SHOP -->                           
+                         <li class="shop_expand">SHOP
+                             <ul class="shop_expand_list">
+                                 <li><a href="about.html">Living room</a></li>
+                                 <li><a href="about.html">Kitchen</a></li>
+                                 <li><a href="about.html">Bedroom</a></li> 
+                             </ul>
+                         </li>
+                         <!-- SHOP ENDS --->           
                          <li>ALL</li>
                          <li>SALE</li>
                          <li class="seperate_line">DESIGNERS</li>
@@ -169,242 +136,248 @@ $('.left_fixed_nav li').click(function(eo) {
             </div>
         
             <div class="product_listing">
-            <a href="product_details.html">
-                <div class="col-3 col-m-12 box1 box ">
-                    <table class="table_box">
-                        <tr>
-                            <th>
-                            <img src="img/combine2.jpg" height="240px" width="240px"/>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td >
-                            <h3>By Lasson</h3>
-                            <h4>Kubus 4, brass </h4>
-                            <h5>$119</h5>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </a>
-            
-            <a href="product_details.html">
-                <div class="col-3 col-m-12 box2 box ">
-                    <table class="table_box">
-                        <tr>
-                            <th>
-                            <img src="img/p4.jpg" height="240px" width="240px"/>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td >
-                            <h3>Norm Architects</h3>
-                            <h4>Norm Side Plate</h4>
-                            <h5>$20</h5>
-                            </td>
-                        </tr>
-                    </table>
-                 </div>
-            </a>
-            
-            <a href="product_details.html">
-                <div class="box3 box ">
-                    <table class="table_box">
-                        <tr>
-                            <th>
-                            <img src="img/p6.jpg" height="240px" width="240px"/>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td >
-                            <h3>Parisienne</h3>
-                            <h4>Stackable chair</h4>
-                            <h5>$258</h5>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </a>
-            
-            <a href="product_details.html">
-                <div class="col-3 col-m-12 box4 box">
-                    <table class="table_box">
-                        <tr>
-                            <th>
-                            <img src="img/p5.jpg" height="240px" width="240px"/>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td >
-                            <h3>Hawkins New York</h3>
-                            <h4>Habi Pendant Light</h4>
-                            <h5>$312</h5>
-                            </td>
-                        </tr>
-                    </table>
-                 </div>
-            </a>
-        
-            <a href="product_details.html">
-         <div class="col-3 col-m-12 box5 box">
-             <table class="table_box">
-                <tr>
-                    <th>
-                    <img src="img/p7.jpg" height="240px" width="240px"/>
-                    </th>
-                </tr>
-                <tr>
-                    <td >
-                    <h3>Andrea Brugi</h3>
-                    <h4>Italian Olive Wood Mother Spoon</h4>
-                    <h5>$73</h5>
-                    </td>
-                </tr>
-            </table>
-         </div>
-            </a>
-            
-            <a href="product_details.html">
-        <div class="col-3 col-m-12 box6 box">
-             <table class="table_box">
-                <tr>
-                    <th>
-                    <img src="img/p8.jpg" height="240px" width="240px"/>
-                    </th>
-                </tr>
-                <tr>
-                    <td >
-                    <h3>Tina Frey Designs</h3>
-                    <h4>Fresh Ice Bucket</h4>
-                    <h5>$73</h5>
-                    </td>
-                </tr>
-            </table>
-         </div>
-            </a>
-            
-            <a href="product_details.html">
-          <div class="col-3 col-m-12 box7 box">
-             <table class="table_box">
-                <tr>
-                    <th>
-                    <img src="img/p9.jpg" height="240px" width="240px"/>
-                    </th>
-                </tr>
-                <tr>
-                    <td >
-                    <h3>Paul loebach</h3>
-                    <h4>Orchard Decorative Laddr</h4>
-                    <h5>$1450</h5>
-                    </td>
-                </tr>
-            </table>
-          </div>
-            </a>
-            
-            <a href="product_details.html">
-          <div class="col-3 col-m-12 box8 box">
-             <table class="table_box">
-                <tr>
-                    <th>
-                    <img src="img/p2.jpg" height="240px" width="240px"/>
-                    </th>
-                </tr>
-                <tr>
-                    <td >
-                    <h3>Bonderup</h3>
-                    <h4>Semi Stool</h4>
-                    <h5>$300</h5>
-                    </td>
-                </tr>
-            </table>
-           </div>
-            </a>
-            
-            <a href="product_details.html">
-            <div class="col-3 col-m-12 box9 box">
-             <table class="table_box">
-                <tr>
-                    <th>
-                    <img src="img/p11.jpg" height="240px" width="240px"/>
-                    </th>
-                </tr>
-                <tr>
-                    <td >
-                    <h3>By Lasson</h3>
-                    <h4>Stropp Väggkrok Mässing/Brunl</h4>
-                    <h5>$150</h5>
-                    </td>
-                </tr>
-            </table>
-           </div>
-            </a>
-        
-            <a href="product_details.html">
-            <div class="col-3 col-m-12 box10 box">
-             <table class="table_box">
-                <tr>
-                    <th>
-                    <img src="img/p12.jpg" height="240px" width="240px"/>
-                    </th>
-                </tr>
-                <tr>
-                    <td >
-                    <h3>Muuto</h3>
-                    <h4>VISU Scandinavian design chair</h4>
-                    <h5>$299</h5>
-                    </td>
-                </tr>
-            </table>
-           </div>
-            </a>
-            
-            <a href="product_details.html">
-          <div class="col-3 col-m-12 box11 box row2 ">
-             <table class="table_box">
-                <tr>
-                    <th>
-                    <img src="img/p10.jpg" height="240px" width="240px"/>
-                    </th>
-                </tr>
-                <tr>
-                    <td >
-                    <h3>Juniper</h3>
-                    <h4>Rivet Suspension Lamp</h4>
-                    <h5>$450</h5>
-                    </td>
-                </tr>
-            </table>
-           </div>
-            </a>
-            
-            <a href="product_details.html">
-            <div class="col-3 col-m-12 box12 box row2 ">
-             <table class="table_box">
-                <tr>
-                    <th>
-                    <img src="img/p13.jpg" height="240px" width="240px"/>
-                    </th>
-                </tr>
-                <tr>
-                    <td >
-                    <h3>Juniper</h3>
-                    <h4>Rivet Suspension Lamp</h4>
-                    <h5>$450</h5>
-                    </td>
-                </tr>
-            </table>
-           </div>
-            </a>
+                <a href="product_details.html">
+                    <div class="box1 box">
+                        <table class="table_box">
+                            <tr>
+                                <th>
+                                <img src="img/combine2.jpg" height="240px" width="240px"/>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td >
+                                <h3>By Lasson</h3>
+                                <h4>Kubus 4, brass </h4>
+                                <h5>$119</h5>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
+
+                <a href="product_details.html">
+                    <div class="box2 box">
+                        <table class="table_box">
+                            <tr>
+                                <th>
+                                <img src="img/p4.jpg" height="240px" width="240px"/>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td >
+                                <h3>Norm Architects</h3>
+                                <h4>Norm Side Plate</h4>
+                                <h5>$20</h5>
+                                </td>
+                            </tr>
+                        </table>
+                     </div>
+                </a>
+
+                <a href="product_details.html">
+                    <div class="box3 box">
+                        <table class="table_box">
+                            <tr>
+                                <th>
+                                <img src="img/p6.jpg" height="240px" width="240px"/>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td >
+                                <h3>Parisienne</h3>
+                                <h4>Stackable chair</h4>
+                                <h5>$258</h5>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
+
+                <a href="product_details.html">
+                    <div class="box4 box">
+                        <table class="table_box">
+                            <tr>
+                                <th>
+                                <img src="img/p5.jpg" height="240px" width="240px"/>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td >
+                                <h3>Hawkins New York</h3>
+                                <h4>Habi Pendant Light</h4>
+                                <h5>$312</h5>
+                                </td>
+                            </tr>
+                        </table>
+                     </div>
+                </a>
+
+                <a href="product_details.html">
+             <div class="box5 box">
+                 <table class="table_box">
+                    <tr>
+                        <th>
+                        <img src="img/p7.jpg" height="240px" width="240px"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td >
+                        <h3>Andrea Brugi</h3>
+                        <h4>Italian Olive Wood Mother Spoon</h4>
+                        <h5>$73</h5>
+                        </td>
+                    </tr>
+                </table>
+             </div>
+                </a>
+
+                <a href="product_details.html">
+            <div class="box6 box">
+                 <table class="table_box">
+                    <tr>
+                        <th>
+                        <img src="img/p8.jpg" height="240px" width="240px"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td >
+                        <h3>Tina Frey Designs</h3>
+                        <h4>Fresh Ice Bucket</h4>
+                        <h5>$73</h5>
+                        </td>
+                    </tr>
+                </table>
+             </div>
+                </a>
+
+                <a href="product_details.html">
+              <div class="box7 box row2 ">
+                 <table class="table_box">
+                    <tr>
+                        <th>
+                        <img src="img/p9.jpg" height="240px" width="240px"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td >
+                        <h3>Paul loebach</h3>
+                        <h4>Orchard Decorative Laddr</h4>
+                        <h5>$1450</h5>
+                        </td>
+                    </tr>
+                </table>
+              </div>
+                </a>
+
+                <a href="product_details.html">
+              <div class="box8 box row2 ">
+                 <table class="table_box">
+                    <tr>
+                        <th>
+                        <img src="img/p2.jpg" height="240px" width="240px"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td >
+                        <h3>Bonderup</h3>
+                        <h4>Semi Stool</h4>
+                        <h5>$300</h5>
+                        </td>
+                    </tr>
+                </table>
+               </div>
+                </a>
+
+                <a href="product_details.html">
+                <div class="box9 box">
+                 <table class="table_box">
+                    <tr>
+                        <th>
+                        <img src="img/p11.jpg" height="240px" width="240px"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td >
+                        <h3>By Lasson</h3>
+                        <h4>Stropp Väggkrok Mässing/Brunl</h4>
+                        <h5>$150</h5>
+                        </td>
+                    </tr>
+                </table>
+               </div>
+                </a>
+
+                <a href="product_details.html">
+                <div class="box10 box">
+                 <table class="table_box">
+                    <tr>
+                        <th>
+                        <img src="img/p12.jpg" height="240px" width="240px"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td >
+                        <h3>Muuto</h3>
+                        <h4>VISU Scandinavian design chair</h4>
+                        <h5>$299</h5>
+                        </td>
+                    </tr>
+                </table>
+               </div>
+                </a>
+
+                <a href="product_details.html">
+              <div class="box11 box">
+                 <table class="table_box">
+                    <tr>
+                        <th>
+                        <img src="img/p10.jpg" height="240px" width="240px"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td >
+                        <h3>Juniper</h3>
+                        <h4>Rivet Suspension Lamp</h4>
+                        <h5>$450</h5>
+                        </td>
+                    </tr>
+                </table>
+               </div>
+                </a>
+
+                <a href="product_details.html">
+                <div class="box12 box">
+                 <table class="table_box">
+                    <tr>
+                        <th>
+                        <img src="img/p13.jpg" height="240px" width="240px"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td >
+                        <h3>Juniper</h3>
+                        <h4>Rivet Suspension Lamp</h4>
+                        <h5>$450</h5>
+                        </td>
+                    </tr>
+                </table>
+               </div>
+                </a>
             </div>
+    
+        
         </div>  
  
-        <div class="col-4 buttom_page">
+        <div class="buttom_page">
             <div class="counter"></div>
 
-            <button class="paginate left" href="">
+            <button class="paginate left">
+                <i><a href=""></a></i>
+                <i><a href=""></a></i>
             </button>
             <button class="paginate right">
+                <i><a href=""></a></i>
+                <i><a href=""></a></i>
             </button>
             
             <script>

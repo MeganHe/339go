@@ -12,9 +12,15 @@
     justify-content: center;
     cursor: pointer;
     color: black;
+    float: left;
 }
-
-
+.box img{
+    width: 100%;
+    height: auto;
+}
+.shop_expand_list{
+    display: none;
+}
 .left_fixed_nav li{
     list-style: none;
     padding-bottom: 2vh;
@@ -25,87 +31,9 @@
     width: 6vw;;
 }
 
-/*.table_box{
-    border:1px solid lightgrey;
-}*/
-
 .table_box td{
     text-align: center;
 }
-
-
-
-/*----------Simple drop down menu - vertical---------*/
-
-.index a,
-.index a:link,
-.index a:visited,
-.index a:hover,
-.index a:active
-{
-  text-decoration:none;
-}
-
-.index ul,
-.index ol
-{
-  list-style-image:none;
-  list-style:none;
-  font-weight:normal;
-  padding-left:0;
-  margin-bottom:0;
-}
-.index li>ul,
-.index li>ol
-{
-  display:none;
-  margin-top:10px;
-}
-
-.index li
-{
-  /*background-color:rgba(80,80,80,.2);/*Or coloring on .index class*/
-  /*box-shadow:rgba(255,255,255,.2) -1px 1px 0 inset,rgba(0,0,0,.1) -1px 1px 2px;*/
-  padding:10px;
-}
-
-.index>ul>li,
-.index>ol>li
-{
-  /*Only first li is border*/
-}
-
-.index li a{
-  display:block;
-}
-
-/*Simple drop down menu test(Require jQuery)*/
-div.index.left
-{
-  width:950px;/*Menu width*/
-  display:block;
-}
-
-.index.leftul ul,.index.left ul li,.index.left ul a
-{
-  width:190px;/*list width*/
-
-}
-
-.index.left>ul>li
-{
-  float:left;
-}
-
-/*Others*/
-
-/*---------Simple drop down menu - vertical  end-------*/
-
-
-
-
-
-/*---------page----------*/
 
 .buttom_page{
     position:relative;
@@ -253,7 +181,8 @@ button.paginate{
         width: 0;
     }
     .box {
-        width: 33.33%;
+        width:33.33%;
+        margin-bottom: 5vmin;
     }
 }
 /*---- Bigger than Tablet----*/
@@ -261,17 +190,16 @@ button.paginate{
     .left_fixed_navigation {
         display: block;
         position: fixed;
-        width:  24.99%;
     }
-    
     .product_content {
-        margin-top: 14vmin;
+        width: 100%;
+        margin-top: 15vmin;
+    }
+    .box {
+        width:33.33%;
+        margin-bottom: 5vmin;
     }
     .product_listing {
         margin-left: 24.99%;
-    }
-
-    .row2{
-        padding-top: 5vh;
     }
 }

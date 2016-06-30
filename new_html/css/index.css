@@ -34,6 +34,32 @@
     stroke: #f8f8f8;
 }
 
+.home_line1{
+    position: absolute;
+    top: 17vmin;
+    left: -3.5vmin;
+    height: 2px;
+    width: 70px;
+    background-color: black;
+    z-index: 100000;
+}
+.home_line2{
+    position: absolute;
+    top: 17vmin;
+    left: -3.5vmin;
+    height: 2px;
+    width: 70px;
+    background-color: black;
+    z-index: 100000;
+}
+.home_line3{
+    position: absolute;
+    top: 37.5%;
+    left:-5em;
+    height: 2px;
+    width: 70px;
+    background-color: white;
+}
 /*---- Mobile----*/
 @media screen and (max-width:520px) {
     /*---- Home Page Starts ----*/
@@ -42,7 +68,7 @@
     }
     
     .home_content .content_bg {
-        padding-top: 45%;
+        padding-top: 85%;
     }
     
     .content_1 .product_img_left {
@@ -100,7 +126,7 @@
      /*---- Home Page Starts ----*/
     .home_web_big {
         padding-top: 42%;
-        margin-top:0px;
+        margin-top: 0vmin;
     }
 
     .home_content .content_bg {
@@ -109,7 +135,6 @@
     
     .content_1 .product_img_left {
         background-image: url(../img/homephoto1.png);
-        z-index: 100;
     }
     
     .content_1 .product_img_right {
@@ -141,40 +166,12 @@
     .content_outer_box_right .btn{
         float: left;
     }
-    
-    .home_line1{
-        position: absolute;
-        top: 25%;
-        left: -3vmin;
-        height: 2px;
-        width: 70px;
-        background-color: black;
-        z-index: 100000;
-    }
-    .home_line2{
-        position: absolute;
-        top: 25%;
-        left: -3vmin;
-        height: 2px;
-        width: 70px;
-        background-color: black;
-        z-index: 100000;
-    }
-    .home_line3{
-        position: absolute;
-        top: 25%;
-        left: -5vmin;
-        height: 2px;
-        width: 70px;
-        background-color: white;
-    }
 }
 @media screen and (min-width: 800px) {
     .home_web_big {
         margin-top: 60px;
     }
 }
-
 /*---- Bigger than Tablet----*/
 @media screen and (min-width: 1000px) {
     .home_content .content_bg {
