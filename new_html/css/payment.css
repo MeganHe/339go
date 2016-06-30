@@ -1,4 +1,8 @@
-    .payment_top{
+.login_content{
+    height: 98vmin;
+}
+
+.payment_top{
         background-image: url(../img/c.jpg)
         position: relative;
         display: flex;
