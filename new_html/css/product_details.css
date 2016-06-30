@@ -103,6 +103,9 @@
 }
 /*---- Mobile----*/
 @media screen and (max-width:780px) {
+     .product_detail_img{
+        width: 100%;
+    }
     .product_detail_des_group {
         position: relative;
         padding-right: 5vmin;
@@ -118,7 +121,7 @@
         height: 100%;
     }
     .product_detail_des_content {
-        width: 60vmin;
+        width: 70vmin;
     }
 
     .product_detail_des .img_title{
@@ -129,9 +132,7 @@
         font-weight: 500;
     }
 
-    .product_detail_img{
-        width: 100%;
-    }
+   x
 
     .img_option_para{
         font-size: 1.4vmin;
