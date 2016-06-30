@@ -138,7 +138,7 @@
     }
 
 
-
+/*-------responsive-------*/
 @media screen and (max-width: 800px){
     .location_title h2{
         font-size: 2.3vmin;
@@ -167,7 +167,7 @@
 
 @media screen and (max-width: 750px) {
     .location_title h2{
-        font-size: 2.6vmin;
+        font-size: 2.3vmin;
         font-weight: 600;
         padding-top:2.3%;
 }
