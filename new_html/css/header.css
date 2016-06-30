@@ -11,7 +11,7 @@ header nav {
 }
 header nav ul {
 	margin: 0;
-	padding: 5px;
+	padding: 10px;
 	list-style-type: none;
 }
 header nav ul li {
@@ -35,13 +35,12 @@ header nav ul li ul {
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
     background-color: white;
     font-size: 0.8vmin; 
-    top: 50px;
+    top: 2.5rem;
 }
 
 header nav ul ul li{
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     width: 100%;
-    text-align: left;
     position: relative;
 }
 
@@ -53,7 +52,7 @@ header nav ul li a {
     display: block;
 }
 
-header nav ul li a:hover, header nav ul li a.active{
+header nav ul li a:hover, header nav ul li a.active, .left_fixed_nav a.active{
     color: #F896A9;
 }
 
@@ -62,8 +61,7 @@ header nav ul li a:hover, header nav ul li a.active{
 }
 .header_right ul li {
     list-style: none;
-    padding-top: 10px;
-    padding-right: 20px;
+    padding: 15px;
     display: inline-block;
     cursor: pointer;
 }
@@ -78,21 +76,22 @@ header nav ul li a:hover, header nav ul li a.active{
     header {
         position: relative;
         display: block;
-        height: 60px;
+        height: 80px;
     }
     
     .logo{
         position: absolute;
         width: 100%;
+        bottom: -7px;
         display: flex;
         justify-content: center;
-        bottom: -15px;
+        padding-top: 2.5vmin;
     }
     
     .header_right {
         position: absolute;
         display: flex;
-        bottom: -14px;
+        bottom: -5px;
         width: 100%;
         justify-content: flex-end;
     }
@@ -115,14 +114,11 @@ header nav ul li a:hover, header nav ul li a.active{
         box-shadow: 0px 2px 1px #f8f8f8;
         width: 100%;
         z-index: 1000000;
-        height: 60px;
     }
     
     .logo {
         float: left;
         margin-left: 5vmin;
-        margin-top: -20px;
-        padding: 0px;
     }
     .header_right{
         float: right;
@@ -135,7 +131,7 @@ header nav ul li a:hover, header nav ul li a.active{
         display: block;
     }
     header nav ul, .header_right {
-        margin-top: -5px;
+        margin-top: 15px;
     }
     
     header nav ul ul li:hover a{

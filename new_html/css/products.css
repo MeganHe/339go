@@ -22,6 +22,9 @@
     display: none;
     padding-top: 2vmin;
 }
+.shop_expand_list a{
+    color: gray;
+}
 .shop_expand .expand_icon{
     margin-left: 5px;
 }
@@ -80,6 +83,8 @@ button.paginate{
   margin-top: -10px;
   /*-webkit-filter: drop-shadow(0 2px 0px rgba(0, 0, 0, 0.2));*/
 }
+
+
 .paginate i {
   position: absolute;
   top: 25%;
@@ -178,6 +183,7 @@ button.paginate{
   /*text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);*/
   color: darkgray;
 }
+
 .table_box h3{
     margin-top: -1.2vh; 
     font-weight: 600;
@@ -232,7 +238,8 @@ button.paginate{
         width:33.33%;
         margin-bottom: 5vmin;
     }
-    .table_box h3{
+    
+        .table_box h3{
         font-size: 2.3vmin;
     }
     .table_box h4{
@@ -247,22 +254,21 @@ button.paginate{
     .left_fixed_navigation {
         display: block;
         position: fixed;
-        margin-top: 7vmin;
+        margin-top: 4vmin;
     }
     .product_content {
         width: 100%;
-        margin-top: 10vmin;
+        margin-top: 15vmin;
     }
     .box {
         width:33.33%;
         margin-bottom: 5vmin;
-        height: 40vmin;
     }
     .product_listing {
         margin-left: 24.99%;
     }
     
-    .table_box h3{
+        .table_box h3{
         font-size: 2vmin;
     }
     .table_box h4{
