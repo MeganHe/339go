@@ -121,8 +121,8 @@
     .home_content .img_title {
         font-size: 4vmin;
         font-weight: 600;
-        margin-top: -1vmin;
-        padding-top: -1vmin;
+        margin-top: 1vh;
+        padding-top: 1vh;
     }
     
     .home_content .img_intro{
@@ -168,8 +168,8 @@
 
     .home_content .img_title {
         font-size: 3vmin;
-        margin-top: -1vmin;
-        padding-top: -1vmin;
+        margin-top: 1vh;
+        padding-top: 1vh;
     }
     
     .home_content .img_intro{
