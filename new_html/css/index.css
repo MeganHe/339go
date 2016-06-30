@@ -97,11 +97,34 @@
     
     .content_outer_box_left {
         left: 5vmin;
-        width: 90%;
+        width: 100%;
     }
     
     .content_outer_box_right {
         width: 90%;
+    }
+        .home_content .img_featured {
+        font-size: 4vmin;
+    }
+
+    .home_content .img_title {
+        font-size: 5vmin;
+        margin-top: -1vmin;
+        padding-top: -1vmin;
+    }
+    
+    .home_content .img_intro{
+        font-size: 3.5vmin;
+        font-weight: 600;
+        margin-top: -10px;
+    }
+    .home_content .img_introduction{
+        display: block;
+        font-size: 3vmin; 
+        padding-bottom: 4vmin;
+    }
+    .home_content .btn {
+        margin-top: 3vmin;
     }
 }
 
@@ -111,6 +134,27 @@
     .home_web_big {
         padding-top: 42%;
         margin-top: 0vmin;
+    }
+    .content_1 .content_inner_box {
+        top: -20px;
+    }
+    .home_content .img_featured {
+        font-size: 2vmin;
+        margin-top: 0;
+    }
+
+    .home_content .img_title {
+        font-size: 3vmin;
+        margin-top: -1vmin;
+        padding-top: -1vmin;
+    }
+    
+    .home_content .img_intro{
+        font-size: 2vmin;  
+        margin-top: -10px;
+    }
+    .home_content .img_introduction{
+        font-size: 1.8vmin;  
     }
 
     .home_content .content_bg {
@@ -133,9 +177,15 @@
         background-image: url(../img/row3p2.png);
     }
     
-    .home_content .btn{
+    .content_1 .btn , .content_3 .btn{
         margin-top: 0vmin;
-        width: 45%;
+        width: 80%;
+        left: -1vmin;
+    }
+    
+    .content_2 .btn{
+        margin-top: 0vmin;
+        width: 33%;
         left: -1vmin;
     }
     
@@ -188,6 +238,13 @@
         padding-top: 42%;
     }
     .home_content .btn{
+        width: 20vmin;
         margin-top: 5vmin;
+    }
+    .content_1 .btn{
+        width: 20vmin;
+    }
+    .content_2 .btn{
+        width: 23%;
     }
 }

@@ -7,7 +7,9 @@ a.meanmenu-reveal {
     margin-left: 5px;
     color: black;
 }
-
+.hamburger_bar_closed{
+    background-image: url(../img/hb_black-01.png);
+}
 /* when under viewport size, .mean-container is added to body */
 .mean-container .mean-bar {
 	width: 100%;
@@ -25,7 +27,7 @@ a.meanmenu-reveal {
 	color: black;
 	text-decoration: none;
 	display: block;
-	font-weight: 700;
+	font-weight: 400;
     font-size: 20px;
 }
 

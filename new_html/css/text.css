@@ -26,7 +26,6 @@ p,a,span{
 }
 
 .img_featured {
-   
     font-weight: 500;
     color: black;
     letter-spacing: 4px;
@@ -123,14 +122,6 @@ p,a,span{
         margin-top: 3.3vh;
     }
 
-    .img_featured {
-        font-size: 2vmin;
-    }
-
-    .img_title {
-        font-size: 3.8vmin;
-    }
-
     .img_option_para{
         font-size: 2vmin;  
     }
@@ -154,7 +145,6 @@ p,a,span{
     .img_intro{
         color: #7e7e7e;
         letter-spacing: 1px;
-        font-size: 1.6vmin;
     }
     .img_intro_white{
         color: white;
