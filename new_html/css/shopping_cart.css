@@ -1,6 +1,24 @@
 
     /*---- Big Img on Top ----*/
 
+
+/*------Thank you page-------*/
+
+.cart_content h3{
+   padding-left: 5vmin;
+    font-size: 4vmin;
+    font-weight: 500;
+}
+.cart_content p{
+     padding-left: 5vmin;
+    line-height: 2;
+    font-size: 1.7vmin;
+}
+/*------Thank you page end-------*/
+
+
+
+
     /*----Shopping Cart----*/
 .shopping_cart_content{
     margin-top: 14vmin;
