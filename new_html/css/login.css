@@ -13,6 +13,7 @@
 
     .login_instruction .instruction_text {
         padding-top: 4%;
+       
     }
 
     .instruction_text_t {
@@ -26,6 +27,7 @@
     /*---- Signin or Sign up ----*/
     .login_signup .empty {
         padding-top: 40%;
+   
     }
 
     .login_part {
@@ -61,6 +63,7 @@
     }
 
     .login_top{
+        background-image: url(../img/c.jpg)
         position: relative;
         display: flex;
         align-content: center;
