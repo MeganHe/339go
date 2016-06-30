@@ -1,14 +1,14 @@
 /*---- Contact Page Starts----*/
 .contact_img{
     position: relative;
-    background-size:cover;
+ 
 }
 .contact_address {
     width: 100%;
     display: block;
     float: left;
     margin-top: 5%;
-    margin-bottom: 5vmin;
+    margin-bottom: 5vh;
 }
 
 .contact_ad_form{
@@ -197,7 +197,7 @@
     }
         .contact_grey_line{
         margin-left: 0;
-        padding-left: 5vmin;
+        padding-left: 5vw;
     }
     .contact_grey_line h2{
         font-size: 3.5vmin;
@@ -208,11 +208,11 @@
         position: relative;
         display: block;
         float: left;
-        margin-top: 3vmin;;
+        margin-top: 3vh;;
         width: 100%;
     }
     .textinput-banner-right{
-        padding-left: 5vmin;;
+        padding-left: 5vw;;
         padding-top: 5%;
         width: 90%;
     }
@@ -224,7 +224,7 @@
         height: 100px;
     }
     .send_btn {
-        margin-top: 5vmin;
+        margin-top: 5vh;
         width: 100%;
     }
      .location_title {   
@@ -234,10 +234,10 @@
          font-size: 3.2vmin;
         font-weight: 600;
         padding-top:3%;
-        padding-left:  5vmin;
+        padding-left:  5vw;
 }
     .contact_ad_form{
-        padding-left: 5vmin;
+        padding-left: 5vw;
         width: 100%;
         float: left;
     }
@@ -263,7 +263,7 @@
     }
     .contact_grey_line{
         margin-left: 0;
-        padding-left: 5vmin;
+        padding-left: 5vw;
     }
     .contact_grey_line h2{
         font-size: 2.3vmin;
@@ -273,11 +273,11 @@
         position: relative;
         display: block;
         float: left;
-        margin-top: 3vmin;;
+        margin-top: 3vh;;
         width: 100%;
     }
     .textinput-banner-right{
-        padding-left: 5vmin;;
+        padding-left: 5vw;;
         padding-top: 5%;
         width: 90%;
     }
@@ -289,18 +289,18 @@
         height: 100px;
     }
     .send_btn {
-        margin-top: 5vmin;
+        margin-top: 5vh;
         width: 100%;
     }
      .location_title {
-        margin-top: 3vmin;
-        padding-left:  5vmin;
+        margin-top: 3vh;
+        padding-left:  5vw;
         font-size: 3vmin;
         font-weight: 600;
         background-color: #f8f8f8;
     }
     .contact_ad_form{
-        padding-left: 5vmin;
+        padding-left: 5vw;
         width: 27%;
         float: left;
     }
@@ -336,12 +336,12 @@
         height: 100px;
     }
     .send_btn {
-        margin-top: 5vmin;
+        margin-top: 5vh;
         width: 80%;
     }
         .location_title {
-        margin-top: 3vmin;
-        padding-left:  3vmin;
+        margin-top: 3vh;
+        padding-left:  3vw;
        font-size: 3vmin;
         font-weight: 500;
         background-color: #f8f8f8;
@@ -380,8 +380,8 @@
         height: 10vmax;
     }
     .location_title {
-        margin-top: 5vmin;
-        padding-left:  5vmin;
+        margin-top: 5vh;
+        padding-left:  5vw;
        font-size: 3vmin;
         font-weight: 500;
         background-color: #f8f8f8;
