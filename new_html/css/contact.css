@@ -7,17 +7,20 @@
     width: 100%;
     display: block;
     float: left;
+    margin-top: 5%;
     margin-bottom: 5vmin;
 }
 
 .contact_ad_form{
     width: 33.33%;
     float: left;
+    margin-top: -3%;
 }
 
 .location_title {
     display: block;
     position: relative;
+    height: 20%;
 }
     * {
         -webkit-transition-property: all;
@@ -135,6 +138,56 @@
     }
 
 
+
+@media screen and (max-width: 800px){
+    .location_title h2{
+        font-size: 2.3vmin;
+        font-weight: 600;
+        padding-top:2.3%;
+}
+    
+    location_title{
+        margin-bottom:7%; 
+    }
+    .contact_grey_line h2{
+         padding-top:1.6%;
+    }
+      .contact_ad_form h3{
+        font-size: 2vmin;
+        font-weight: 600;
+    }
+    .contact_ad_form p{
+        font-size: 1.7vmin;
+    }
+    .contact_ad_form {
+        margin-top: 3%;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .location_title h2{
+        font-size: 2.6vmin;
+        font-weight: 600;
+        padding-top:2.3%;
+}
+    .location_title{
+        margin-bottom:2%; 
+    }
+    .contact_grey_line h2{
+         padding-top:1.5%;
+        
+        
+    }
+      .contact_ad_form h3{
+        font-size: 2.2vmin;
+        font-weight: 600;
+    }
+    .contact_ad_form p{
+        font-size: 2vmin;
+    }
+    
+}
 @media screen and (max-width: 520px) {
      .contact_img{
         margin-top: 0px;
@@ -147,8 +200,9 @@
         padding-left: 5vmin;
     }
     .contact_grey_line h2{
-        font-size: 5vmin;
+        font-size: 3.5vmin;
         font-weight: 600;
+        padding-top:3%;
     }
     .contact_content_form{
         position: relative;
@@ -173,19 +227,33 @@
         margin-top: 5vmin;
         width: 100%;
     }
-     .location_title {
-        margin-top: 3vmin;
-        padding-left:  5vmin;
-        font-size: 5vmin;
-        font-weight: 600;
+     .location_title {   
         background-color: #f8f8f8;
     }
+    .location_title h2{
+         font-size: 3.2vmin;
+        font-weight: 600;
+        padding-top:3%;
+        padding-left:  5vmin;
+}
     .contact_ad_form{
         padding-left: 5vmin;
         width: 100%;
         float: left;
     }
+    .contact_ad_form h3{
+        font-size: 2.8vmin;
+        font-weight: 600;
+        
+    }
+  
+    .contact_ad_form p{
+        font-size: 2.5vmin;
+    }
 }
+
+
+
 @media screen and (min-width: 520px) {
     .contact_img{
         margin-top: 0px;
@@ -198,7 +266,7 @@
         padding-left: 5vmin;
     }
     .contact_grey_line h2{
-        font-size: 3vmin;
+        font-size: 2.3vmin;
         font-weight: 600;
     }
     .contact_content_form{
