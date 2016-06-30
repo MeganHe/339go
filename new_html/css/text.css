@@ -96,7 +96,7 @@ p,a,span{
         font-size: 4vmin;
     }
     
-    header nav ul ul li a{
+    nav ul ul li a{
         font-size: 3vmin;
     }
     
@@ -149,7 +149,7 @@ p,a,span{
         letter-spacing: 0.5px;
         line-height: 1.55;
     }
-    header nav ul ul li a{
+    nav ul ul li a{
         font-size: 1.6vmin;
     }
 
@@ -162,7 +162,7 @@ p,a,span{
 }
 
 @media screen and (min-width:800px) {
-    header nav ul ul li a{
+    nav ul ul li a{
         font-size: 1.3vmin;
     }
     .contact_grey_line h2,  .location_title h2{

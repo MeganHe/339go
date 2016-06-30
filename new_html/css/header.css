@@ -5,28 +5,28 @@
     content: " ";
 }
 
-header nav {
+nav {
     margin-top: -2px;
 	text-align: center;
     position: relative;
 }
-header nav ul {
+nav ul {
 	padding: 10px;
 	list-style-type: none;
 }
-header nav ul li {
+nav ul li {
 	display:inline-block;
     position:relative;
 }
-header nav ul li:first-child {
+nav ul li:first-child {
 	margin-left: 0;
 }
 
-header nav ul li:last-child {
+nav ul li:last-child {
 	margin-right: 0;
 }
 
-header nav ul li ul {
+nav ul li ul {
 	z-index: 10000000;
     display: none;
     list-style: none;
@@ -38,14 +38,14 @@ header nav ul li ul {
     top: 5npx;
 }
 
-header nav ul ul li{
+nav ul ul li{
     padding-bottom: 0px;
     width: 100%;
     text-align: left;
     position: relative;
 }
 
-header nav ul li a {
+nav ul li a {
     color: #6A6A6A;
     margin: 0;
     text-decoration: none;
@@ -53,7 +53,7 @@ header nav ul li a {
     display: block;
 }
 
-header nav ul li a:hover, header nav ul li a.active, .left_fixed_nav a.active{
+nav ul li a:hover, header nav ul li a.active, .left_fixed_nav a.active{
     color: #F896A9;
 }
 
@@ -101,7 +101,7 @@ header nav ul li a:hover, header nav ul li a.active, .left_fixed_nav a.active{
         cursor: pointer;
     }
     
-    header nav ul li ul {
+    nav ul li ul {
         top: 0;
         position: relative;
     }
@@ -138,14 +138,14 @@ header nav ul li a:hover, header nav ul li a.active, .left_fixed_nav a.active{
     nav{
         float: right;
     }
-    header nav ul li:hover ul{
+    nav ul li:hover ul{
         display: block;
     }
-    header nav ul, .header_right {
+    nav ul, .header_right {
         margin-top: -5px;
     }
     
-    header nav ul ul li:hover a{
+    nav ul ul li:hover a{
         background-color: #f8f8f8;
     }
     .header_right ul li a:hover{

@@ -1,101 +1,48 @@
-/*---- Header ----*/
-    .main_header {
-        margin: 5%;
-    }
+.style_guide_content{
+    
+}
 
+h2 {
+    font-size: 3vmin;
+    font-weight: 500;
+}
+
+h3{
+    display: inline-block;
+    font-size: 1.7vmin;
+    font-weight: 400;
+}
+.hoveron_btn:hover {
+    color: #F896A9;
+    font-weight: 500;
+}
+.hoveron_btn{
+    cursor: pointer;
+}
+.hoveron_btn_content{
+    display: none;
+}
+
+.hoveron_btn:active .expand_icon{
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
     /*---- Website Name ----*/
     /*----For Style Guide ----*/
     .sg_web_name {
         margin-top: 10%;
-        float: left;
-        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 10%;
     }
 
-    .title {
-        float: left;
-        text-align: left;
-    }
-    /*----For Style Guide ----*/
-    /*---- Website Name ----*/
-
-    /*---- Main Navigation ----*/
-        /*----For Style Guide ----*/
-        .sg_nav{
-            float: right;
-            margin-top: 5%;
-        }
-        /*----For Style Guide ----*/
-        
-        .top_nav{
-            list-style: none;
-            margin-top: 5%;
-            float: left;
-        }
-
-        .top_nav li{
-            display: inline-block;
-            position:relative;
-            font-size: 15px;
-        }
-
-        .top_nav a{
-            color: black;
-            display: block;
-            padding: 10px;
-            text-decoration: none;
-            width: 100%;
-            position: relative;
-        }
-
-        .top_nav a:hover, .top_nav a:focus{
-            -webkit-transition: box-shadow .5s ease;
-            box-shadow: 0px -2px 0px #E0DDC6 inset;
-        }
-
-        .top_nav ul li a:hover .top_nav li{
-            box-shadow: 0px -2px 0px #E0DDC6 inset;
-        }
-
-        .top_nav ul{
-            display: none;
-            list-style: none;
-            position: absolute;
-            min-width: 100%;
-            background-color: #ffffff;
-            box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.2);
-            font-size: 0.8rem; 
-            padding: 0px;
-            top: 2.5rem;
-        }
-
-        .top_nav ul li{
-            padding-top: 1px;
-            float: none;
-            width: 100%;
-            font-size: 12px;
-        }
-
-        /*---- Current Page ----*/
-            .active {
-                box-shadow: 0px -2px 0px #E0DDC6 inset;
-            }
-        /*---- Current Page ----*/
-
-        .top_nav li:hover ul{
-            display: block;
-        }
-
-        .top_nav ul li:hover a{
-            width: 100%;
-            background-color: #E0DDC6;
-        }
-
-        ul.top_nav li.icon {
-            display: none;
-        }
-    /*---- Main Navigation ----*/
-/*---- Header ----*/
+.title{
+    font-size: 4vmin;
+    font-weight: 500;
+    text-align: center;
+}
 
 /*---- Interactive Elements ----*/
     /*---- Navigation Button ----*/
@@ -139,11 +86,15 @@
         text-align: center;
         justify-content: center;
         height: 35vw;
-        padding: 11%;
     }
 
+    .in_text_link_r p{
+        padding-left: 5vmin;
+        padding-right: 5vmin;
+}
+
     .in_text_link a:link{
-        color: #E0DDC6;
+        color: #F896A9;
         background-color: transparent;
         text-decoration: none;
     }
@@ -155,7 +106,7 @@
     }
     
     .in_text_link a:hover{
-        color: #9ACAE5;
+        color: #F896A9;
         background-color: transparent;
         text-decoration: underline;
     }
@@ -174,7 +125,6 @@
         text-align: center;
         justify-content: center;
         height: 35vw;
-
     }
 
     .submit_button_r {
@@ -213,11 +163,14 @@
         color: #000;
         cursor: pointer;
         overflow: hidden;
+        left: -2vmin;
     }
 
     .btn svg {
         position: absolute;
         top: 0; left: 0;
+        width: 100%;
+        left: 1.5vmin;
     }
 
     .btn svg rect {
@@ -348,7 +301,7 @@
         align-items: center;
         text-align: center;
         justify-content: center;
-        padding: 20% 30% 5%;
+        margin-top: 10vmin;
     }
 
     .headings {
@@ -366,41 +319,43 @@
 
 
     .heading-size1{
-        font-size: 60px;
-        font-weight: 600;
+        font-size: 5vmin;
+        font-weight: 500;
     }
 
     .heading-size2{
-        font-size: 35px;
-        font-weight: 600;
+        font-size: 4vmin;
+        font-weight: 400;
     }
 
     .heading-size3{
-        font-size: 25px;
-        font-weight: 600;
+        font-size: 3vmin;
+        font-weight: 400;
     }
     
     /* Paragraph Style*/
     .paragraphs_l{
-        margin-left: 5%;
         text-align: right;
         color: #3f3f3f;
         min-height: 20vw;
         padding-top: 10%;
-        padding-right: 3%;
         float: right;
     }
 
     .paragraphs_r{
         min-height: 20vw;
-        padding-right: 5%;
         padding-top: 10%;
         letter-spacing: 0.2px;
         line-height: 180%;
         -webkit-background-size: cover;
         background-size: cover;
         -moz-background-size: cover;
-        padding-left:4%;
+    }
+
+    .paragraphs_r p{
+        margin-top: 3vmin;
+        padding-left: 15vmin;
+        padding-right: 5vmin;
     }
     /* Paragraph Style*/
 
@@ -408,17 +363,14 @@
     .list_l{
         text-align: right;
         color: #3f3f3f;
-        padding-left: 5%;
         min-height: 20vw;
-        padding-top: 10%;
-        padding-right: 3%;
         float: right;
     }
 
     .list_r {
         min-height: 20vw;
         padding-right: 10%;
-        padding-top: 10%;
+        padding-top: 1%;
         letter-spacing: 0.2px;
         line-height: 180%;
         -webkit-background-size: cover;
@@ -433,62 +385,21 @@
 
     .rec {
         display: block;
-        max-width: 15vw;
+        width: 50%;
         height: 2vw;
         background-color: #E0DDC6;
         border: none;
-        margin-top: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
+        margin-left: 5vmin;
     }
     
 
-    .product-list {
-        margin-top: 5%;
-        margin-bottom: 5%;
+    .product-list h2{
+        padding-left: 5vmin;
     }
 
     .product_img{   
-        margin-bottom: 15%;
-    }
-    
-    .image_caption{
-        display: none;
-        position: absolute;
-        border: .05rem solid black;
-        padding: 1rem;
-        width: 90%; 
-        top:85%;
-        margin-left:3%;
-        background-color: white;
-    }
-    .image_caption .product_name{
-        font-weight: 400;
-    }
-    .image_caption .product_price{
-        font-weight: 700;
-    }
-    
-
-    .product_name{
-        float: left;
-    }
-
-    .product_price{
-        float: right;
-    }
-
-    figure{
-        position: relative;
-        z-index: 100;
-        width: 100%;
-        overflow: hidden;
-        padding: 2%;
-        height: 40rem;
-        margin-bottom: 15%;
-    }
-
-    figure:hover .image_caption {
-        display: block;
+        margin-bottom: 5%;
     }
 
 

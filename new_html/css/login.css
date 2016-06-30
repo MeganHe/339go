@@ -52,14 +52,14 @@
     }
     .login_btn{
         position: absolute;
-        margin-top: -55%;
+        margin-top: -50%;
     }
     .sign_up_btn{
          position: absolute;
-         margin-top: -55%;
+         margin-top: -50%;
     }
     .signin_form{
-        margin-top: 10%;
+        margin-top: 15%;
     }
     .signup_part {
         padding-top: 40%;
