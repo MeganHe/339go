@@ -114,7 +114,7 @@
         width: 90%;
     }
     .home_content .img_featured {
-        font-size: 2.3vmin;
+      
         font-weight: 600;
     }
 
@@ -134,11 +134,19 @@
 
     .home_content .btn {
         margin-top: 3vmin;
+         font-size: 2.5vmin;
     }
     .home_content .img_introduction{
-        font-size: 2.7vmin;
+        font-size: 2.5vmin;
+        line-height: 1.8;
     }
+   
+       
+  
+    
 }
+/*---- Mobile end----*/
+
 
 /*---- Bigger than Mobile----*/
 @media screen and (min-width: 520px) { 
@@ -172,6 +180,7 @@
     .home_content .img_introduction{
         font-size: 1.6vmin; 
         font-weight: 400;
+          line-height: 1.8;
     }
 
     .home_content .content_bg {
@@ -266,6 +275,6 @@
         width: 20vmin;
     }
     .content_2 .btn{
-        width: 23%;
+        width: 20vmin;
     }
 }

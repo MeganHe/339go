@@ -79,6 +79,17 @@
         padding-bottom: 5vmin;
         padding-top: 10vmin;
     }
+    .form-frame span{
+        color: #888;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        display: block;
+        font-size: 12px;
+        padding-top: 5px;
+        letter-spacing: 4px;
+    }
+
+
 /*---- Login Page Ends ----*/
 
 
@@ -104,5 +115,4 @@
     .contact_content {
         margin-top: 11vmin;
     }
-    
-}
+  

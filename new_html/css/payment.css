@@ -57,7 +57,7 @@
         border-left: 1px solid transparent;
         border-bottom: 1px solid #999;
         border-right: 1px solid transparent;
-        width: 300%;
+        width: 40%;
         font-size: 12px;
         font-weight: 100;
         letter-spacing: 0.1px;
@@ -75,11 +75,11 @@
     z-index: 100000;   
 }
 .form-left{
-    position: absolute;
+    position: relative;
 }
 .form-right{
-    margin-left: 50%;
-    position: absolute;
+    margin-left: 45%;
+    position: relative;
 }
 
 
