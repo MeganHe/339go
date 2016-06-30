@@ -100,14 +100,34 @@
         width: 90%;
         margin: 2vmin;
     }
-    
-   
     .cart_confirm .left_btn .btn{
         font-size: 2vmax;
     }
     
+    .cart_confirm .left_btn .btn{
+        font-size: 2vmax;
+        width: 100%;
+    }
+    
+    .cart_confirm .left_btn .btn svg{
+        width: 100%;
+        right: -3vmin;
+    }
+    .cart_confirm .left_btn .btn svg rect{
+        width: 100%;
+    }
+    
     .cart_confirm .right_btn .btn{
         font-size: 2vmax;
+        width: 100%;
+    }
+    
+    .cart_confirm .right_btn .btn svg{
+        width: 100%;
+        right: -3vmin;
+    }
+    .cart_confirm .right_btn .btn svg rect{
+        width: 100%;
     }
 
     .cart_confirm .right_btn{
@@ -129,9 +149,13 @@
     .cart_table .delete{
         display: none;
     }
-    .table_sum {
+    .table_sum p{
         font-size: 3vmin;
         margin: 5vmin;
+    }
+    
+    .shopping_cart_content{
+        height: 110vmin;
     }
 }
 
@@ -154,11 +178,30 @@
         justify-content: center;
         margin-right: 1vmin;
     }
+        .cart_confirm .left_btn svg{
+        right: -16vmin;
+    }
 
     .cart_confirm .right_btn{
         position: absolute;
         top: 35vmin;
-        right: 20vmin;;
+        right: 30vmin;;
         padding-right: 10vmin;
+    }
+    
+    .cart_confirm .right_btn svg{
+        right: -20.5vmin;
+    }
+    
+    .shopping_cart_content{
+        height: 90vmin;
+    }
+    .c_btn{
+        float: left;
+        margin-top: 5vmin;
+        padding-left: 3.5vmin;
+    }
+    .c_btn svg{
+        left: 1.5vmin;
     }
 }
