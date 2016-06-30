@@ -1,5 +1,6 @@
 /*---- Contact Page Starts----*/
 .contact_img{
+    margin-top: 15vh;
     position: relative;
     padding-top:60%;
     background-image: url(../img/contact_s1.png);
@@ -11,8 +12,8 @@
 /* TEXT INPUT FIELD*/
 
 .contact_grey_line{
-  margin-top: 25%;
-    margin-left: 5%;
+  margin-top: 35%;
+    margin-left: 10%;
     position:relative;
     height: 40px;
     width: 600px;
