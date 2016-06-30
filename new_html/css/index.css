@@ -34,6 +34,7 @@
     stroke: #f8f8f8;
 }
 
+
 /*---- Mobile----*/
 @media screen and (max-width:520px) {
     /*---- Home Page Starts ----*/
@@ -51,15 +52,23 @@
     }
     
     .content_1 .product_img_right {
-        background-image: url(../img/homephoto3-wide.png);
+        display: none;
+    }
+    .content_2 .empty{
+        display: none;
     }
     
+    .content_2 .content_bg.right_align{
+        padding-top: 75%;
+    }
     .content_2 .product_img_right {
         background-image: url(../img/homephoto4-wide.png);
+        padding-top: 45%;
     }
     
     .content_3 .product_img {
         background-image: url(../img/row3p2.png);
+        padding-top: 60%;
     }
     
     .home_content .img_featured{
@@ -141,8 +150,7 @@
     .content_outer_box_right .btn{
         float: left;
     }
-    
-.home_line1{
+    .home_line1{
     position: absolute;
     top: 17vmin;
     left: -3.5vmin;
