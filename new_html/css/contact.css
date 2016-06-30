@@ -1,4 +1,102 @@
 /*---- Contact Page Starts----*/
+.contact_img{
+    position: relative;
+    padding-top:60%;
+    background-image: url(../img/contact_s1.png);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+/* TEXT INPUT FIELD*/
+
+.contact_grey_line{
+  margin-top: 25%;
+    margin-left: 5%;
+    position:relative;
+    height: 40px;
+    width: 600px;
+    background-color:#f8f8f8;
+}
+    *:focus {
+        outline: 0;
+        border-bottom: 1.5px solid black; 
+    }
+  
+    .here-to-there {
+        height: 100%;
+        /*position: relative;*/
+        width: 100%;
+    }
+
+
+    .off-canvas {
+        position: relative;
+        width: 400px;
+        height: 350px; 
+    }
+
+    .form-frame {
+        width: 300px;
+    }
+
+    .form-frame span{
+        color: #888;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        display: block;
+        font-size: 12px;
+        padding-top: 5px;
+        letter-spacing: 4px;
+    }
+    
+
+
+    input {
+        background-color: transparent;
+        border-top: 1px solid transparent;
+        border-left: 1px solid transparent;
+        border-bottom: 1px solid #999;
+        border-right: 1px solid transparent;
+        width: 300px;
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 0.1px;
+    }
+
+    textarea{
+        background-color:transparent;
+        border-top: 1px solid #999;
+        border-left: 1px solid #999;
+        border-bottom: 1px solid #999;
+        border-right: 1px solid #999;
+        width: 300px;
+        color: black;
+        font-size: 12px;
+        line-height: 18px;
+        padding: 4px 0px;
+        height: 10vw;
+        width: 20vw;
+        margin-top: 10px;
+    }
+
+    input{
+        background-color:transparent;
+        border-top: 1px solid transparent;
+        border-left: 1px solid transparent;
+        border-bottom: 1px solid #999;
+        border-right: 1px solid transparent;
+        width: 20vw;
+    }
+
+
+    textarea:focus{
+        outline: 0;
+        border: 1.5px solid black; 
+    }
+
+/*--------------text input end---------*/
+
     /*---- Location Title ----*/
     .location_title {
         position: relative;
@@ -40,3 +138,25 @@
     }
 /*----Contact Page Ends----*/
 
+/*--------------text input---------*/
+    .textinput-banner-right{
+        padding-top: 20%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35vw;
+    }
+
+    .textinput-banner-left{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 35vw;
+        background-color: #E0DDC6;
+        border-color: white;
+        border: 5px;
+    }
+
+    

@@ -202,5 +202,12 @@ p,a,span{
     header nav ul ul li a{
         font-size: 1.3vmin;
     }
+    .contact_grey_line h2{
+        text-align: left;
+        padding-left: 2vw;
+        font-size: 1.8vmin;
+        font-weight: 600;
+        padding-top: 1vh;
+    }
  
 }
