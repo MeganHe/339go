@@ -49,11 +49,13 @@
         position: absolute;
         margin-top: -75%;
     }
-.sign_up_btn{
-     position: absolute;
-        margin-top: -75%;
-}
-
+    .sign_up_btn{
+         position: absolute;
+            margin-top: -50%;
+    }
+    .sign_up_form{
+        margin-top: 15%;
+    }
     .signup_part {
         padding-top: 40%;
     }

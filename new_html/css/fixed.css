@@ -157,16 +157,18 @@ input {
     font-size: 1.4vmin;
 }
 .footer li.footer_not_big{
+     font-size: 1.3vmin;
     margin-top: 3px;
 }
 .footer li.footer_not_big a{
-    color:#bdbdbd;
+   
+    color: #bdbdbd;
     letter-spacing: 1px;
 }
 .footer li.footer_big{
     font-size: 1.6vmin;
-    letter-spacing: 1px;
     font-weight: 500;
+    letter-spacing: 1px;
 }
 /*---- Footer Ends----*/
 
