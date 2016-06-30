@@ -1,3 +1,6 @@
+.row {
+    clear: both;
+}
 
 div {
     display: block;

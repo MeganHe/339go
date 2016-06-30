@@ -3,11 +3,22 @@
     position: relative;
     background-size:cover;
 }
+.contact_address {
+    width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 5vmin;
+}
 
+.contact_ad_form{
+    width: 33.33%;
+    float: left;
+}
 
-   /*---- Submit Button ----*/
-
-
+.location_title {
+    display: block;
+    position: relative;
+}
     * {
         -webkit-transition-property: all;
         -webkit-transition-duration: .2s;
@@ -18,13 +29,10 @@
     }
 
     .send_btn {
-        margin-top: 55%;
-        margin-left: -43.5%;
         position: relative;
         display: inline-block;
-        width: 166px;
         height: 45px;
-        font-size: 14px;
+        width: 50%;
         font-weight: 500;
         line-height: 45px;
         text-align: center;
@@ -36,12 +44,14 @@
 
     .send_btn svg {
         position: absolute;
+        width: 100%;
         top: 0; left: 0;
     }
 
     .send_btn svg rect {
         fill: none;
         stroke: #000;
+        width: 100%;
         stroke-width: 2;
         stroke-dasharray: 422, 0;
         @include transition(all 1300ms $ease-out-expo);
@@ -55,25 +65,18 @@
 
     .send_btn:hover {
         color:#000;
-        font-size:18px;
         letter-spacing:1px;
         font-weight:bold;
     }
 
         /*---- Submit Button----*/
 
-
-
-
 /* TEXT INPUT FIELD*/
 
 .contact_grey_line{
-    margin-top: 20%;
     margin-left: 8.33%;
     position:relative;
-
     height: 50px;
-
     background-color:#f8f8f8;
 }
     *:focus {
@@ -83,23 +86,12 @@
   
     .here-to-there {
         margin-left: 16.66666%;
-        height: 100%;
-        width: 100%;
-        
     }
-
 
     .off-canvas {
         position: relative;
         float: left;
-        width: 50%;
-        height: 350px; 
     }
-
-    .form-frame {
-        width: 50%;
-    }
-
     .form-frame span{
         color: #888;
         text-transform: uppercase;
@@ -109,8 +101,6 @@
         padding-top: 5px;
         letter-spacing: 4px;
     }
-    
-
 
     .here-to-there input {
         background-color: transparent;
@@ -130,14 +120,12 @@
         border-left: 1px solid #999;
         border-bottom: 1px solid #999;
         border-right: 1px solid #999;
-        width: 300px;
         color: black;
-        font-size: 12px;
         line-height: 18px;
         padding: 4px 0px;
-        height: 200px;
         width: 100%;
         margin-top: 10px;
+        position: relative;
     }
 
 
@@ -146,23 +134,149 @@
         border: 1.5px solid black; 
     }
 
-    .textinput-banner-right{
-        padding-left: 13%;
-        padding-top: 10%;
-    }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 520px) {
+     .contact_img{
+        margin-top: 0px;
+        padding-top:30%;
+        background-image: url(../img/contact_s1-wide.png);
+        width: 100%;
+    }
+        .contact_grey_line{
+        margin-left: 0;
+        padding-left: 5vmin;
+    }
+    .contact_grey_line h2{
+        font-size: 5vmin;
+        font-weight: 600;
+    }
+    .contact_content_form{
+        position: relative;
+        display: block;
+        float: left;
+        margin-top: 3vmin;;
+        width: 100%;
+    }
+    .textinput-banner-right{
+        padding-left: 5vmin;;
+        padding-top: 5%;
+        width: 90%;
+    }
+    .form-frame {
+        width: 100%;
+        margin-left: 0;
+    }
+    textarea{
+        height: 100px;
+    }
+    .send_btn {
+        margin-top: 5vmin;
+        width: 100%;
+    }
+     .location_title {
+        margin-top: 3vmin;
+        padding-left:  5vmin;
+        font-size: 5vmin;
+        font-weight: 600;
+        background-color: #f8f8f8;
+    }
+    .contact_ad_form{
+        padding-left: 5vmin;
+        width: 100%;
+        float: left;
+    }
+}
+@media screen and (min-width: 520px) {
     .contact_img{
-        margin-top: 60px;
+        margin-top: 0px;
+        padding-top:40%;
+        background-image: url(../img/contact_s1-wide.png);
+        width: 100%;
+    }
+    .contact_grey_line{
+        margin-left: 0;
+        padding-left: 5vmin;
+    }
+    .contact_grey_line h2{
+        font-size: 3vmin;
+        font-weight: 600;
+    }
+    .contact_content_form{
+        position: relative;
+        display: block;
+        float: left;
+        margin-top: 3vmin;;
+        width: 100%;
+    }
+    .textinput-banner-right{
+        padding-left: 5vmin;;
+        padding-top: 5%;
+        width: 90%;
+    }
+    .form-frame {
+        width: 100%;
+        margin-left: 0;
+    }
+    textarea{
+        height: 100px;
+    }
+    .send_btn {
+        margin-top: 5vmin;
+        width: 100%;
+    }
+     .location_title {
+        margin-top: 3vmin;
+        padding-left:  5vmin;
+        font-size: 3vmin;
+        font-weight: 600;
+        background-color: #f8f8f8;
+    }
+    .contact_ad_form{
+        padding-left: 5vmin;
+        width: 27%;
+        float: left;
     }
 }
 
 @media screen and (min-width: 800px) {
     .contact_img{
         margin-top: 60px;
-        padding-top:45%;
-        background-image: url(../img/contact_s1-wide.png);
-        width: 100%;
+        padding-top:60%;
+        background-image: url(../img/contact_s1.png);
+        width: 41.6665%;
+        float: left;
+    }
+    .contact_grey_line{
+        margin-top: 8%;
+    }
+    .contact_content_form{
+        position: relative;
+        display: block;
+        float: left;
+        margin-top: 60px;
+        width: 58.333%;
+    }
+    .textinput-banner-right{
+        padding-left: 13%;
+        padding-top: 5%;
+    }
+    .form-frame {
+        width: 80%;
+        margin-left: 0;
+    }
+    textarea{
+        height: 100px;
+    }
+    .send_btn {
+        margin-top: 5vmin;
+        width: 80%;
+    }
+        .location_title {
+        margin-top: 3vmin;
+        padding-left:  3vmin;
+       font-size: 3vmin;
+        font-weight: 500;
+        background-color: #f8f8f8;
     }
 }
 @media screen and (min-width: 1000px) {
@@ -179,6 +293,31 @@
         display: block;
         float: left;
         margin-top: 60px;
+        width: 58.333%;
     }
+    .contact_grey_line{
+        margin-top: 15%;
+        margin-left: 3%;
+    }
+
+    .send_btn {
+        width: 51%;
+    }
+    .form-frame {
+        width: 50%;
+        margin-left: 0;
+    }
+    
+    textarea{
+        height: 10vmax;
+    }
+    .location_title {
+        margin-top: 5vmin;
+        padding-left:  5vmin;
+       font-size: 3vmin;
+        font-weight: 500;
+        background-color: #f8f8f8;
+    }
+    
 }
     
