@@ -8,11 +8,11 @@
 /*---- Login Page Starts ----*/
     /*---- Insction Row ----*/
     .login_instruction .empty {
-        padding-top: 5%;
+        padding-top: 4%;
     }
 
     .login_instruction .instruction_text {
-        padding-top: 5%;
+        padding-top: 4%;
     }
 
     .instruction_text_t {
@@ -45,6 +45,14 @@
         top: 3.5vmin;
         padding-left: 2vmin;
     }
+    .login_btn{
+        position: absolute;
+        margin-top: -75%;
+    }
+.sign_up_btn{
+     position: absolute;
+        margin-top: -75%;
+}
 
     .signup_part {
         padding-top: 40%;
@@ -59,8 +67,9 @@
     }
 
     .login_top .login_title{
-        font-size: 7vmin;
+        font-size: 5vmin;
         padding-bottom: 5vmin;
+        padding-top: 10vmin;
     }
 /*---- Login Page Ends ----*/
 
