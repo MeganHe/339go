@@ -212,5 +212,18 @@ p,a,span{
         font-weight: 600;
         padding-top: 1vh;
     }
+    .contact_address h3{
+        margin-left: 10%;
+        margin-top: 10vh;
+        font-size: 1.6vmin;
+        font-weight: 600;
+        text-align: left;
+    }
+    .contact_address p{
+        text-align: left;
+        margin-left: 10%;
+        font-size: 1.35vmin;
+        line-height: 2;
+    }
  
 }
