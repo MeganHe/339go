@@ -176,8 +176,9 @@ p,a,span{
         font-size:1.6vmin;
     }
     .what_to_do {
-        font-size: 1.4vmin;
+        font-size: 1.5vmin;
     }
+  
 }
 
 @media screen and (min-width:800px) {
@@ -203,6 +204,8 @@ p,a,span{
         margin-left: 10%;
         font-size: 1.35vmin;
         line-height: 2;
+    }
+      
     }
  
 }
