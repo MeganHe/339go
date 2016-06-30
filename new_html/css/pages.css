@@ -64,47 +64,6 @@
     }
 /*---- Login Page Ends ----*/
 
-/*---- Contact Page Starts----*/
-    /*---- Location Title ----*/
-    .location_title {
-        position: relative;
-        background: #f8f8f8;
-        background-size:cover;
-        height: 0;
-        padding-top: 13%;
-    }
-
-    .location_title .location_head{
-        position: absolute;
-        top: 0vmin;
-        padding-left: 2vmin;
-        font-size: 5vmin;
-    }
-    /*---- List of locations ----*/
-    .contact_list {
-        z-index: 100;
-        position: relative;
-        background: white;
-        background-size:cover;
-        height: 0;
-        padding-top: 40%;
-    }
-
-    .contact_list  .location_t{
-        position: absolute;
-        top: 5vmin;
-        padding-left: 2vmin;
-        font-size: 2.5vmin;
-    }
-
-    .contact_list  .location_details{
-        position: absolute;
-        top: 12vmin;
-        padding-left: 2vmin;
-        padding-right: 2vmin;
-        font-size: 1.5vmin;
-    }
-/*----Contact Page Ends----*/
 
 /*---- Mobile----*/
 @media screen and (max-width:520px) {

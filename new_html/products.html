@@ -103,7 +103,56 @@
                  <aside>
                      <ul>
                          <li>NEW</li>
-                         <li>SHOP</li>
+                         
+                         
+ <!--------SHOP----------->                           
+
+	
+    	<li>
+    		<i class="fa fa-plus-square-o"></i>SHOP
+        	<ul>
+                <li><a href="about.html">Living room</a></li>
+                <li><a href="about.html">Kitchen</a></li>
+                <li><a href="about.html">Bedroom</a></li> 
+            </ul>
+        </li>
+    
+
+        
+        
+<script>
+$('.left_fixed_nav li').click(function(eo) {
+
+  // Pulldown (Core)
+  $('ul:first,ol:first', this).slideToggle();
+  $('ul:gt(0),ol:gt(0)', this).slideUp(0);
+  eo.stopPropagation();
+  $(this).siblings().children('ul,ol').slideUp();
+
+  //optional
+  //Icon change(1)
+  if ($('i', this).attr('class') == 'fa fa-plus-square-o') {
+    $('i:first', this).removeClass('fa-plus-square-o');
+    $('i[class="fa"]', this).toggleClass('fa-minus-square-o');
+  } else {
+    $('i:first', this).removeClass('fa-minus-square-o');
+    $('i[class="fa"]', this).toggleClass('fa-plus-square-o');
+  }
+  //Icon change(2)
+  $('i:gt(0)', this).removeClass('fa-plus-square-o fa-minus-square-o');
+  $('i[class="fa"]', this).toggleClass('fa-plus-square-o');
+  $(this).siblings().children('i').removeClass('fa-plus-square-o fa-minus-square-o');
+  $(this).siblings().children('i[class="fa"]').toggleClass('fa-plus-square-o');
+
+});
+</script>    
+        
+        
+        
+<!--------SHOP ENDS----------->           
+                         
+                         
+                         
                          <li>ALL</li>
                          <li>SALE</li>
                          <li class="seperate_line">DESIGNERS</li>
@@ -391,17 +440,14 @@
         </div>
         <!-- Footer -->
         
-        <!--go to top button-->
-        <div class="gotop">
-            <!-- Starting the plugin -->
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    $().UItoTop({ easingType: 'easeOutQuart' });
-                });
-            </script>
-            <a href="#" id="toTop" style="display: none;">
-                <span id="toTopHover" style="opacity: 0;"></span>
-            </a>
-        </div>
+   
+        
+        
+            
+
+        
+        
+        
+        
     </body>
 </html>
