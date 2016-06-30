@@ -9,11 +9,13 @@
         <!--flexslider-css-->
         
         <!--coustom css-->
-        <link href="css/shopping_cart.css" rel="stylesheet">
+        
         <link href="css/grid.css" rel="stylesheet">
         <link href="css/text.css" rel="stylesheet">
         <link href="css/fixed.css" rel="stylesheet">
         <link href="css/header.css" rel="stylesheet">
+        <link href="css/payment.css" rel="stylesheet">
+        
         <link rel="stylesheet" href="css/meanmenu.css" media="all" />
         
         <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,800italic,800,700italic,700,600,600italic' rel='stylesheet' type='text/css'>
@@ -39,9 +41,9 @@
     </head>
     
     <body>
-        <header>
+           <header>
+            <div class="full_width_header_bg"></div>
             <div class="container">
-                <div class="full_width_header_bg"></div>
                 <div class=" head_fixed">
                 <!-- Website Name -->
                 <div class="logo">  
@@ -51,22 +53,26 @@
                 
                 <div class="header_right">
                     <ul>
-                        <li><a href="login.html">
-                            <div class="logoin">
-                                <img src="img/logo.png" width="20" height="20" alt=""/>
-                            </div></a>
+                        <li>
+                            <a href="login.html">
+                                <div class="logoin">
+                                    <img src="img/logo.png" width="20" height="20" alt=""/>
+                                </div>
+                            </a>
                         </li>
-                        <li><a class="active">
-                            <div class="shopcar">
-                                <img src="img/shopcar.png" width="20" height="20" alt=""/>
-                            </div></a>
+                        <li>
+                            <a href="shopping_cart.html">
+                                <div class="shopcar">
+                                    <img src="img/shopcar.png" width="20" height="20" alt=""/>
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div class="navigation">
                     <nav>
                         <ul>
-                            <li><a href="index.html">HOME</a></li>
+                            <li><a class="active">HOME</a></li>
                             <li><a href="products.html">SHOP</a>
                                 <ul>
                                     <li><a href="products.html">NEW</a></li>
@@ -81,7 +87,7 @@
                         </ul>
                     </nav>
                 </div>
-                </div>
+            </div>
             </div>
         </header>
         
@@ -92,73 +98,54 @@
                 jQuery('header nav').meanmenu();
             });
         </script>
-
+        
+   
         <!-- Content -->
-        <div class="shopping_cart_content container">
-            <!-- The fisrt row of content -->
-            <div class="shopping_cart_title">
-                <div class="col-12 col-m-12 cart_title">
-                    <p class="instruction_text_t">SHOPPING CART</p>
-                </div>
+        <div class="login_content container">
+            <!-- Big Img -->
+            <div class="col-12 payment_top">
+                <p class="login_title">CHECKOUT</p>
             </div>
+            
+            <!-- Big Img -->
+          
 
-            <div class="cart">
-                <div class="col-12 col-m-12 cart_content">
-                    <table class="col-12 col-m-12 column_2 cart_table">
-                        <thead>
-                            <tr class="table_title">
-                                <th>PRODUCT</th>
-                                <th>DESCRIPTION</th>
-                                <th>COLOR</th>
-                                <th>PRICE</th>
-                                <th>UNITS</th>
-                                <th class="delete">DELETE</th>
-                            </tr>
-                        </thead>
-                        
-                        <tbody class="cart_table_body">
-                            <tr>
-                                <td><img src="img/saxe_brown.jpg" alt=""></td>
-                                <td>Saxe Lounge Chair by Lassen</td>
-                                <td>Smoked oak # Brown leather</td>
-                                <td>3999.99 CAD</td>
-                                <td>1</td>
-                                <td class="delete">X</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div id="login_signup" class="login_signup">
+                <div class="col-2 col-m-12 empty content_bg"></div>
+
+                <div class="col-8 col-m-12 column_2 login_part content_bg">
+                        <h4>SHIPPING ADRESS</h4>
+                        <div class="black_line"></div>
+                    <form class="signin_form here-to-there off-canvas form-frame form-left">   
+                        <span class ="attr">First name</span>
+                        <input class="focus" type="text" />
+                         <span class ="attr">Company &nbsp; (optional)</span>
+                        <input class="focus" type="text" />
+                    </form>
+
                     
-                    <div class="table_sum">
-                        <p>TOTAL PRICE: 3999.99 CAD</p>
-                    </div>
-                    
-                    <div class="cart_confirm">
-                        <div class="left_btn">
-                            <div class="btn">
+                    <form class="signin_form here-to-there off-canvas form-frame form-right">   
+                        <span class ="attr">First name</span>
+                        <input class="focus" type="text" />
+                        <span class ="attr">Company &nbsp; (optional)</span>
+                        <input class="focus" type="text" />
+                    </form>
+                    <div class="login_btn">
+                         <a class="btn" href="">
                                 <svg>
                                     <rect x="0" y="0" fill="none" width="160" height="45"/>
                                 </svg>
-                                    CONTINUE SHOPPING
-                            </div>
-                        </div>
-                        <div class="right_btn">
-                              
-                            <div class="btn">
-                                <a class="btn" href="payment.html">
-                                <svg>
-                                   <rect x="0" y="0" fill="none" width="160" height="45"/>
-                                </svg>
-                                    CONFIRM
-                                </a>
-                            </div>
-                        </div>
+                                LOG IN
+                            </a>
                     </div>
                 </div>
+                
+                
+                <div class="col-2 col-m-12 empty content_bg"></div>
             </div>
         </div>
-        
+        <!-- Content -->
 
-        <!-- Footer -->
         <div class="footer">
             <ul>
                 <li class="footer_not_big"><a href="Style_guide.html">STYLE GUIDE</a></li>
@@ -168,6 +155,6 @@
         </div>
         <!-- Footer -->
         
-    
+
     </body>
 </html>
