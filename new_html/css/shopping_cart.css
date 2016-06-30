@@ -10,12 +10,13 @@
         position: relative;
         background: #f8f8f8;
         width: 100%;
-        margin-top: 5vmin;
+        margin-top: 20vmin;
     }
     .instruction_text_t{
         padding-left: 5vmin;
     }
     .cart .cart_content{
+        margin-top: 2vh;
         position: relative;
         width: 100%;
     }
@@ -82,9 +83,7 @@
         margin: 2vmin;
     }
     
-    .table_sum p{
-        font-size: 2vmax;
-    }
+   
     .cart_confirm .left_btn .btn{
         font-size: 2vmax;
     }

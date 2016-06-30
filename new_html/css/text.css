@@ -176,9 +176,8 @@ p,a,span{
         font-size:1.6vmin;
     }
     .what_to_do {
-        font-size: 1.5vmin;
+        font-size: 1.4vmin;
     }
-  
 }
 
 @media screen and (min-width:800px) {
@@ -205,7 +204,9 @@ p,a,span{
         font-size: 1.35vmin;
         line-height: 2;
     }
-      
+ .table_sum p{
+        font-size: .8vmax;
+     letter-spacing: .5px;
     }
  
 }
