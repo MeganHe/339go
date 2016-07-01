@@ -48,6 +48,10 @@
     padding-bottom: 2vh;
     text-align: left;
 }
+.left_fixed_nav li a {
+    text-decoration: none;
+    color: black
+}
 .seperate_line{
     border-bottom: 1px solid lightgray;
     width: 6vw;;
