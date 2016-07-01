@@ -108,13 +108,24 @@
     .login_content {
         margin-top: 14vmin;
     }
-
     .login_content .btn{
-        top: 0vmin;
+        position: relative;
+        width: 200%;
+        float: left;
+        margin-left: 30%;
+        margin-top: 20px;
+    }
+    
+    .login_content .btn svg{
+        width: 100%;
+    }
+    
+    .login_content .btn rect{
+        width: 100%;
     }
     
     .contact_content {
-        margin-top: 11vmin;
+        margin-top: 60px;
     }
 }
   
