@@ -1,6 +1,3 @@
-.style_guide_content{
-    
-}
 
 h2 {
     font-size: 3vmin;
@@ -9,7 +6,6 @@ h2 {
 
 h3{
     display: inline-block;
-    font-size: 1.7vmin;
     font-weight: 400;
 }
 .hoveron_btn:hover {
@@ -31,16 +27,13 @@ h3{
     /*---- Website Name ----*/
     /*----For Style Guide ----*/
     .sg_web_name {
-        margin-top: 10%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10%;
         letter-spacing: 2px;
     }
 
 .title{
-    font-size: 4vmin;
     font-weight: 500;
     text-align: center;
 }
@@ -49,7 +42,6 @@ h3{
     /*---- Navigation Button ----*/
     .button_style_l {
         display: block;
-        height: 35vw;
         display: flex;
         align-items: center;
         text-align: center;
@@ -62,8 +54,6 @@ h3{
         text-align: center;
         justify-content: center;
           background-color: #f8f8f8;
-        margin: 0%;
-        height: 35vw;
         border-color: white;
         border: 5px;
     }  
@@ -75,7 +65,6 @@ h3{
         align-items: center;
         text-align: center;
         justify-content: center;
-        height: 35vw;
         background-color: #f8f8f8;
         border-color: white;
         border: 5px;
@@ -86,7 +75,6 @@ h3{
         align-items: center;
         text-align: center;
         justify-content: center;
-        height: 35vw;
     }
 
     .in_text_link_r p{
@@ -125,7 +113,6 @@ h3{
         align-items: center;
         text-align: center;
         justify-content: center;
-        height: 35vw;
     }
 
     .submit_button_r {
@@ -133,7 +120,6 @@ h3{
         align-items: center;
         text-align: center;
         justify-content: center;
-        height: 35vw;
           background-color: #f8f8f8;
         border-color: white;
         border: 5px;
@@ -154,9 +140,6 @@ h3{
     .btn {
         position: relative;
         display: inline-block;
-        width: 166px;
-        height: 45px;
-        font-size: 14px;
         font-weight: 500;
         line-height: 45px;
         text-align: center;
@@ -164,14 +147,12 @@ h3{
         color: #000;
         cursor: pointer;
         overflow: hidden;
-        left: -2vmin;
     }
 
     .btn svg {
         position: absolute;
         top: 0; left: 0;
         width: 100%;
-        left: 1.5vmin;
     }
 
     .btn svg rect {
@@ -190,7 +171,6 @@ h3{
 
     .btn:hover {
         color:#000;
-        font-size:18px;
         letter-spacing:1px;
         font-weight:bold;
     }
@@ -204,7 +184,6 @@ h3{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 35vw;
     }
 
     .textinput-banner-left{
@@ -212,7 +191,6 @@ h3{
         align-items: center;
         text-align: center;
         justify-content: center;
-        height: 35vw;
         background-color: #f8f8f8;
         border-color: white;
         border: 5px;
@@ -226,19 +204,12 @@ h3{
   
     .here-to-there {
         height: 100%;
-        /*position: relative;*/
         width: 100%;
     }
 
 
     .off-canvas {
         position: relative;
-        width: 300px;
-        height: 350px; 
-    }
-
-    .form-frame {
-        width: 300px;
     }
 
     .form-frame span{
@@ -246,21 +217,16 @@ h3{
         text-transform: uppercase;
         font-family: 'Open Sans', sans-serif;
         display: block;
-        font-size: 12px;
         padding-top: 5px;
         letter-spacing: 4px;
     }
     
-
-
     input {
         background-color: transparent;
         border-top: 1px solid transparent;
         border-left: 1px solid transparent;
         border-bottom: 1px solid #999;
         border-right: 1px solid transparent;
-        width: 300px;
-        font-size: 12px;
         font-weight: 100;
         letter-spacing: 0.1px;
     }
@@ -271,13 +237,9 @@ h3{
         border-left: 1px solid #999;
         border-bottom: 1px solid #999;
         border-right: 1px solid #999;
-        width: 300px;
         color: black;
-        font-size: 12px;
         line-height: 18px;
         padding: 4px 0px;
-        height: 10vw;
-        width: 20vw;
         margin-top: 10px;
     }
 
@@ -287,7 +249,6 @@ h3{
         border-left: 1px solid transparent;
         border-bottom: 1px solid #999;
         border-right: 1px solid transparent;
-        width: 20vw;
     }
 
 
@@ -302,7 +263,6 @@ h3{
         align-items: center;
         text-align: center;
         justify-content: center;
-        margin-top: 10vmin;
     }
 
     .headings {
@@ -314,23 +274,15 @@ h3{
         padding-top: 2%;
     }
 
-    .code-space{
-        font-size: 12px;
-    }
-
-
     .heading-size1{
-        font-size: 5vmin;
         font-weight: 500;
     }
 
     .heading-size2{
-        font-size: 4vmin;
         font-weight: 400;
     }
 
     .heading-size3{
-        font-size: 3vmin;
         font-weight: 400;
     }
     
@@ -338,14 +290,10 @@ h3{
     .paragraphs_l{
         text-align: right;
         color: #3f3f3f;
-        min-height: 20vw;
-        padding-top: 10%;
         float: right;
     }
 
     .paragraphs_r{
-        min-height: 20vw;
-        padding-top: 10%;
         letter-spacing: 0.2px;
         line-height: 180%;
         -webkit-background-size: cover;
@@ -353,31 +301,20 @@ h3{
         -moz-background-size: cover;
     }
 
-    .paragraphs_r p{
-        margin-top: 3vmin;
-        padding-left: 15vmin;
-        padding-right: 5vmin;
-    }
     /* Paragraph Style*/
 
     /* Number List Style*/
     .list_l{
-        text-align: right;
         color: #3f3f3f;
-        min-height: 20vw;
-        float: right;
     }
 
     .list_r {
-        min-height: 20vw;
-        padding-right: 10%;
         padding-top: 1%;
         letter-spacing: 0.2px;
         line-height: 180%;
         -webkit-background-size: cover;
         background-size: cover;
         -moz-background-size: cover;
-        padding-left: 10%;  
     }
     /* Number List Style*/
 
@@ -386,8 +323,6 @@ h3{
 
     .rec {
         display: block;
-        width: 50%;
-        height: 2vw;
         background-color:#f8f8f8;
         border: none;
         margin-bottom: 5%;
@@ -397,10 +332,6 @@ h3{
 
     .product-list h2{
         padding-left: 5vmin;
-    }
-
-    .product_img{   
-        margin-bottom: 5%;
     }
 
     /*products images diaplay ends*/
@@ -419,8 +350,121 @@ h3{
 
 @media screen and (min-width:540px){
     
+    h2 {
+    font-size: 3vmin;
 }
 
-@media screen and (min-width:800px){
+h3{
+    font-size: 1.7vmin;
+}
+
+    .sg_web_name {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+.title{
+    font-size: 4vmin;
+}
+
+    .button_style_l, .button_style_r, .in_text_link_l, .in_text_link_r, .submit_button_l, .submit_button_r, .textinput-banner-right, .textinput-banner-left {
+        height: 300px;
+    }
+
+    .btn {
+        width: 166px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .btn:hover {
+        font-size:16px;
+    }
+
+    .off-canvas {
+        width: 300px;
+        height: 350px; 
+    }
+
+    .form-frame {
+        width: 300px;
+    }
+
+    .form-frame span{
+        font-size: 12px;
+    }
     
+    input {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    textarea{
+        width: 260px;
+        font-size: 12px;
+        height: 10vw;
+    }
+
+    .sub_title {
+        margin-top: 10vmin;
+    }
+
+    .code-space{
+        font-size: 12px;
+    }
+
+    .heading-size1{
+        font-size: 5vmin;
+    }
+
+    .heading-size2{
+        font-size: 4vmin;
+    }
+
+    .heading-size3{
+        font-size: 3vmin;
+    }
+    
+    .paragraphs_l{
+        text-align: right;
+        min-height: 20vw;
+        padding-top: 10%;
+        float: right;
+    }
+
+    .paragraphs_r{
+        min-height: 20vw;
+        padding-top: 10%;
+    }
+
+    .paragraphs_r p{
+        margin-top: 3vmin;
+        padding-left: 15vmin;
+        padding-right: 5vmin;
+    }
+
+    .list_l{
+        text-align: right;
+        height: 200px;
+        float: right;
+    }
+
+    .list_r {
+        height: 200px;
+        padding-right: 10%;
+        padding-top: 1%;
+        padding-left: 10%;  
+    }
+
+    .rec {
+        width: 50%;
+        height: 2vw;
+        margin-bottom: 5%;
+        margin-left: 5vmin;
+    }
+}
+@media screen and (min-width:800px){
+    .button_style_l, .button_style_r, .in_text_link_l, .in_text_link_r, .submit_button_l, .submit_button_r, .textinput-banner-right, .textinput-banner-left {
+        height: 450px;
+    }
 }
