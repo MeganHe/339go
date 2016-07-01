@@ -79,9 +79,24 @@
 
     /*----Shopping Cart----*/
 /*---- Mobile----*/
+
+@media screen and (max-width:520px){
+  
+    .table_sum p{
+        font-size: 2.6vmin;
+    }
+    .cart_table_body td{
+        font-size: 2.5vmin;
+    }
+    .left_btn .btn{
+        font-size: 4vmin;
+    }
+}
+
 @media screen and (max-width:800px) {
     .instruction_text_t {
         font-size: 1.7vmax;
+        font-weight: 600;
     }
     .cart_title {
         margin-top: 0;
@@ -102,6 +117,7 @@
         font-size: 2vmax;
         margin-bottom: 30px;
         margin-left: 5%;
+         font-size: 1.8vmin;
     }
     
     .left_btn svg{
@@ -118,6 +134,7 @@
         font-size: 2vmax;
         float: left;
         margin-left: 5%;
+        font-size: 1.8vmin;
     }
 
     .right_btn svg{
@@ -141,7 +158,7 @@
         display: none;
     }
     .table_sum p{
-        font-size: 3vmin;
+        font-size: 1。8vmin;
         margin: 5vmin;
     }
     
@@ -154,6 +171,7 @@
 @media screen and (min-width: 800px) { 
     .instruction_text_t{
         font-size: 2vmin;
+        font-weight: 600;
     }
     .cart_table img {
        width: 10vmin;

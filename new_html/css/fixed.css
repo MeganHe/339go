@@ -151,9 +151,7 @@ input {
     padding-left: 4vmin;
     padding-right: 4vmin;
 }
-.footer li.footer_not_big{
-    margin-top: 3px;
-}
+
 .footer li.footer_not_big a{
     color: #bdbdbd;
     letter-spacing: 1px;
@@ -161,6 +159,7 @@ input {
 
 .footer li.footer_big{
     color: black;
+  
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -202,10 +201,28 @@ input {
 .footer li.footer_not_big{
      font-size: 2vmin;
 }
+    .footer li.footer_big{
+        font-size: 2vmin;
+    }
 }
 @media screen and (min-width: 520px) {
     .footer{
         height: 60px;
+    }
+    .footer li.footer_big{
+        font-size: 1.5vmin;
+    }
+    .footer li.footer_not_big{
+     font-size: 1.5vmin;
+    }
+}
+
+@media screen and (min-width: 800px) {
+      .footer li.footer_big{
+        font-size: 1.3vmin;
+    }
+    .footer li.footer_not_big{
+     font-size: 1.2vmin;
     }
 }
 
