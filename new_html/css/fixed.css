@@ -166,6 +166,7 @@ input {
     letter-spacing: 1px;
 }
 .footer li.footer_big{
+    color: black;
     font-size: 1.6vmin;
     font-weight: 500;
     letter-spacing: 1px;

@@ -14,6 +14,7 @@
     position: relative;
     cursor: pointer;
     font-weight: 500;
+    font-size: 1.3vmin;
 }
 .img_option:hover {
     font-weight: 600;
@@ -102,6 +103,14 @@
     bottom: 0;
 }
 /*---- Mobile----*/
+
+@media screen and (max-width:540px){
+    
+    .combine_line{
+        font-size: 2.3vmin;
+        text-align: center;
+    }
+}
 @media screen and (max-width:780px) {
      .product_detail_img{
         width: 100%;
@@ -213,6 +222,29 @@
     }
     .whole_combine .content_bg{
         padding-top: 25%;
+    }
+    
+ 
+    .cb_content1 .combine_img1{
+        background-image: url(../img/cbw1.jpg);
+        padding-top: 50%;
+    
+    }
+      .cb_content1 .combine_img2{
+        background-image: url(../img/cbw2.jpg);
+        padding-top: 50%;
+    
+    }
+    
+      .cb_content1 .combine_img3{
+        background-image: url(../img/cbw3.jpg);
+        padding-top: 50%;
+    
+    }
+      .cb_content1 .combine_img4{
+        background-image: url(../img/cbw4.jpg);
+        padding-top: 50%;
+    
     }
 }
 

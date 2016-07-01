@@ -96,17 +96,14 @@
     .cart_confirm .left_btn{
         position: relative;
         display: flex;
-        justify-content: center;
-        width: 90%;
-        margin: 2vmin;
+        justify-content: center;  
+        
     }
-    .cart_confirm .left_btn .btn{
-        font-size: 2vmax;
-    }
-    
+
     .cart_confirm .left_btn .btn{
         font-size: 2vmax;
         width: 100%;
+      
     }
     
     .cart_confirm .left_btn .btn svg{
@@ -118,7 +115,7 @@
     }
     
     .cart_confirm .right_btn .btn{
-        font-size: 2vmax;
+        font-size: 1.7vmax;
         width: 100%;
     }
     

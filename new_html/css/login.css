@@ -66,7 +66,7 @@
     }
 
     .login_top{
-        background-image: url(../img/c.jpg);
+   
         position: relative;
         display: flex;
         align-content: center;
@@ -78,6 +78,7 @@
         font-size: 4vmin;
         padding-bottom: 5vmin;
         padding-top: 10vmin;
+       margin-left: -12vmin;
     }
     .form-frame span{
         color: #888;
