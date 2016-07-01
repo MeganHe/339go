@@ -55,23 +55,22 @@
 
 .btn {
     position: relative;
-    display: flex;
     height: 45px;
     font-size: 1.4vmin;
     letter-spacing:1px;
     line-height: 45px;
     text-align: center;
-    justify-content: center;
     color: #000;
     cursor: pointer;
     font-weight: 500;
-    padding-left: 2vmin;
     text-decoration: none;
 }
 
 .btn svg {
-    height: 45px;
+    height: 100%;
     position: absolute;
+    top:0;
+    left: 0;
 }
 
 .btn svg rect {
@@ -104,8 +103,6 @@ input:focus {
     border-bottom: 1.5px solid black; 
 }
 
-
-  
 .signin_form {
     position: absolute;
     position: absolute;
@@ -136,13 +133,12 @@ input {
 
 /*---- Footer Starts----*/
 .footer{
-    position: sticky;
+    position: absolute;
     width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 70px;
     right: 0;
     left: 0;
     bottom: 0;
@@ -154,23 +150,21 @@ input {
     float: left;
     padding-left: 4vmin;
     padding-right: 4vmin;
-    font-size: 1.4vmin;
 }
 .footer li.footer_not_big{
-     font-size: 1.3vmin;
     margin-top: 3px;
 }
 .footer li.footer_not_big a{
-   
     color: #bdbdbd;
     letter-spacing: 1px;
 }
+
 .footer li.footer_big{
     color: black;
-    font-size: 1.6vmin;
     font-weight: 500;
     letter-spacing: 1px;
 }
+
 /*---- Footer Ends----*/
 
 /*---- The to Top icon Starts----*/
@@ -201,4 +195,17 @@ input {
 	outline:none;
 }
 /*---- The to Top icon Ends----*/
+@media screen and (max-width: 520px) {
+    .footer{
+        height: 40px;
+    }
+.footer li.footer_not_big{
+     font-size: 2vmin;
+}
+}
+@media screen and (min-width: 520px) {
+    .footer{
+        height: 60px;
+    }
+}
 
