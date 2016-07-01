@@ -32,7 +32,8 @@ p,a,span{
     text-transform: uppercase;
 }
 .img_featured_white{
-     font-weight: 500;
+    font-size: 1rem;
+    font-weight: 500;
     color: white;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -57,6 +58,7 @@ p,a,span{
 }
 .dark_grey_gb .img_title{
     color: white;
+     font-weight: 600;
 }
 .img_description {
     font-weight: 400;
@@ -92,6 +94,13 @@ p,a,span{
     .what_to_do {
         font-size: 2.7vmin;
     }
+     .img_featured_white{
+          font-size: 0.7rem;
+        font-weight: 500;
+    }
+    .img_intro{
+        letter-spacing: 1px;
+    }
 }
 
 /*---- Bigger than 520px Tablet ----*/
@@ -103,7 +112,7 @@ p,a,span{
     
     /*---- Heading ----*/
     .logo h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-top: 3.3vh;
     }
 
@@ -135,7 +144,7 @@ p,a,span{
     }
 
     nav{
-        font-size:1rem;
+        font-size:.9rem;
     }
     .what_to_do {
         font-size: 1.4vmin;

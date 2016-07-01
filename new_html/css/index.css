@@ -93,6 +93,7 @@
     .home_content .btn svg rect{
         width: 100%;
     }
+   
 }
 /*---- Mobile end----*/
 /*---- Bigger than Mobile----*/
@@ -212,7 +213,7 @@
     }
 
     .home_content .img_featured{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 500;
     }
     .home_content .img_title{
@@ -225,9 +226,9 @@
         padding-bottom: 5%;
     }
     .home_content .img_intro{
-        font-size: 1rem;
+        font-size: .8rem;
         font-weight: 500;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
     }
     
     .home_content .btn{
