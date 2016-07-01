@@ -64,7 +64,7 @@
 .buttom_page{
     position:relative;
     margin-left: 66.66666664%;
-    margin-top: 3vmin;
+    margin-top: 20vmin;
     margin-bottom: 5vmin;
 }
 
@@ -229,6 +229,10 @@ button.paginate{
     .table_box h5{
         font-size: 2.4vmin;  
     } 
+    .counter{
+        font-size:.65rem;
+    }
+    
 }
 
 @media screen and (min-width:520px) {
