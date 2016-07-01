@@ -6,6 +6,15 @@
 /*---- Go top Icon ----*/
 
 /*-- every content boxes --*/
+html, body{
+    height: 100%;
+    margin:0;
+}
+.content {
+    min-height: 100%;
+    margin: 0 auto -60px;
+}
+
 .content_bg {
     position: relative;
     z-index: 0;
@@ -133,25 +142,32 @@ input {
 
 /*---- Footer Starts----*/
 .footer{
-    position: absolute;
-    width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    right: 0;
-    left: 0;
-    bottom: 0;
     box-shadow: 0px -2px 1px #f8f8f8;
 }
-
+.footer, .push{
+    height: 60px;
+}
 .footer li{
     list-style: none;
     float: left;
     padding-left: 4vmin;
     padding-right: 4vmin;
 }
+<<<<<<< e4149d0efd86e75bc55999f944cb532fba7b2b60
 
+=======
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer li.footer_not_big{
+    margin-top: 3px;
+}
+>>>>>>> 9e0911eae62e17e80f04dfdc3bf467d2d9772c16
 .footer li.footer_not_big a{
     color: #bdbdbd;
     letter-spacing: 1px;

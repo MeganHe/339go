@@ -403,9 +403,7 @@ h3{
         margin-bottom: 5%;
     }
 
-
     /*products images diaplay ends*/
-
     #toTop {
         position: fixed;
         bottom: 10px;
@@ -414,3 +412,15 @@ h3{
         height: 40px;
         background: url("img/to-top1.png") no-repeat 0px 0px;
     }
+
+@media screen and (max-width:540px){
+    
+}
+
+@media screen and (min-width:540px){
+    
+}
+
+@media screen and (min-width:800px){
+    
+}

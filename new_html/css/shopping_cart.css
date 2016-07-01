@@ -20,10 +20,6 @@
 
 
     /*----Shopping Cart----*/
-.shopping_cart_content{
-    margin-top: 14vmin;
-}
-
     .shopping_cart_title .cart_title {
         position: relative;
         background: #f8f8f8;
@@ -77,8 +73,6 @@
     }
 
 
-    /*----Shopping Cart----*/
-/*---- Mobile----*/
 
 @media screen and (max-width:520px){
   
@@ -91,9 +85,26 @@
     .left_btn .btn{
         font-size: 4vmin;
     }
+            .c_btn{
+        position: relative;
+        width: 90%;
+        float: left;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    
+    .c_btn svg{
+        width: 100%;
+    }
+    
+    .c_btn svg rect{
+        width: 100%;
+    }
 }
 
-@media screen and (max-width:800px) {
+
+@media screen and (min-width:540px) {
+
     .instruction_text_t {
         font-size: 1.7vmax;
         font-weight: 600;
@@ -161,10 +172,22 @@
         font-size: 1。8vmin;
         margin: 5vmin;
     }
-    
-    .shopping_cart_content{
-        height: 110vmin;
+        .c_btn{
+        position: relative;
+        width: 30%;
+        float: left;
+        margin-left: 5vmin;
+        margin-top: 20px;
     }
+    
+    .c_btn svg{
+        width: 100%;
+    }
+    
+    .c_btn svg rect{
+        width: 100%;
+    }
+    
 }
 
 /*---- Bigger than Tablet----*/
@@ -211,18 +234,24 @@
     .shopping_cart_title .cart_title{
         margin-top: 15vmin;
     }
-    .shopping_cart_content{
-        height: 800px;
-    }
-        .table_sum{
+
+    .table_sum{
         padding-right: 5vmin;
     }
+    
     .c_btn{
+        position: relative;
+        width: 30%;
         float: left;
-        margin-top: 5vmin;
-        padding-left: 3.5vmin;
+        margin-left: 5vmin;
+        margin-top: 20px;
     }
+    
     .c_btn svg{
-        left: 1.5vmin;
+        width: 100%;
+    }
+    
+    .c_btn svg rect{
+        width: 100%;
     }
 }
