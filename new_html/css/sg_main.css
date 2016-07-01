@@ -2,11 +2,13 @@
 h2 {
     font-size: 3vmin;
     font-weight: 500;
+    font-size: 1.5rem;
 }
 
 h3{
     display: inline-block;
     font-weight: 400;
+    font-size: 1rem;
 }
 .hoveron_btn:hover {
     color: #F896A9;
@@ -27,6 +29,7 @@ h3{
     /*---- Website Name ----*/
     /*----For Style Guide ----*/
     .sg_web_name {
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -41,7 +44,6 @@ h3{
 /*---- Interactive Elements ----*/
     /*---- Navigation Button ----*/
     .button_style_l {
-        display: block;
         display: flex;
         align-items: center;
         text-align: center;
@@ -345,18 +347,137 @@ h3{
     }
 
 @media screen and (max-width:540px){
-    
-}
-
-@media screen and (min-width:540px){
-    
+        .mobile_hide{
+        display: none;
+    }
     h2 {
-    font-size: 3vmin;
+    font-size: 0.9rem;
 }
 
 h3{
-    font-size: 1.7vmin;
+    font-size: 0.6rem;
 }
+
+    .sg_web_name {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+.title{
+    font-size: 5vmin;
+}
+
+    .button_style_l, .button_style_r, .in_text_link_l, .in_text_link_r, .submit_button_l, .submit_button_r, .textinput-banner-right, .textinput-banner-left {
+        position: relative;
+        height: 100%;
+    }
+
+    .btn {
+        margin-top: 10%;
+        width: 166px;
+        height: 45px;
+        margin-bottom: 10%;
+    }
+
+    .style_guide p, code{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
+    .off-canvas {
+        width: 300px;
+        height: 250px; 
+    }
+
+    .form-frame {
+        width: 300px;
+        margin-top: 5%;
+    }
+
+    .form-frame span{
+        font-size: 0.7rem;
+        margin-left: 15%;
+    }
+    
+    input {
+        width: 100%;
+        font-size: 12px;
+        margin-left: 15%;
+    }
+
+    textarea{
+        width: 200px;
+        font-size: 12px;
+        height: 10vw;
+        margin-left: 15%;
+    }
+
+    .sub_title {
+        margin-top: 5%;
+        background-color: #f8f8f8;
+    }
+
+    .code-space{
+        font-size: 0.2rem;
+    }
+
+    .heading-size1{
+        margin-top: 5%;
+        font-size: 1.2rem;
+    }
+
+    .heading-size2{
+        font-size: 1rem;
+    }
+
+    .heading-size3{
+        font-size: 0.8rem;
+        margin-bottom: 10%;
+    }
+    
+    .paragraphs_l{
+        text-align: center;
+        padding-top: 5%;
+        background-color: #f8f8f8;
+        padding-bottom: 5%;
+    }
+
+    .paragraphs_r{
+        padding-top: 5%;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .paragraphs_r p{
+        padding-left: 5vmin;
+        padding-right: 5vmin;
+    }
+
+    .in_text_link p{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .list_l{
+        text-align: center;
+        background-color: #f8f8f8;
+    }
+
+    .list_r {
+        padding-top: 1%;
+        padding-left: 20%;  
+    }
+
+    .rect_box .rec {
+        width: 300px;
+        height: 2vw;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width:540px){
+    .mobile_show{
+        display: none;
+    }
 
     .sg_web_name {
         margin-top: 10%;
@@ -364,9 +485,14 @@ h3{
     }
 
 .title{
-    font-size: 4vmin;
+    font-size: 3.5vmin;
 }
-
+    .button_style_r{
+        float: right;
+    }
+    .button_style_l{
+        float: left;
+    }
     .button_style_l, .button_style_r, .in_text_link_l, .in_text_link_r, .submit_button_l, .submit_button_r, .textinput-banner-right, .textinput-banner-left {
         height: 300px;
     }
@@ -378,12 +504,12 @@ h3{
     }
 
     .btn:hover {
-        font-size:16px;
+        font-size:1rem;
     }
 
     .off-canvas {
         width: 300px;
-        height: 350px; 
+        height: 250px; 
     }
 
     .form-frame {
@@ -456,8 +582,8 @@ h3{
         padding-left: 10%;  
     }
 
-    .rec {
-        width: 50%;
+    .rect_box .rec {
+        width: 800px;
         height: 2vw;
         margin-bottom: 5%;
         margin-left: 5vmin;
@@ -466,5 +592,29 @@ h3{
 @media screen and (min-width:800px){
     .button_style_l, .button_style_r, .in_text_link_l, .in_text_link_r, .submit_button_l, .submit_button_r, .textinput-banner-right, .textinput-banner-left {
         height: 450px;
+    }
+    
+        .off-canvas {
+        width: 300px;
+        height: 350px; 
+    }
+
+    .form-frame {
+        width: 300px;
+    }
+
+    .form-frame span{
+        font-size: 12px;
+    }
+    
+    input {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    textarea{
+        width: 260px;
+        font-size: 12px;
+        height: 10vw;
     }
 }

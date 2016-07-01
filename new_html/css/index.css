@@ -1,21 +1,26 @@
 /*---- Home Starts ----*/
 .home_web_big{
     background-image: url(../img/homepage.png);
+    position: relative;
+    z-index: 0;
+    background-size: cover;
+    height: 0;
 }
+
 .img_intro {
     cursor: pointer;
 }
 .intro_option {
     width: 100%;
 }
-.home_content .btn svg{
-        width: 100%;
-}
-.home_content .btn svg rect{
-        width: 100%;
-}
-.content_outer_box_right .btn{
+.left_align .btn{
     color: #f8f8f8;
+}
+.left_align .btn:hover{
+    color: #f8f8f8;
+}
+.left_align .btn svg rect{
+    stroke: #f8f8f8;
 }
 
 .intro_option:active .option_icon{
@@ -26,167 +31,81 @@
 .intro_option .img3_intro {
     color: lightgray;
 }
-.content_outer_box_right .btn:hover{
-    color: #f8f8f8;
-}
-
-.content_outer_box_right .btn svg rect{
-    stroke: #f8f8f8;
-}
-
-
-@media screen and (max-width:1000px){
-    
-}
-
-@media screen and (max-width:720px){
-    .img_featured, .img_featured_white{
-        font-size: 2vmin;
-    }
-}
 
 /*---- Mobile----*/
-@media screen and (max-width:520px) {
-    /*---- Home Page Starts ----*/
+@media screen and (max-width:540px) {
     .home_web_big {  
         padding-top: 40%;
     }
-    
-    .home_content .content_bg {
-        padding-top: 85%;
+    .content_bg {
+        padding-top: 45%;
     }
-    
+    .desktop{
+        display: none;
+    }
+    .home_content .mobile_text {
+        padding: 5%;
+    } 
     .content_1 .product_img_left {
         background-image: url(../img/homephoto1-wide.png);
-        padding-top: 50%;
     }
-    
     .content_1 .product_img_right {
         display: none;
     }
-    .content_2 .empty{
-        display: none;
-    }
-    
-    .content_2 .content_bg.right_align{
-        padding-top: 75%;
-    }
     .content_2 .product_img_right {
         background-image: url(../img/homephoto4-wide.png);
-        padding-top: 45%;
     }
-    
     .content_3 .product_img {
         background-image: url(../img/row3p2.png);
-        padding-top: 60%;
+        padding-top: 55%;
     }
     
     .home_content .img_featured{
-        margin-top: 0;
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+    
+    .home_content .img_title{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }    
+    .home_content .img_introduction{
+        font-size: 0.6rem;
+        font-weight: 400;
+        padding-bottom: 5%;
+    }
+    .home_content .img_intro{
+        font-size: 0.7rem;
+        font-weight: 500;
+        padding-bottom: 5%;
     }
     
     .home_content .btn{
+        margin-top:  5%;
+        position: relative;
         width: 100%;
-        font-size: 3vmin;
+        float: left;
+        margin-bottom: 10%;
     }
-    .home_content .btn:hover{
-        font-size: 3.5vmin;
-    }
-    
     .home_content .btn svg{
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        left: 0vmin;
     }
-    
     .home_content .btn svg rect{
         width: 100%;
     }
-    
-    .content_outer_box_left {
-        left: 5vmin;
-        width: 100%;
-    }
-    
-    .content_outer_box_right {
-        width: 90%;
-    }
-    .home_content .img_featured {
-      
-        font-weight: 600;
-    }
-
-    .home_content .img_title {
-        font-size: 4vmin;
-        font-weight: 600;
-        margin-top: 1vh;
-        padding-top: 1vh;
-    }
-    
-    .home_content .img_intro{
-        font-size: 2.5vmin;
-        font-weight: 600;
-        letter-spacing: 1px;
-        margin-top: -10px;
-    }
-
-    .home_content .btn {
-        margin-top: 3vmin;
-         font-size: 2.5vmin;
-    }
-    .home_content .img_introduction{
-        font-size: 2.5vmin;
-        line-height: 1.8;
-    }
-   
-       
-  
-    
 }
 /*---- Mobile end----*/
-
-
 /*---- Bigger than Mobile----*/
-@media screen and (min-width: 520px) { 
-     /*---- Home Page Starts ----*/
-    .home_web_big {
-        padding-top: 42%;
-        margin-top: 0vmin;
+@media screen and (min-width: 540px) {
+    .home_web_big.content_bg{  
+        padding-top: 40%;
     }
-    .content_1 .content_inner_box {
-        margin-top: 10%;
-    }
-    .content_2 .content_inner_box {
-         margin-top: 5%;
-    }
-    .home_content .img_featured {
-
-        margin-top: 0;
-    }
-
-    .home_content .img_title {
-        font-size: 3vmin;
-        margin-top: 1vh;
-        padding-top: 1vh;
-    }
-    
-    .home_content .img_intro{
-        font-size: 1.5vmin;
-        font-weight: 600;
-        margin-top: -10px;
-    }
-    .home_content .img_introduction{
-        font-size: 1.6vmin; 
-        font-weight: 400;
-          line-height: 1.8;
-    }
-
-    .home_content .content_bg {
+    .content_bg {
         padding-top: 50%;
     }
-    
+    .mobile{
+        display: none;
+    }
     .content_1 .product_img_left {
         background-image: url(../img/homephoto1.png);
     }
@@ -202,46 +121,66 @@
     .content_3 .product_img {
         background-image: url(../img/row3p2.png);
     }
-    
-    .content_1 .btn , .content_3 .btn{
-        margin-top: 0vmin;
-        width: 80%;
-        left: -1vmin;
+
+    .home_content .img_featured{
+        font-size: .8rem;
+        font-weight: 500;
+    }
+    .home_content .img_title{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }    
+    .home_content .img_introduction{
+        font-size: .7rem;
+        font-weight: 400;
+    }
+    .home_content .img_intro{
+        font-size: .7rem;
+        font-weight: 500;
+        padding-bottom: 5%;
     }
     
-    .content_2 .btn{
-        margin-top: 0vmin;
-        width: 33%;
-        left: -1vmin;
-    }
-    
-    .home_content .btn svg{
+    .home_content .btn{
+        margin-top: 5%;
+        position: relative;
         width: 100%;
-        left: 0vmin;
-        padding-left: 1vmin;
-    }
-    .content_outer_box_left .btn{
         float: right;
+        margin-bottom: 10%;
     }
-    .content_outer_box_right .btn{
+    .home_content .content_2 .btn{
+        width: 50%;
+    }
+    .home_content .content_3 .btn{
         float: left;
     }
-    .content_outer_box_right{
-        margin-top: 5%;
+    .home_content .btn svg{
+        width: 100%;
     }
+
+    .home_content .btn svg rect{
+        width: 100%;
+    }
+    .content_1 .content_inner_box {
+        margin-top: 10%;
+    }
+    .content_2 .content_inner_box {
+         margin-top: 5%;
+    }
+
     .home_line1{
-    position: absolute;
-    top: 17vmin;
-    left: -3.5vmin;
-    height: 2px;
-    width: 70px;
-    background-color: black;
-    z-index: 100000;
+        position: absolute;
+        top: 32%;
+        left: -5%;
+        height: 2px;
+        width: 70px;
+        background-color: black;
+        z-index: 100000;
     }
+    
     .home_line2{
         position: absolute;
-        top: 16.5vmin;
-        left: -3.5vmin;
+        top: 28%;
+        left: -5%;
         height: 2px;
         width: 70px;
         background-color: black;
@@ -249,32 +188,71 @@
     }
     .home_line3{
         position: absolute;
-        top: 34%;
-        left:-5em;
+        top: 36%;
+        left: -42%;
         height: 2px;
         width: 70px;
         background-color: white;
     }
+    .content_2 .content_outer_box_left {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        width: 80%;
+    }
 }
+
+/*---- Bigger than Mobile----*/
 @media screen and (min-width: 800px) {
-    .home_web_big {
-        margin-top: 60px;
+    .home_web_big {  
+        padding-top: 40%;
+    }
+    .content_bg {
+        padding-top: 45%;
+    }
+
+    .home_content .img_featured{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .home_content .img_title{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }    
+    .home_content .img_introduction{
+        font-size: .9rem;
+        font-weight: 400;
+        padding-bottom: 5%;
+    }
+    .home_content .img_intro{
+        font-size: 1rem;
+        font-weight: 500;
+        padding-bottom: 5%;
     }
     
-}
-/*---- Bigger than Tablet----*/
-@media screen and (min-width: 1000px) {
-    .home_content .content_bg {
-        padding-top: 42%;
-    }
     .home_content .btn{
-        width: 20vmin;
-        margin-top: 5vmin;
+        margin-top: 5%;
+        position: relative;
+        width: 50%;
+        float: right;
+        margin-bottom: 10%;
     }
-    .content_1 .btn{
-        width: 20vmin;
+    .home_content .content_2 .btn{
+        width: 25%;
     }
-    .content_2 .btn{
-        width: 20vmin;
+    .home_content .content_3 .btn{
+        float: left;
+    }
+    .home_content .btn svg{
+        width: 100%;
+    }
+    .home_content .btn svg rect{
+        width: 100%;
+    }
+    .content_1 .content_inner_box {
+        margin-top: 5%;
+    }
+    .content_2 .content_inner_box {
+         margin-top: 5%;
     }
 }

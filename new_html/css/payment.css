@@ -1,6 +1,3 @@
-.login_content{
-    height: 98vmin;
-}
 
 .payment_top{
         background-image: url(../img/c.jpg)
@@ -11,53 +8,134 @@
         justify-content: center;
     }
 
+
+
+@media screen and (max-width: 540px) {
+    .payment_top .login_title{
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-bottom: 5vmin;
+    }
+
+    .login_btn .btn{
+        margin-top: 70px;
+        position: relative;
+        width: 90%;
+        float: left;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+    
+    .login_btn .btn svg{
+        width: 100%;
+    }
+    
+    .login_btn .btn svg rect{
+        width: 100%;
+    }
+
+.signin_form .form_left{
+    width: 50%;
+    float: left;
+}
+.signin_form .form_right{
+    width: 50%;
+    float: right;
+}
+.signin_form .form_full{
+    width: 100%;
+}
+    .signin_form{
+        display: block;
+        position: relative;
+        margin-top: -5%;
+        width: 100%;
+    }
+
+.payment {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-top: 150px;
+}
+.payment_form input{
+    margin-top: 4vmin;
+    padding-left: px;
+    width: 10px;
+}
+.payment_form label{
+    margin-right: 35vmin;
+}
+.radio_btn {
+    width: 100%;
+}
+
+    .here-to-there input {
+        background-color: transparent;
+        border-top: 1px solid transparent;
+        border-left: 1px solid transparent;
+        border-bottom: 1px solid #999;
+        border-right: 1px solid transparent;
+        width: 40%;
+        font-size: 1.2rem;
+        font-weight: 100;
+        letter-spacing: 0.1px;
+    }
+.here-to-there span{
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+    .black_line{
+        margin-top: 2vmin;
+    width: 100%;
+    height: 1px;
+    color: black; 
+    position: absolute
+    height: 2px;
+    background-color: black;
+    z-index: 100000;   
+}
+.sign_form_payment{
+    display: block;
+    position: relative;
+}
+    .form_right, .form_left, form_full{
+        display: block;
+        position: relative;
+    }
+    
+}
+
+@media screen and (min-width: 540px) {
     .payment_top .login_title{
         font-size: 2vmin;
         font-weight: 600;
         letter-spacing: 1px;
         padding-bottom: 5vmin;
-     
-    }
-
-    .login_signup .empty {
-        padding-top: 40%;
-   
+        margin-top: 120px;
     }
 
     .login_part {
-        padding-top: 40%;
+        margin-left: 16.66666%;
     }
 
-    .login_name {
-        position: absolute;
-        top: 1vmin;
-        padding-left: 2vmin;
-        font-size: 1.5vmin;
-        font-weight: 600;
-    }
-
-    .what_to_do {
-        position: absolute;
-        top: 3.5vmin;
-        padding-left: 2vmin;
-    }
-
-    .login_btn{
+    .login_btn .btn{
+         margin-top: 140px;
         position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        bottom: 35vmin;
-        left: -45vmin;
-        padding-left: 20vmin;
+        width: 50%;
+        float: left;
+        margin-bottom: 10%;
     }
-.login_btn .btn svg{
-    margin-left: -13vmin;
-    left: 4vmin;
-}
-.login_btn .btn rect{
-    width: 100%;
-}
+    
+    .login_btn .btn svg{
+        width: 100%;
+    }
+    
+    .login_btn .btn svg rect{
+        width: 100%;
+    }
+
 .signin_form .form_left{
     width: 50%;
     float: left;
@@ -74,23 +152,22 @@
         display: block;
         position: relative;
         margin-top: -5%;
-        margin-left: -1.58%;
         width: 100%;
     }
 
 .payment {
     width: 100%;
+    display: block;
     position: relative;
-    height: 30vmin;
-    top: 90vmin;
+    margin-top: 250px;
 }
 .payment_form input{
     margin-top: 4vmin;
-    padding-left: 0;
+    padding-left: px;
     width: 10px;
 }
 .payment_form label{
-    margin-right: 31vmin;
+    margin-right: 35vmin;
 }
 .radio_btn {
     width: 100%;
@@ -123,28 +200,10 @@
 .sign_form_payment{
     display: block;
     position: relative;
-    margin-top: 65vmin;
 }
-
-
-
-@media screen and (min-width: 800px) {
-    .login_content {
-        margin-top: 14vmin;
+    .form_right, .form_left, form_full{
+        display: block;
+        position: relative;
     }
-
-    .login_content .btn{
-        top: 50vmin;
-    }
-    
-    .contact_content {
-        margin-top: 11vmin;
-    }
-    .login_part h4{
-    font-size: 1.55vmin;
-    font-weight: 500;
-    margin-top: -65%;
-    letter-spacing: 1px;
-}
     
 }

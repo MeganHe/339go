@@ -18,12 +18,6 @@
     font-weight: 600;
 }
 
-.content_2 .content_bg {
-    padding-top: 45%;
-}
-.content_3 .content_bg{
-    padding-top: 30%;
-}
 .content_3 .about_img_right{
     background-image: url(../img/h2.jpg);
 }
@@ -37,8 +31,17 @@
 /*---- Mobile----*/
 @media screen and (max-width:520px) {
     .about_web_big{
-        height: 25vmin;
+        height: 20%;
         margin-top: 0;
+    }
+    .desktop{
+        display: none;
+    }
+    .content_bg{
+        padding-top: 45%;
+    }
+    .content_text{
+        padding: 5%;
     }
     .content_1 .about_img_left{
          background-image: url(../img/about1-wide.png);
@@ -49,30 +52,39 @@
     .content_2 .about_img_right{
         background-image: url(../img/about2-wide.png);
     }
-    .content_2 .content_inner_box p{
-        font-size: 6vmin;
-        margin-top: 5vmin;
-    }
-    .about_content .content_1 .content_bg {
-        padding-top: 80%
-    }
-    .about_content .content_3 .content_bg{
-        padding-top: 40%;
-    }
-    .about_content .content_inner_box {
-        margin-top: 0;
-    }
+
+    .about_content .pra_title{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }    
     .about_content .img_para{
-        font-size: 3vmin;
+        font-size: .9rem;
+        font-weight: 400;
+        padding-bottom: 5%;
     }
-    .pra_title{
-        font-size: 3.2vmin;
+    .content_2 p{
+        font-size: 2rem;
     }
 }
 /*---- Bigger than Mobile----*/
-@media screen and (min-width: 520px) { 
+@media screen and (min-width: 520px) {
+    .mobile{
+        display: none;
+    }
+    .content_bg{
+        padding-top: 55%;
+    }
+    .content_3 .content_bg{
+        padding-top: 35%;
+    }
+    .content_2 .content_bg{
+        padding-top: 45%;
+    }
+    .content_text{
+        padding: 5%;
+    }
     .content_1 .about_img_left{
-     background-image: url(../img/about1.jpg);
+         background-image: url(../img/about1.jpg);
     }
     .content_2 .about_img_left {
          background-image: url(../img/about4.jpg);
@@ -80,66 +92,66 @@
     .content_2 .about_img_right{
         background-image: url(../img/about2.jpg);
     }
-    .about_content .content_1 .content_bg{
-        padding-top: 45%;
+
+    .about_content .pra_title{
+        margin-top: 5%;
+        font-size: 1.5rem;
+        font-weight: 600;
+    } 
+    .about_content .content_3 .pra_title{
+        margin-top: 25%;
+    }    
+    .about_content .img_para{
+        font-size: .7rem;
+        font-weight: 400;
+        padding-bottom: 5%;
     }
-    .about_content .content_2 .content_bg{
-        padding-top: 35%;
+    .content_2 p{
+        margin-top: 20%;
+        font-size: 1.7rem;
     }
-    .content_2 .content_inner_box p{
-        font-size: 2.4vmin;
-        margin-top: 10vmin;
-    }
+
     .about_content .content_inner_box {
         margin-top: -3vmin;
     }
     .about_web_big{
-        height: 30vmin;
-    }
-    
-    .about_web_big .about_img {
-        width: 50%;
-    }
-    .pra_title{
-        margin-top: 0;
-    }
-    .about_content .img_para{
-        font-size: 1.3vmin;
+        height: 20%;
     }
 }
 
 @media screen and (min-width: 800px) {
-    .about_web_big{
-        margin-top: 60px;
+    .mobile{
+        display: none;
     }
-    .about_web_big .about_img {
-        width: 40%;
+    .content_bg{
+        padding-top: 40%;
     }
-}
-/*---- Bigger than Tablet----*/
-@media screen and (min-width: 1080px) {
-    .about_web_big{
-        height: 40vmin;
-        margin-top: 60px;
+    .content_3 .content_bg{
+        padding-top: 35%;
     }
+
+    .about_content .pra_title{
+        margin-top: 5%;
+        font-size: 1.8rem;
+        font-weight: 600;
+    } 
+
     .about_content .img_para{
-        font-size: 1.5vmin;
+        font-size: 1rem;
+        font-weight: 400;
+        padding-bottom: 5%;
     }
-    .content_1 .content_bg{
-        padding-top: 40%;
+    .content_2 p{
+        margin-top: 20%;
+        font-size: 2.5rem;
     }
-    .about_content .content_2 .content_bg{
-        padding-top: 40%;
-    }
-    .content_2 .content_inner_box p{
-        font-size: 4vmin;
-        margin-top: 15vmin;
+
+    .about_web_big{
+        height: 40%;
+        margin-top: 60px;
     }
     .about_web_big .about_img {
         width: 30%;
-    }
-    .pra_title{
-        margin-top: 5vmin;
     }
 
 }

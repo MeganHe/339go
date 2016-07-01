@@ -80,28 +80,13 @@ p,a,span{
 
 /*---- Mobile less than 520px----*/
 @media screen and (max-width:520px) {
+
     .right_align {
         text-align: left;
     }
     
-    .img_featured {
-        font-size: 2vmin;
-    }
-
-    .img_title {
-        font-size: 6vmin;
-    }
-
-    .img_description {
-        font-size: 4vmin;
-    }
-    
     nav ul ul li a{
-        font-size: 3vmin;
-    }
-    
-    .btn{
-        font-size: 4vmin;
+        font-size: 0.7rem;
     }
     
     .what_to_do {
@@ -111,8 +96,6 @@ p,a,span{
 
 /*---- Bigger than 520px Tablet ----*/
 @media screen and (min-width: 520px) { 
-
-
     .right_align {
         text-align: right;
     }
@@ -136,8 +119,6 @@ p,a,span{
         letter-spacing: 1px;
     }
   
-    /*-----homepage img introduction -----*/
-
     .img_intro{
         color: #7e7e7e;
         letter-spacing: 1px;
@@ -150,11 +131,11 @@ p,a,span{
         line-height: 1.55;
     }
     nav ul ul li a{
-        font-size: 1.6vmin;
+        font-size: 0.7rem;
     }
 
     nav{
-        font-size:1.6vmin;
+        font-size:1rem;
     }
     .what_to_do {
         font-size: 1.4vmin;
@@ -163,7 +144,7 @@ p,a,span{
 
 @media screen and (min-width:800px) {
     nav ul ul li a{
-        font-size: 1.3vmin;
+        font-size: 0.7rem;
     }
     .contact_grey_line h2,  .location_title h2{
         text-align: left;
