@@ -94,12 +94,14 @@ p,a,span{
     .what_to_do {
         font-size: 2.7vmin;
     }
+   
      .img_featured_white{
-          font-size: 0.7rem;
+          font-size: 0.9rem;
         font-weight: 500;
     }
     .img_intro{
         letter-spacing: 1px;
+       
     }
 }
 

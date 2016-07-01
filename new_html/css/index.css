@@ -34,6 +34,7 @@
 
 /*---- Mobile----*/
 @media screen and (max-width:540px) {
+   
     .home_web_big {  
         padding-top: 40%;
     }
@@ -86,6 +87,7 @@
         width: 100%;
         float: left;
         margin-bottom: 10%;
+      font-size: .7rem;
     }
     .home_content .btn svg{
         width: 100%;
@@ -93,7 +95,9 @@
     .home_content .btn svg rect{
         width: 100%;
     }
-   
+     .home_content .img_featured{
+        font-size: .9rem;
+    }
 }
 /*---- Mobile end----*/
 /*---- Bigger than Mobile----*/
