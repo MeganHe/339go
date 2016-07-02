@@ -172,6 +172,7 @@
 }
 .payment_form label{
     margin-right: 35vmin;
+    font-size: .9rem;
 }
 .radio_btn {
     width: 100%;
