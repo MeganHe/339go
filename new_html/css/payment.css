@@ -32,7 +32,6 @@
         position: relative;
         width: 90%;
         float: left;
-        margin-left: 5%;
         margin-bottom: 10%;
     }
     
@@ -96,7 +95,7 @@
     font-size: 0.8rem;
 }
     .black_line{
-        margin-top: 2vmin;
+    margin-top: 2vmin;
     width: 100%;
     height: 1px;
     color: black; 
@@ -112,6 +111,16 @@
     .form_right, .form_left, form_full{
         display: block;
         position: relative;
+    }
+    .payment .payment_form label{
+    margin-right: 35%;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: gray;
+}
+    .login_part{
+        width: 100%;
+        padding: 5%;
     }
     
 }
@@ -136,6 +145,7 @@
     .login_btn .btn{
          margin-top: 140px;
         position: relative;
+        margin-left: 25%;
         width: 50%;
         float: left;
         margin-bottom: 10%;
@@ -176,12 +186,15 @@
 }
 .payment_form input{
     margin-top: 4vmin;
-    padding-left: px;
+    margin-left: 2.5%;
     width: 10px;
 }
-.payment_form label{
-    margin-right: 35vmin;
-    font-size: .9rem;
+
+.payment .payment_form label{
+    margin-right: 35%;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: gray;
 }
 .radio_btn {
     width: 100%;

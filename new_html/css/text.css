@@ -76,7 +76,6 @@ p,a,span{
     letter-spacing: .4px;
     }
 .quantity_input p{
-    font-size: 1.35vmin;
      letter-spacing: .4px;
 }
 
@@ -118,9 +117,6 @@ p,a,span{
         margin-top: 3.3vh;
     }
 
-    .img_option_para{
-        font-size: 2vmin;  
-    }
     .combine_line {
         text-align: center;
     }
