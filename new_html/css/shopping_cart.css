@@ -6,13 +6,13 @@
 
 .cart_content h3{
    padding-left: 5vmin;
-    font-size: 4vmin;
-    font-weight: 500;
+    font-size: 3vmin;
+    font-weight: 400;
 }
 .cart_content p{
      padding-left: 5vmin;
     line-height: 2;
-    font-size: 1.7vmin;
+    font-size: 1.5vmin;
 }
 /*------Thank you page end-------*/
 
