@@ -11,11 +11,20 @@
 
 
 @media screen and (max-width: 540px) {
+    .login_signup h4{
+        font-size: .8rem;
+          font-weight: 600;
+    }
+        
+
     .payment_top .login_title{
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 600;
         letter-spacing: 1px;
         padding-bottom: 5vmin;
+    }
+    .payment_form label{
+        font-size: .8rem;
     }
 
     .login_btn .btn{
