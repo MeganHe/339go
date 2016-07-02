@@ -80,11 +80,13 @@ nav ul li a:hover, header nav ul li a.active, .left_fixed_nav a.active{
         display: block;
         height: 60px;
     }
-    
+    .logo h1{
+        font-size: 1.6rem;
+    }
     .logo{
         position: absolute;
         width: 100%;
-        bottom: -15px;
+        bottom: -8px;
         display: flex;
         justify-content: center;
     }
