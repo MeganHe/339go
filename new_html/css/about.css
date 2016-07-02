@@ -54,7 +54,7 @@
     }
 
     .about_content .pra_title{
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 600;
     }    
     .about_content .img_para{
@@ -63,7 +63,7 @@
         padding-bottom: 5%;
     }
     .content_2 p{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 /*---- Bigger than Mobile----*/
@@ -95,7 +95,7 @@
 
     .about_content .pra_title{
         margin-top: 5%;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 600;
     } 
     .about_content .content_3 .pra_title{
@@ -132,7 +132,7 @@
 
     .about_content .pra_title{
         margin-top: 5%;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         font-weight: 600;
     } 
 
